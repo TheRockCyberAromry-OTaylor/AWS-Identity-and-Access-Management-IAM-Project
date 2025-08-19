@@ -153,7 +153,7 @@ c
 -  Unlimited contacts and unlimited support cases
 -  1-hour response time for urgent production issues
 
-<img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
+<img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="50%" /> 
 
 **Amazon Web Services (AWS) welcome page** that appears right after a user successfully creates a new AWS account. 
 
