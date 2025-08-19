@@ -124,5 +124,37 @@ If you're new to AWS:
 7. **Answer the Call and Enter the Code**  
    When AWS calls, follow the prompt and enter the 4-digit code from the website using your phone keypad.
 
+<img src="https://i.imgur.com/Cd4hxvy.jpeg" height="80%" width="50%" /> 
+
+
+
+###  Guide to selecting AWS Support Plans
+
+#### **Step 1: Identify Your Use Case**
+- **Just getting started or exploring AWS?** → Proceed to Step 2.(Select "Basic Plan -free" for the this project)
+- **Building and testing applications?** → Proceed to Step 3.
+- **Running production workloads or critical systems?** → Proceed to Step 4.
+
+#### **Step 2: Choose the Basic Plan (Free)**
+-  Included with all AWS accounts
+-  Access forums, documentation, and best practice checks
+-  Receive health status updates and notifications
+-  Ideal for learning, experimenting, or non-critical usage
+
+#### **Step 3: Choose the Developer Plan (From $29/month)**
+-  Designed for development and testing environments
+-  Email support during business hours
+-  One primary contact can open unlimited support cases
+-  12-hour response time for non-production issues
+
+#### **Step 4: Choose the Business Plan (From $100/month)**
+-  Best for production workloads and business-critical systems
+-  24/7 access via chat, phone, and email
+-  Unlimited contacts and unlimited support cases
+-  1-hour response time for urgent production issues
+
+
+
+
 
 
