@@ -45,7 +45,7 @@ If you're new to AWS:
 - Confirm Password: Re-enter the same password.
 - AWS Account Name: Choose a name that identifies your account (e.g., therockcyberarmory).
 
-<img src="https://i.imgur.com/b9rGLRC.jpeg" height="80%" width="80%" /> 
+<img src="https://i.imgur.com/b9rGLRC.jpeg" height="80%" width="500%" /> 
 
 
 ### Create an AWS Account (Personal Use)
