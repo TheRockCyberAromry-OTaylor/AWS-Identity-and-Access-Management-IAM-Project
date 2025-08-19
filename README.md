@@ -124,7 +124,7 @@ If you're new to AWS:
 7. **Answer the Call and Enter the Code**  
    When AWS calls, follow the prompt and enter the 4-digit code from the website using your phone keypad.
 
-<img src="https://i.imgur.com/Cd4hxvy.jpeg" height="90%" width="90%" /> 
+<img src="https://i.imgur.com/Cd4hxvy.jpeg" height="80%" width="80%" /> 
 
 
 
