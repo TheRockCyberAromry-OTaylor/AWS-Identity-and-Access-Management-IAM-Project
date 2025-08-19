@@ -68,5 +68,33 @@ If you're new to AWS:
 
 #### 5. **Submit the Form**
 - Click the **"Create Account and Continue"** button to proceed.
+  
+
+<img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="50%" /> 
+
+
+### Add a Payment Method on AWS
+
+1. **Go to the Payment Information Section**  
+   Navigate to the billing area of your AWS account where you can manage payment methods.
+
+2. **Enter Card Details**  
+   - Select a supported card type: **Visa, Mastercard, American Express, or Discover**  
+   - Input your **card number** (e.g., `1234 5678 9012 ****`)  
+   - Provide the **expiration date** (e.g., `12 / 50`)  
+   - Type in the **cardholder name** (e.g., `Therockcyberarmory`)
+
+3. **Fill in Billing Address**  
+   - Street: `125 Cyber Ave`  
+   - City: `San Francisco`  
+   - State & ZIP: `CA 94102`  
+   - Country: `United States`
+
+4. **Agree to Terms**  
+   - Check the box to confirm: “☑ I agree to the AWS Customer Agreement.”
+
+5. **Submit the Information**  
+   - Click the **“Verify and Add”** button to finalize and validate your payment method.
+
 
 
