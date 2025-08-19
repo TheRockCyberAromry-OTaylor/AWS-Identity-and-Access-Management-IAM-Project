@@ -70,7 +70,7 @@ If you're new to AWS:
 - Click the **"Create Account and Continue"** button to proceed.
   
 
-<img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="80%" /> 
+<img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="65%" /> 
 
 
 ### Add a Payment Method on AWS
