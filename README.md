@@ -37,5 +37,11 @@ If you're new to AWS:
 
  *You now have access to the AWS Free Tier*, which includes services like EC2, S3, and Lambda at no cost for 12 months.
 
-<img src="https://i.imgur.com/w5kgOv5.png" height="80%" width="80%" />  
+<img src="https://i.imgur.com/MJC5Qov.png" height="80%" width="80%" />  
+✍️ Step 2: Fill Out the Registration Form
+- Email Address: Enter a valid email (e.g., therockcyberarmory001@gmail.com).
+- Password: Choose a strong password (minimum 8 characters, mix of letters, numbers, and symbols).
+- Confirm Password: Re-enter the same password.
+- AWS Account Name: Choose a name that identifies your account (e.g., therockcyberarmory).
+
 
