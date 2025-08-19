@@ -98,7 +98,8 @@ If you're new to AWS:
 
 <img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
 
-Absolutely, Olatunji! Here's a clear step-by-step summary of the AWS phone verification process shown in the image:
+<img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
+
 
 ### AWS Phone Verification 
 
