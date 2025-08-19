@@ -20,10 +20,9 @@ If you already have an AWS account:
 4. If Multi-Factor Authentication (MFA) is enabled, complete that step.
 5. Once authenticated, you’ll land in your AWS Management Console.
 
-🧠 *Tip*: Bookmark the Console URL for faster access next time: [https://console.aws.amazon.com](https://console.aws.amazon.com)
 
 
-### 🆕 Step 3: Creating a New AWS Account
+###  Step 3: Creating a New AWS Account
 If you're new to AWS:
 1. Click **Create an AWS Account**.
 2. Fill out the registration form:
@@ -36,6 +35,6 @@ If you're new to AWS:
 6. Select a **support plan** (you can start with the free Basic plan).
 7. Once complete, you’ll be redirected to the Console.
 
-🎉 *You now have access to the AWS Free Tier*, which includes services like EC2, S3, and Lambda at no cost for 12 months.
+ *You now have access to the AWS Free Tier*, which includes services like EC2, S3, and Lambda at no cost for 12 months.
 
 
