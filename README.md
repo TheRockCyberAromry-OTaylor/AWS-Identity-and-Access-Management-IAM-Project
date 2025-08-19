@@ -101,7 +101,7 @@ If you're new to AWS:
 <img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
 
 
-### AWS Phone Verification 
+### AWS Phone\Identity Verification 
 
 1. **Go to the Phone Verification Page**  
    Navigate to the AWS page where phone verification is required.
