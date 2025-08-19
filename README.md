@@ -124,7 +124,7 @@ If you're new to AWS:
 7. **Answer the Call and Enter the Code**  
    When AWS calls, follow the prompt and enter the 4-digit code from the website using your phone keypad.
 
-<img src="https://i.imgur.com/Cd4hxvy.jpeg" height="80%" width="80%" /> 
+c
 
 
 
@@ -153,8 +153,30 @@ If you're new to AWS:
 -  Unlimited contacts and unlimited support cases
 -  1-hour response time for urgent production issues
 
+<img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
+
+**Amazon Web Services (AWS) welcome page** that appears right after a user successfully creates a new AWS account. 
+
+###  Confirmation page
+- It's a **confirmation screen** letting the user know that their AWS account creation was successful.
+- AWS is now in the process of **activating the account**, which typically takes just a few minutes.
+
+###  Key Elements on the Page
+- **AWS Logo**: Top-left, confirming you're on an official AWS page.
+- **Welcome Message**: “Welcome to Amazon Web Services” — a standard greeting for new users.
+- **Activation Notice**: It says, “We are activating your account… You will receive an email when this is complete.” This means the user should wait for a confirmation email before accessing full services.
+- **Buttons**:
+  - **Sign in to the Console**: Takes you to the AWS Management Console once activation is complete.
+  - **Contact Sales**: For users who want to speak with AWS representatives, likely for enterprise-level services.
+- **Language Dropdown**: Set to English, but users can switch to other languages.
+- **Footer Links**:
+- **Privacy Policy**, **Terms of Use**, and **Sign Out** — standard legal and navigation links.
+
+###  What You Can Do Next
+Once you receive the activation email:
+- Click **“Sign in to the Console”** to start using AWS services.
+- Set up **IAM roles**, **billing preferences**, or begin deploying cloud resources.
 
 
 
-
-
+If you're documenting this for onboarding or workflow purposes, I can help you turn it into a clean visual guide or checklist. Want to build that next?
