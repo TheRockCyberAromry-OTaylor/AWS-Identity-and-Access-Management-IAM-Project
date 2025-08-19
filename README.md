@@ -45,4 +45,28 @@ If you're new to AWS:
 - Confirm Password: Re-enter the same password.
 - AWS Account Name: Choose a name that identifies your account (e.g., therockcyberarmory).
 
+<img src="https://i.imgur.com/b9rGLRC.jpeg" height="80%" width="80%" /> 
+
+
+### Create an AWS Account (Personal Use)
+
+#### 1. **Choose Account Type**
+- Select **Personal** as the account type.
+
+#### 2. **Enter Contact Information**
+- **Full Name**: Type in your name (e.g., *Therockcyberarmory*).
+- **Phone Number**: Enter a valid number (e.g., *+1 413 555 555*).
+
+#### 3. **Provide Address Details**
+- **Country/Region**: Choose your country (e.g., *United States*).
+- **Street Address**: Fill in your address (e.g., *125 Cyber Ave*).
+- **State/Province**: Select your state (e.g., *San Francisco, CA*).
+- **Postal Code**: Enter your ZIP code (e.g., *94102*).
+
+#### 4. **Agree to Terms**
+- Check the box to accept the **AWS Customer Agreement**.
+
+#### 5. **Submit the Form**
+- Click the **"Create Account and Continue"** button to proceed.
+
 
