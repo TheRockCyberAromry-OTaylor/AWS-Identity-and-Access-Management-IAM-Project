@@ -96,5 +96,32 @@ If you're new to AWS:
 5. **Submit the Information**  
    - Click the **“Verify and Add”** button to finalize and validate your payment method.
 
+<img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
+
+Absolutely, Olatunji! Here's a clear step-by-step summary of the AWS phone verification process shown in the image:
+
+### AWS Phone Verification 
+
+1. **Go to the Phone Verification Page**  
+   Navigate to the AWS page where phone verification is required.
+
+2. **Read the Instructions**  
+   AWS will call you immediately using an automated system. You’ll need to enter a 4-digit code shown on the website using your phone keypad during the call.
+
+3. **Select Your Country Code**  
+   Use the dropdown to choose your country or region. Example: United States (+1).
+
+4. **Enter Your Phone Number**  
+   Type your phone number into the input field. Example: `413 555 5555`.
+
+5. **Complete the CAPTCHA**  
+   Look at the CAPTCHA image and enter the characters shown into the text box. Example: `NVmz2A`.
+
+6. **Click “Call Me Now”**  
+   Once all fields are filled correctly, click the button to initiate the verification call.
+
+7. **Answer the Call and Enter the Code**  
+   When AWS calls, follow the prompt and enter the 4-digit code from the website using your phone keypad.
+
 
 
