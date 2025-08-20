@@ -449,10 +449,6 @@ This final screen is crucial for securely capturing the user's initial credentia
    -  *Sign in using root user email*: Switches to root account login.  
    -  *Create a new AWS account*: Redirects to AWS account creation.
 
-### Sidebar Content
-- **Agentic AI Announcements**  
-  - Promotes AWS Summit NYC keynote stream on July 16.  
-  - Includes a “Register now” link for event access.
 
 
 
