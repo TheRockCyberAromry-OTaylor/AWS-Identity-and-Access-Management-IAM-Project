@@ -124,7 +124,7 @@ If you're new to AWS:
 7. **Answer the Call and Enter the Code**  
    When AWS calls, follow the prompt and enter the 4-digit code from the website using your phone keypad.
 
-c
+
 
 
 
@@ -278,7 +278,7 @@ This dashboard provides a snapshot of identity and access management resources a
 - **What's New**:
   - Updates on IAM features and improvements
 
-
+#### The Root User therockcyberarmory creating a an ADMIN USER
 
 <img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />  
 
