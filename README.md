@@ -313,7 +313,6 @@ Clicking "Create user" will launch a guided setup.
 ### Additional Notes
 - There's a mention of **programmatic access** options via:
   - Access keys
-  - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)
+  - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)                This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
 
-This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
-
+###  Select Next to proceed
