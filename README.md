@@ -239,7 +239,7 @@ Once you receive the activation email:
 5. **Clicke “Sign in”**
    - Based on the layout, the next logical step would be clicking the **“Sign in”** button to authenticate and access the AWS Management Console.
 
-<img src="https://i.imgur.com/KYD2ZMk.png" height="80%" width="80%" /> 
+<img src="https://i.imgur.com/Bp3DuCO.png" height="80%" width="80%" /> 
 
 
 ###  IAM Dashboard Overview
