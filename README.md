@@ -294,7 +294,7 @@ The image shows the AWS Management Console in the Identity and Access Management
 ###  Steps to Create a New IAM User
 
 Clicking "Create user" will launch a guided setup. 
-- Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create
+- Specify User Details Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create and Retrieve Password
 
 
 <img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" />    
@@ -316,3 +316,39 @@ Clicking "Create user" will launch a guided setup.
   - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)                This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
 
 ###  Select Next to proceed
+
+
+<img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
+
+
+#### **Step 1: Specify User Details**
+- This step is completed prior to the screenshot.
+- Typically includes entering the username and selecting access type (e.g., programmatic access, AWS Management Console access).
+
+#### **Step 2: Set Permissions** *(Current Step in Screenshot)*
+
+1. **Choose Permission Assignment Method**
+    
+   - ✅ **Attach policies directly**  was selected
+     (Other options available: Add user to group, Copy permissions from existing user)
+
+3. **Select Policy to Attach**  
+   From the list of AWS managed policies, the following was selected:  
+   - ✅ **AdministratorAccess**  
+     - Grants full access to AWS services and resources.
+     - Marked as a "job function" policy.
+
+4. **View and Filter Policies**  
+   - Search bar and filters are available to narrow down policy options.
+   - Other visible policies include:
+     - AccessAnalyzerServiceRolePolicy
+     - AdministratorAccess-Amplify
+
+5. **Additional Controls Available**  
+   - Option to **Create a new policy** if needed.
+   - Option to set **Permissions boundary** (not used in this step).
+
+
+
+
+
