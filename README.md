@@ -177,5 +177,33 @@ Once you receive the activation email:
 - Click **“Sign in to the Console”** to start using AWS services.
 - Set up **IAM roles**, **billing preferences**, or begin deploying cloud resources.
 
+<img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
+
+###  AWS IAM User Sign-In Page: Step-by-Step Overview
+
+#### 1. **Locate the Sign-In Form (Left Panel)**
+- **Fields to Fill:**
+  - **Account ID or alias** – Enter your AWS account identifier or alias.
+  - **IAM username** – Provide the IAM user name assigned to you.
+  - **Password** – Input your IAM user password.
+- **Optional Settings:**
+  -  *Remember this account* – Saves the account ID for future logins.
+  -  *Show Password* – Reveals the password as you type.
+
+#### 2. **Initiate Sign-In**
+- Click the **Sign In** button after completing the form.
+
+#### 3. **Alternative Access Options**
+-  *Sign in using root user email* – Switch to root user authentication if needed.
+-  *Create a new AWS account* – Redirects to account creation for new users.
+
+#### 4. **Promotional Banner (Right Panel)**
+-  Message: *“Buy and deploy leading AI agent solutions in AWS Marketplace.”*
+-  Link: *Learn more* – Navigates to AWS Marketplace for AI solutions.
+
+#### 5. **Branding and Context**
+-  AWS logo is prominently displayed at the top.
+-  Custom label: *THEROCKCYBERARMORY* – Possibly a branded environment or account alias.
+
 
 
