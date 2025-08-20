@@ -239,6 +239,45 @@ Once you receive the activation email:
 5. **Clicke “Sign in”**
    - Based on the layout, the next logical step would be clicking the **“Sign in”** button to authenticate and access the AWS Management Console.
 
+<img src="https://i.imgur.com/KYD2ZMk.png" height="80%" width="80%" /> 
+
+
+###  IAM Dashboard Overview
+This dashboard provides a snapshot of identity and access management resources and security posture for the AWS account.
+
+
+###  Navigation Panel (Left Sidebar)
+- **Dashboard**
+- **Access Management**: User groups, Users, Roles, Policies, Identity providers, Account settings, Root access management
+- **Access Reports**: Access Analyzer, Resource analysis, Unused access, Analyzer settings
+
+
+###  Main Dashboard Highlights
+- **Security Recommendations**:
+  - Add MFA for root user
+  - Root user has no active access keys (✅ good practice)
+
+- **IAM Resources**:
+  | Resource             | Count |
+  |----------------------|-------|
+  | User Groups          | 0     |
+  | Users                | 0     |
+  | Roles                | 2     |
+  | Policies             | 0     |
+  | Identity Providers   | 0     |
+
+- **AWS Account Info**:
+  - Account ID: `3743`
+  - Account Alias: *Not yet created*
+  - IAM Sign-in URL: Provided for user access
+
+- **Quick Links & Tasks**:
+  - Access security credentials
+  - Manage access keys, MFA, and other credentials
+
+- **What's New**:
+  - Updates on IAM features and improvements
+
 
 
 
