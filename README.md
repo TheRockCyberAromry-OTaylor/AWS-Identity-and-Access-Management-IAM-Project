@@ -215,6 +215,31 @@ Once you receive the activation email:
 5. **Account Creation Option**:
    - A link for new users to sign up for AWS is provided below the form.
 
+<img src="https://i.imgur.com/Tsyf1At.png" height="80%" width="80%" />  
+
+
+
+###   AWS Login Page
+
+1. **Navigate to the AWS Sign-In Page**
+   - Accesse the official AWS login portal, specifically the root user sign-in section.
+
+2. **Entered the Root User Email**
+   - Typed in the email address: `therockcyberarmory001@gmail.com` into the email field designated for root account access.
+
+3. **Provided the Password**
+   - Enter a password into the hidden password field. The "Show password" checkbox is visible but not selected, so the password remains obscured.
+
+4. **Reviewed Login Options**
+   - Users has the option to:
+     - Click **“Forgot password?”** if needed.
+     - Use **“Sign in to a different account”** if they wanted to switch credentials.
+     - Create a new AWS account via the **“Create a new AWS account”** link.
+
+5. **Clicke “Sign in”**
+   - Based on the layout, the next logical step would be clicking the **“Sign in”** button to authenticate and access the AWS Management Console.
+
+
 
 
 
