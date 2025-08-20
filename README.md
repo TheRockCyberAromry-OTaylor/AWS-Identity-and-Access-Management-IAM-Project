@@ -399,7 +399,7 @@ Clicking "Create user" will launch a guided setup.
    - Console sign-in URL is provided
    - Password is generated (hidden by default, with option to reveal)
    - Options available:
-     - 📧Email sign-in instructions
+     -  Email sign-in instructions
      -  Download credentials as a `.csv` file
      -  Return to users list or cancel
 
