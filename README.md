@@ -284,12 +284,14 @@ This dashboard provides a snapshot of identity and access management resources a
 The image shows the AWS Management Console in the Identity and Access Management (IAM) section, specifically under the **"Users"** tab. 
 
  **Summary of Actions and Status:**
+ 
 - The IAM dashboard was accessed, focusing on user management.
 - No IAM users have been created yet — the main panel displays **"No resources to display."**
 - The account currently logged in is **"therockcyberarmory"**, visible in the top-right corner.
 - Options to **"Create user"** and **"Delete"** are available, indicating readiness to begin user provisioning.
 
-## Steps to Create a New IAM User
+### Steps to Create a New IAM User
+
 Clicking "Create user" will launch a guided setup. 
 - Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create
 
