@@ -153,7 +153,7 @@ c
 -  Unlimited contacts and unlimited support cases
 -  1-hour response time for urgent production issues
 
-<img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="50%" /> 
+<img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="80%" /> 
 
 **Amazon Web Services (AWS) welcome page** that appears right after a user successfully creates a new AWS account. 
 
@@ -179,4 +179,3 @@ Once you receive the activation email:
 
 
 
-If you're documenting this for onboarding or workflow purposes, I can help you turn it into a clean visual guide or checklist. Want to build that next?
