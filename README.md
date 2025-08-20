@@ -379,9 +379,8 @@ Clicking "Create user" will launch a guided setup.
 
 <img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
 
-Absolutely, Olatunji. Here's a concise breakdown of the steps reflected in the image for creating a new IAM user in AWS and retrieving their credentials:
 
-### ✅ IAM User Creation Workflow (as shown in the image)
+###  IAM User Creation Workflow (as shown in the image)
 
 1. **Specify User Details**
    - Entered a username: `CloudAdmin_Tuss`
@@ -398,13 +397,13 @@ Absolutely, Olatunji. Here's a concise breakdown of the steps reflected in the i
    - Console sign-in URL is provided
    - Password is generated (hidden by default, with option to reveal)
    - Options available:
-     - 📧 Email sign-in instructions
-     - 📥 Download credentials as a `.csv` file
-     - 🔙 Return to users list or cancel
+     - 📧Email sign-in instructions
+     -  Download credentials as a `.csv` file
+     -  Return to users list or cancel
 
 This final screen is crucial for securely capturing the user's initial credentials. AWS won't show the password again, so downloading or emailing it is best practice.
 
-Would you like help turning this into a reusable visual guide or checklist for your documentation?
+
 
 
 
