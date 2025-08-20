@@ -224,13 +224,13 @@ Once you receive the activation email:
 1. **Navigate to the AWS Sign-In Page**
    - Accesse the official AWS login portal, specifically the root user sign-in section.
 
-2. **Entered the Root User Email**
-   - Typed in the email address: `therockcyberarmory001@gmail.com` into the email field designated for root account access.
+2. **Enter the Root User Email**
+   - Type in the email address: `therockcyberarmory001@gmail.com` into the email field designated for root account access.
 
-3. **Provided the Password**
+3. **Provide the Password**
    - Enter a password into the hidden password field. The "Show password" checkbox is visible but not selected, so the password remains obscured.
 
-4. **Reviewed Login Options**
+4. **Review Login Options**
    - Users has the option to:
      - Click **“Forgot password?”** if needed.
      - Use **“Sign in to a different account”** if they wanted to switch credentials.
