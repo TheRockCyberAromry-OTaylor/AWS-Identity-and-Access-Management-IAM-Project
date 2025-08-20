@@ -279,6 +279,20 @@ This dashboard provides a snapshot of identity and access management resources a
   - Updates on IAM features and improvements
 
 
+<img src="https://i.imgur.com/yB0MEf0.png" height="80%" width="80%" />  
+
+The image shows the AWS Management Console in the Identity and Access Management (IAM) section, specifically under the **"Users"** tab. Here's a summary of what was done or observed:
+
+🧾 **Summary of Actions and Status:**
+- The IAM dashboard was accessed, focusing on user management.
+- No IAM users have been created yet — the main panel displays **"No resources to display."**
+- The account currently logged in is **"therockcyberarmory"**, visible in the top-right corner.
+- Options to **"Create user"** and **"Delete"** are available, indicating readiness to begin user provisioning.
+
+📌 **Contextual Note:**
+This appears to be the initial setup phase for IAM user management. It's likely part of a broader AWS onboarding or documentation workflow — possibly the starting point for defining access controls, roles, or policies.
+
+Would you like help drafting a step-by-step guide for creating IAM users next? I can include best practices for naming conventions, permissions, and MFA setup.
 
 
 
