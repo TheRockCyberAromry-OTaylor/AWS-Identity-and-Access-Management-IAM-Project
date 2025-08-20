@@ -179,7 +179,7 @@ Once you receive the activation email:
 
 <img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
 
-###  AWS IAM User Sign-In Page: Step-by-Step Overview
+###  AWS IAM User Sign-In Page
 
 #### 1. **Locate the Sign-In Form (Left Panel)**
 - **Fields to Fill:**
@@ -197,13 +197,6 @@ Once you receive the activation email:
 -  *Sign in using root user email* – Switch to root user authentication if needed.
 -  *Create a new AWS account* – Redirects to account creation for new users.
 
-#### 4. **Promotional Banner (Right Panel)**
--  Message: *“Buy and deploy leading AI agent solutions in AWS Marketplace.”*
--  Link: *Learn more* – Navigates to AWS Marketplace for AI solutions.
-
-#### 5. **Branding and Context**
--  AWS logo is prominently displayed at the top.
--  Custom label: *THEROCKCYBERARMORY* – Possibly a branded environment or account alias.
 
 
 
