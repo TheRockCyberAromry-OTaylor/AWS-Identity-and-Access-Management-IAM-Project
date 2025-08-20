@@ -329,12 +329,12 @@ Clicking "Create user" will launch a guided setup.
 
 1. **Choose Permission Assignment Method**
     
-   - ✅ **Attach policies directly**  was selected
+   -  **Attach policies directly**  was selected
      (Other options available: Add user to group, Copy permissions from existing user)
 
 3. **Select Policy to Attach**  
    From the list of AWS managed policies, the following was selected:  
-   - ✅ **AdministratorAccess**  
+   -  **AdministratorAccess**  
      - Grants full access to AWS services and resources.
      - Marked as a "job function" policy.
 
@@ -347,6 +347,8 @@ Clicking "Create user" will launch a guided setup.
 5. **Additional Controls Available**  
    - Option to **Create a new policy** if needed.
    - Option to set **Permissions boundary** (not used in this step).
+  
+    ### Select Next to proceed
 
 
 <img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" /> 
