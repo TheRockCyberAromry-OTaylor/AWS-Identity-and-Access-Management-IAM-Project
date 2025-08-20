@@ -279,6 +279,7 @@ This dashboard provides a snapshot of identity and access management resources a
   - Updates on IAM features and improvements
 
 
+
 <img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />  
 
 The image shows the AWS Management Console in the Identity and Access Management (IAM) section, specifically under the **"Users"** tab. 
@@ -296,6 +297,25 @@ Clicking "Create user" will launch a guided setup.
 - Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create
 
 
-  
+<img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" />    
+
+Here's a concise summary of the key details captured in the AWS IAM "Create user" screen:
+
+### 🛠️ User Creation Overview
+- **User Name**: `CloudAdmin_Tuss`
+- **Access Type**: AWS Management Console access is being configured.
+- **User Type Selection**:
+  - Option chosen: **“I want to create an IAM user”** (instead of using Identity Center)
+
+### 🔐 Console Password Settings
+- **Password Type**: Custom password entered (with option to show password)
+- **Password Reset Requirement**: Checkbox selected for “Users must create a new password at next sign-in” (recommended)
+
+### 📌 Additional Notes
+- There's a mention of **programmatic access** options via:
+  - Access keys
+  - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)
+
+This setup is tailored for creating a traditional IAM user with console access and secure password practices. If you're building documentation or refining onboarding visuals, I can help you structure this into a step-by-step guide or accessibility-aligned layout. Want to do that next?
 
 
