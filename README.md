@@ -197,6 +197,24 @@ Once you receive the activation email:
 -  *Sign in using root user email* – Switch to root user authentication if needed.
 -  *Create a new AWS account* – Redirects to account creation for new users.
 
+<img src="https://i.imgur.com/xnoPlii.jpeg" height="80%" width="80%" />  
+
+
+
+
+###  Access your AWS account by user type
+
+1. **Page Title**: Displays “Sign In” at the top.
+2. **User Type Selection**:
+   - **Root User**: Described as the account owner with unrestricted access.Select the Root user for the purpose of this project
+   - **IAM User**: Defined as a user within the account who performs daily tasks.
+3. **Email Input Field**:
+   - Pre-filled with: `therockcyberarmory001@gmail.com`
+4. **Navigation Button**:
+   - A “Next” button is available to proceed after entering the email.
+5. **Account Creation Option**:
+   - A link for new users to sign up for AWS is provided below the form.
+
 
 
 
