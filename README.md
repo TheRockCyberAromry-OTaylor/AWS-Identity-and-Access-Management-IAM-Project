@@ -412,7 +412,7 @@ This final screen is crucial for securely capturing the user's initial credentia
 - Received a green banner: “User created successfully.”
 - Option to click “View user” to inspect or modify user settings.
 - User Listed in IAM Table
-- The new user CloudAdmin_Tuss now appears in the Users list.
+- The new user "CloudAdmin_Tuss" now appears in the Users list.
 - Columns show metadata like:
 - MFA status
 - Password age
