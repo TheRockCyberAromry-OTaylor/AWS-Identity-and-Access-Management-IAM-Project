@@ -421,3 +421,41 @@ This final screen is crucial for securely capturing the user's initial credentia
 - Account age
 
 
+<img src="https://i.imgur.com/o74GSlb.png" height="100%" width="100%" /> 
+
+
+###  IAM User Sign-In Workflow
+1. **Enter Account ID or Alias**  
+   - Input the 12-digit AWS account ID or a custom alias.
+
+2. **Enter IAM Username**  
+   - Provide the IAM user name assigned within the AWS account.
+
+3. **Enter Password**  
+   - Type the password associated with the IAM user.
+
+4. **Optional Settings**  
+   -  *Remember this account*: Saves the account ID/alias for future logins.  
+   -  *Show password*: Reveals the typed password for verification.
+
+5. **Troubleshooting Link**  
+   - “Having trouble signing in?” directs users to support or recovery options.
+
+6. **Sign-In Actions**  
+   -  *Sign in*: Authenticates the IAM user.  
+   -  *Sign in using root user email*: Switches to root account login.  
+   -  *Create a new AWS account*: Redirects to AWS account creation.
+
+### Sidebar Content
+- **Agentic AI Announcements**  
+  - Promotes AWS Summit NYC keynote stream on July 16.  
+  - Includes a “Register now” link for event access.
+
+### Footer Branding
+- Displays “THEROCKCYBERARMORY” — likely a custom branding or security initiative.
+
+If you're documenting this flow, I can help you turn it into a visual guide or accessibility-friendly layout. Want to refine it further?
+
+
+
+
