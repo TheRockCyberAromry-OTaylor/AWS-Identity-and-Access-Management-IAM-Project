@@ -421,6 +421,9 @@ This final screen is crucial for securely capturing the user's initial credentia
 - Account age
 
 
+ ##  The newly created user `CloudAdmin_Tuss` logging in as an IAM user
+
+
 <img src="https://i.imgur.com/o74GSlb.png" height="100%" width="100%" /> 
 
 
@@ -451,10 +454,6 @@ This final screen is crucial for securely capturing the user's initial credentia
   - Promotes AWS Summit NYC keynote stream on July 16.  
   - Includes a “Register now” link for event access.
 
-### Footer Branding
-- Displays “THEROCKCYBERARMORY” — likely a custom branding or security initiative.
-
-If you're documenting this flow, I can help you turn it into a visual guide or accessibility-friendly layout. Want to refine it further?
 
 
 
