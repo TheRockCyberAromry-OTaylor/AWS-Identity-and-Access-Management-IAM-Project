@@ -291,7 +291,7 @@ The image shows the AWS Management Console in the Identity and Access Management
 - The account currently logged in is **"therockcyberarmory"**, visible in the top-right corner.
 - Options to **"Create user"** and **"Delete"** are available, indicating readiness to begin user provisioning.
 
-### Steps to Create a New IAM User
+###  Steps to Create a New IAM User
 
 Clicking "Create user" will launch a guided setup. 
 - Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create
@@ -301,21 +301,20 @@ Clicking "Create user" will launch a guided setup.
 
 Here's a concise summary of the key details captured in the AWS IAM "Create user" screen:
 
-### 🛠️ User Creation Overview
-- **User Name**: `CloudAdmin_Tuss`
+###  User Creation  configuration Specifics
+- **User Name**: `CloudAdmin_Tuss` tpyed in
 - **Access Type**: AWS Management Console access is being configured.
 - **User Type Selection**:
   - Option chosen: **“I want to create an IAM user”** (instead of using Identity Center)
 
-### 🔐 Console Password Settings
+###  Console Password Settings
 - **Password Type**: Custom password entered (with option to show password)
 - **Password Reset Requirement**: Checkbox selected for “Users must create a new password at next sign-in” (recommended)
 
-### 📌 Additional Notes
+### Additional Notes
 - There's a mention of **programmatic access** options via:
   - Access keys
   - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)
 
-This setup is tailored for creating a traditional IAM user with console access and secure password practices. If you're building documentation or refining onboarding visuals, I can help you structure this into a step-by-step guide or accessibility-aligned layout. Want to do that next?
-
+This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
 
