@@ -349,6 +349,33 @@ Clicking "Create user" will launch a guided setup.
    - Option to set **Permissions boundary** (not used in this step).
 
 
+<img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" /> 
+
+
+###  Step-by-Step Summary: IAM User Creation
+
+#### **Step 1: User Details**
+- **User name**: `CloudAdmin_Tuss`
+- **Console access**: Enabled
+- **Password type**: Custom password set
+- **Password reset required**: Yes (user must change password at next sign-in)
+
+#### **Step 2: Permissions**
+- **Attached policies**:
+  - `AdministratorAccess` – AWS managed policy granting full access
+  - `IAMUserChangePassword` – AWS managed policy allowing user to change their own password
+
+#### **Step 3: Tags (Optional)**
+- No tags added
+- Option to add key-value tags for identification or billing purposes remains available
+
+#### **Step 4: Review & Create**
+- All configurations are reviewed
+- Buttons available:
+  - `Previous` – to go back and edit
+  - `Cancel` – to discard the process
+  - `Create user` – to finalize and provision the IAM user.This was selected to proceed
+
 
 
 
