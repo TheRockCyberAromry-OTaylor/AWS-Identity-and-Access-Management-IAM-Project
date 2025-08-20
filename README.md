@@ -209,7 +209,7 @@ Once you receive the activation email:
    - **Root User**: Described as the account owner with unrestricted access.Select the Root user for the purpose of this project
    - **IAM User**: Defined as a user within the account who performs daily tasks.
 3. **Email Input Field**:
-   - Pre-filled with: `therockcyberarmory001@gmail.com`
+   - Enter a valid email address: `therockcyberarmory001@gmail.com`
 4. **Navigation Button**:
    - A “Next” button is available to proceed after entering the email.
 5. **Account Creation Option**:
