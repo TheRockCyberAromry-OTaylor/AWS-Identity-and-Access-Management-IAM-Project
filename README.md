@@ -377,7 +377,7 @@ Clicking "Create user" will launch a guided setup.
   - `Create user` – to finalize and provision the IAM user.This was selected to proceed
 
 
-<img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
 
 Absolutely, Olatunji. Here's a concise breakdown of the steps reflected in the image for creating a new IAM user in AWS and retrieving their credentials:
 
