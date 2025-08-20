@@ -428,11 +428,11 @@ This final screen is crucial for securely capturing the user's initial credentia
 
 
 ###  IAM User Sign-In Workflow
-1. **Enter Account ID or Alias**  
+1. **Enter Account ID or Alias**  `3743*******`
    - Input the 12-digit AWS account ID or a custom alias.
 
 2. **Enter IAM Username**  
-   - Provide the IAM user name assigned within the AWS account.
+   - Provide the IAM user name assigned within the AWS account. `CloudAdmin_Tuss`
 
 3. **Enter Password**  
    - Type the password associated with the IAM user.
