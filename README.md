@@ -299,10 +299,9 @@ Clicking "Create user" will launch a guided setup.
 
 <img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" />    
 
-Here's a concise summary of the key details captured in the AWS IAM "Create user" screen:
 
 ###  User Creation  configuration Specifics
-- **User Name**: `CloudAdmin_Tuss` tpyed in
+- **User Name**: `CloudAdmin_Tuss` was typed in
 - **Access Type**: AWS Management Console access is being configured.
 - **User Type Selection**:
   - Option chosen: **“I want to create an IAM user”** (instead of using Identity Center)
