@@ -74,6 +74,21 @@ This is the first configuration stage where the user defines the MFA device type
 | 3 | Present two options:  **Continue as therockcyberarmory** **Use without an account** | Choose between cloud backup or offline-only use |
 
 
+<img src="https://i.imgur.com/d5BsYHu.jpeg" height="30%" width="30%" /> 
+
+
+
+ **App Opened**:The **Google Authenticator** app on a mobile device is lunched
+
+**No Codes Present**: The app currently shows **no authentication codes** saved or configured.
+
+ **Prompt to Add**: There's a visible **"Add a code"** button, suggesting the next step is to manually add or scan a QR code to begin using the app for two-factor authentication (2FA).
+
+
+
+
+
+
 
 
 
