@@ -89,10 +89,13 @@ This is the first configuration stage where the user defines the MFA device type
 
 Use the Google Authenticator in your phone to scan the QR code on  the  AWS dashboard in your computer to initiate  two-factor authentication (2FA).
 
+<img src="https://i.imgur.com/4jfz5l6.png" height="50%" width="50%" /> 
 
+First code gererated  by the **Google Authenticator** app
 
+<img src="https://i.imgur.com/jbcRxKp.png" height="50%" width="50%" />
 
-
+Second code gererated  by the **Google Authenticator** app
 
 - Scan the QR code displayed.
 - Enter **two consecutive MFA codes** from the app to verify.
