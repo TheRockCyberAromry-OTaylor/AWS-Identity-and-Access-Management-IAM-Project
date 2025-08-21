@@ -35,7 +35,7 @@ This is the first configuration stage where the user defines the MFA device type
 -  Action Taken:
 - The user has selected the Authenticator app radio button.
 - The Next button is highlighted, indicating readiness to proceed to Step 2.
-- Click **Continue**.
+- Click **Next**.
 
 
 <img src="https://i.imgur.com/HOq6Vsn.png" height="100%" width="100%" /> 
@@ -46,20 +46,19 @@ This is the first configuration stage where the user defines the MFA device type
 - Select Google Authenticator
 
 - ### Configure Google Authenticator on a phone
-<img src="https://i.imgur.com/ry889oU.jpeg" height="50%" width="50%" /> 
 
+<img src="https://i.imgur.com/a14Pw9H.jpeg" height="30%" width="30%" /> 
 
 ###  Android Users
 - **Download Location**: **Google Play Store**
 - **Access**: Pre-installed on most Android devices; also accessible via [play.google.com](https://play.google.com) to download the Google Authenticator app
   
-
 ### iPhone Users
 - **Download Location**: **Apple App Store**
 - **Access**: Pre-installed on all iOS devices; also accessible via [apps.apple.com](https://apps.apple.com) to download the Google Authenticator app
 -Then click the Get started button at the bottom to proceed with the configuration
 
-<img src="https://i.imgur.com/a14Pw9H.jpeg" height="30%" width="30%" /> 
+
 
 
 - Scan the QR code displayed.
