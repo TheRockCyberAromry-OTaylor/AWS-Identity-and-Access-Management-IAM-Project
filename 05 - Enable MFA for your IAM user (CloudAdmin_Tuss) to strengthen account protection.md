@@ -16,7 +16,7 @@
   **“Add MFA for yourself”** → Click the **“Add MFA”** link or button next to it.
 
 
-<img src="https://i.imgur.com/jttxLER.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/a14Pw9H.jpeg" height="100%" width="100%" /> 
 
 ####  Step 3: Choose MFA Device Type
 - Select **Virtual MFA device** (recommended for most users).
