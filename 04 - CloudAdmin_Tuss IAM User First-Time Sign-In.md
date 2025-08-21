@@ -83,4 +83,35 @@
 5. **Application Setup (Optional)** → If relevant, guide users through creating or managing applications.
 
 
+<img src="https://i.imgur.com/MyoSBx4.png" height="80%" width="80%" /> 
+
+ AWS IAM Dashboard summary 
+
+###  Security Recommendations
+- **Enable MFA** for your IAM user (`CloudAdmin_Tuss`) to strengthen account protection.
+- **No unused access keys** older than a year—good security hygiene so far.
+
+###  IAM Resources Overview
+| Resource Type        | Count |
+|----------------------|-------|
+| User Groups          | 0     |
+| Users                | 1     |
+| Roles                | 2     |
+| Policies             | 0     |
+| Identity Providers   | 0     |
+
+### 🧾 AWS Account Details
+- **Account ID**: `3743`
+- **Account Alias**: Not yet created
+- **IAM Sign-in URL**: [https://3743.signin.aws.amazon.com/console](https://3743.signin.aws.amazon.com/console)
+
+###  Quick Access
+- **My Security Credentials**: Shortcut to manage access keys, MFA, and other credentials.
+
+###  Sidebar Navigation Highlights
+- **Access Management**: Users, Roles, Policies, Identity Providers
+- **Security Tools**: Access Analyzer, Resource Analysis, Unused Access
+- **Root Access & Account Settings**: Manage root user and account-level configurations
+
+If you're refining this for documentation, I can help you turn it into a branded visual guide with icons, badges, or even a step-by-step IAM setup checklist. Want to take it further?
 
