@@ -65,6 +65,19 @@ This is the first configuration stage where the user defines the MFA device type
 
 
 
+###  Key Google Authenticator configuration steps
+
+| **Step** | **Action** | **Purpose** |
+|---------|------------|-------------|
+| 1️⃣ | Launch Google Authenticator | Begin setup for two-factor authentication |
+| 2️⃣ | Display welcome message | Introduce app and explain benefits of signing in |
+| 3️⃣ | Show Google account (`therockcyberarmory001@gmail.com`) | Offer to sync codes with this account |
+|  4️  | Present two options:  **Continue as therockcyberarmory** **Use without an account** | Choose between cloud backup or offline-only use |
+
+
+
+
+
 
 - Scan the QR code displayed.
 - Enter **two consecutive MFA codes** from the app to verify.
