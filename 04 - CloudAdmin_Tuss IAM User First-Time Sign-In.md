@@ -83,7 +83,7 @@
 5. **Application Setup (Optional)** → If relevant, guide users through creating or managing applications.
 
 
-<img src="https://i.imgur.com/MyoSBx4.png" height="80%" width="80%" /> 
+<img src="https://i.imgur.com/MyoSBx4.png" height="100%" width="100%" /> 
 
  AWS IAM Dashboard summary 
 
