@@ -43,6 +43,25 @@ This is the first configuration stage where the user defines the MFA device type
 
 ####  Step 4: Set Up Virtual MFA
 - Open your authenticator app (e.g., **Authy**, **Google Authenticator**, **Microsoft Authenticator**).
+- Select Google Authenticator
+
+- ### Configure Google Authenticator on a phone
+<img src="https://i.imgur.com/ry889oU.jpeg" height="50%" width="50%" /> 
+
+
+###  Android Users
+- **Download Location**: **Google Play Store**
+- **Access**: Pre-installed on most Android devices; also accessible via [play.google.com](https://play.google.com) to download the Google Authenticator app
+  
+
+### iPhone Users
+- **Download Location**: **Apple App Store**
+- **Access**: Pre-installed on all iOS devices; also accessible via [apps.apple.com](https://apps.apple.com) to download the Google Authenticator app
+-Then click the Get started button at the bottom to proceed with the configuration
+
+<img src="https://i.imgur.com/ry889oU.jpeg" height="50%" width="50%" /> 
+
+
 - Scan the QR code displayed.
 - Enter **two consecutive MFA codes** from the app to verify.
 
