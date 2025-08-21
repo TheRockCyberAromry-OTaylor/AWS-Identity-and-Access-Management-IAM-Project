@@ -49,6 +49,7 @@ This is the first configuration stage where the user defines the MFA device type
 
 <img src="https://i.imgur.com/a14Pw9H.jpeg" height="30%" width="30%" /> 
 
+
 ###  Android Users
 - **Download Location**: **Google Play Store**
 - **Access**: Pre-installed on most Android devices; also accessible via [play.google.com](https://play.google.com) to download the Google Authenticator app
@@ -56,7 +57,11 @@ This is the first configuration stage where the user defines the MFA device type
 ### iPhone Users
 - **Download Location**: **Apple App Store**
 - **Access**: Pre-installed on all iOS devices; also accessible via [apps.apple.com](https://apps.apple.com) to download the Google Authenticator app
+  
 -Then click the Get started button at the bottom to proceed with the configuration
+
+
+<img src="https://i.imgur.com/6FX612U.png" height="30%" width="30%" /> 
 
 
 
