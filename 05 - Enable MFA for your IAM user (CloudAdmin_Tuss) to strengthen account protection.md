@@ -85,7 +85,7 @@ This is the first configuration stage where the user defines the MFA device type
 
  **Prompt to Add**: There's a visible **"Add a code"** button, suggesting the next step is to manually add or scan a QR code to begin using the app for two-factor authentication (2FA).
 
-<img src="https://i.imgur.com/m3i0xJY.jpeg" height="30%" width="30%" /> 
+<img src="https://i.imgur.com/m3i0xJY.jpeg" height="50%" width="50%" /> 
 
 Use the Google Authenticator in your phone to scan the QR code on  the  AWS dashboard in your computer to initiate  two-factor authentication (2FA).
 
