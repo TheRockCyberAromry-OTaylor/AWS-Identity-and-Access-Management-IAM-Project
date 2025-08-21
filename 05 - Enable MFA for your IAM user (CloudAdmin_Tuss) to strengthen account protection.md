@@ -76,6 +76,7 @@ This is the first configuration stage where the user defines the MFA device type
 
 <img src="https://i.imgur.com/d5BsYHu.jpeg" height="30%" width="30%" /> 
 
+<img src="https://i.imgur.com/eBHUt3N.jpeg" height="30%" width="30%" /> 
 
 
  **App Opened**:The **Google Authenticator** app on a mobile device is lunched
