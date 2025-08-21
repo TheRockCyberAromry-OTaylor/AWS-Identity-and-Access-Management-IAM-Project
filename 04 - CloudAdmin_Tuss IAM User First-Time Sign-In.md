@@ -100,10 +100,10 @@
 | Policies             | 0     |
 | Identity Providers   | 0     |
 
-### 🧾 AWS Account Details
-- **Account ID**: `3743`
+###  AWS Account Details
+- **Account ID**: `3743********`
 - **Account Alias**: Not yet created
-- **IAM Sign-in URL**: [https://3743.signin.aws.amazon.com/console](https://3743.signin.aws.amazon.com/console)
+- **IAM Sign-in URL**: [https://3743.signin.aws.amazon.com/console](https://3743********.signin.aws.amazon.com/console)
 
 ###  Quick Access
 - **My Security Credentials**: Shortcut to manage access keys, MFA, and other credentials.
@@ -113,5 +113,5 @@
 - **Security Tools**: Access Analyzer, Resource Analysis, Unused Access
 - **Root Access & Account Settings**: Manage root user and account-level configurations
 
-If you're refining this for documentation, I can help you turn it into a branded visual guide with icons, badges, or even a step-by-step IAM setup checklist. Want to take it further?
+
 
