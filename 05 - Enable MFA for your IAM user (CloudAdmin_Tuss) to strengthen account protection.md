@@ -38,7 +38,7 @@ This is the first configuration stage where the user defines the MFA device type
 - Click **Continue**.
 
 
-<img src="https://i.imgur.com/jttxLER.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/HOq6Vsn.png" height="100%" width="100%" /> 
 
 
 ####  Step 4: Set Up Virtual MFA
