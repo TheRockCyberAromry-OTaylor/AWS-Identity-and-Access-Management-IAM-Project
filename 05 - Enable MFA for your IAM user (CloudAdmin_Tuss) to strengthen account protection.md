@@ -59,7 +59,7 @@ This is the first configuration stage where the user defines the MFA device type
 - **Access**: Pre-installed on all iOS devices; also accessible via [apps.apple.com](https://apps.apple.com) to download the Google Authenticator app
 -Then click the Get started button at the bottom to proceed with the configuration
 
-<img src="https://i.imgur.com/ry889oU.jpeg" height="50%" width="50%" /> 
+<img src="https://i.imgur.com/WHeoJaG.jpeg" height="50%" width="50%" /> 
 
 
 - Scan the QR code displayed.
