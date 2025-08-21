@@ -35,10 +35,11 @@ This is the first configuration stage where the user defines the MFA device type
 -  Action Taken:
 - The user has selected the Authenticator app radio button.
 - The Next button is highlighted, indicating readiness to proceed to Step 2.
-
-
-
 - Click **Continue**.
+
+
+<img src="https://i.imgur.com/jttxLER.png" height="100%" width="100%" /> 
+
 
 ####  Step 4: Set Up Virtual MFA
 - Open your authenticator app (e.g., **Authy**, **Google Authenticator**, **Microsoft Authenticator**).
