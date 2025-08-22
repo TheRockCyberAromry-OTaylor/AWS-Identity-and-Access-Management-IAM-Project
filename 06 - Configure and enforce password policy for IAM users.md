@@ -34,18 +34,52 @@
   - Enforce identity-based restrictions
 
 
-
 ###  4. Dashboard Context
 - The **IAM dashboard** on the left provides quick access to:
   - **User groups**, **Users**, **Roles**, **Policies**
   - **Identity providers** and **Root access management**
 - This layout supports efficient navigation for managing access control across AWS resources.
 
----
+   <img src="https://i.imgur.com/HvVtkD3.png" height="100%" width="100%" />     
 
-## 🧠 Bonus Tips for Documentation
-- Use platform icons (e.g., 🔐 for security, 🧭 for navigation) to enhance clarity.
-- Consider adding screenshots with callouts for each step.
-- Highlight branding elements like “THE ROCK CYBER ARMORY” to reinforce organizational identity.
 
-Would you like help turning this into a branded visual guide or markdown template for your workflow library?
+### **Password Policy Configuration Steps**
+
+#### 1. **Select Password Policy Type**
+- **Option Chosen**: `Custom` (instead of IAM default)
+- This unlocks granular control over password requirements.
+
+#### 2. **Set Minimum Password Length**
+- **Value**: `12 characters`
+- AWS allows between 6 and 128 characters.
+- Strong baseline for security without overwhelming users.
+
+#### 3. **Enable Password Strength Requirements**
+Each checkbox enforces a specific character type:
+-  **Uppercase letter**: Latin alphabet (A–Z)
+-  **Lowercase letter**: Latin alphabet (a–z)
+-  **Number**: 0–9
+-  **Non-alphanumeric character**:  
+  Includes symbols like `! @ # $ % ^ & * ( ) _ + - = [ ] { } | '`
+
+These selections ensure passwords are complex and resistant to brute-force attacks.
+
+#### 4. **Configure Expiration Settings**
+-  **Password Expiration Enabled**
+- **Duration**: `90 days` (within AWS’s 1–1095 day range)
+-  **Require Administrator Reset**
+- Forces admin intervention post-expiration—ideal for tighter control.
+-  **Allow Users to Change Their Own Password**
+- Empowers users to manage credentials proactively.
+
+#### 5. **Prevent Password Reuse**
+-  **Remember Last 24 Passwords**
+  - This is the **maximum** AWS allows.
+  - Prevents cycling back to old passwords—excellent for long-term hygiene.
+
+#### 6. **Finalize Changes**
+- Bottom right options:
+  -  `Save changes` to apply the policy
+  -  `Cancel` to discard edits
+
+
