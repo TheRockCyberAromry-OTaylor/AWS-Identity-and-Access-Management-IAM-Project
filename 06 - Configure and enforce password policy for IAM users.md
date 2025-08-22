@@ -82,4 +82,35 @@ These selections ensure passwords are complex and resistant to brute-force attac
   -  `Save changes` to apply the policy
   -  `Cancel` to discard edits
 
+                                                                                                                        
+<img src=" https://i.imgur.com/DRSEWl5.png" height="100%" width="100%" />  
+
+
+###  IAM Password Policy Update Flow (Branded as "THE ROCK CYBER ARMORY")
+
+####  Step-by-Step Breakdown
+
+1. **Initiation of Password Policy Update**
+   - The user accesses the IAM dashboard, likely under a **Security Settings** or **User Management** section.
+   - A prompt appears titled something like **“Set Custom Password Policy”**, indicating a configuration change is about to be made.
+
+2. **Impact Notification**
+   - The modal clearly states:  
+     _“This will impact any new user creation and all the existing users changing their passwords.”_  
+     This is a crucial compliance cue—highlighting that the change is **forward-facing** and **retroactive for password changes**.
+
+3. **User Decision Point**
+   - Two action buttons are presented:
+   - **Cancel**: Aborts the operation.
+   - **Set Custom**: Confirms and applies the new password policy.
+   - This binary choice ensures clarity and prevents accidental enforcement.
+
+4. **Confirmation Feedback**
+   - Upon clicking **“Set Custom”**, a green notification bar appears at the bottom:
+   -  “Password requirements for IAM users are updated.”
+   - This toast-style alert confirms successful application of the new policy.
+
+
+
+
 
