@@ -97,14 +97,17 @@ First code gererated  by the **Google Authenticator** app
 
 Second code gererated  by the **Google Authenticator** app
 
+
+<img src="https://i.imgur.com/rHyYw59.jpeg" height="50%" width="50%" />
+
 - Scan the QR code displayed.
-- Enter **two consecutive MFA codes** from the app to verify.
+- Enter **two consecutive MFA codes**  generated from the Google Authenticator app to verify.
 
 ####  Step 5: Complete Setup
 - Once verified, MFA will be enabled for your IAM user (`CloudAdmin_Tuss`).
 - You’ll now be prompted for an MFA code at each login.
 
----
+
 
 ### 🧠 Pro Tip for Documentation
 Since you're refining onboarding visuals, consider adding:
