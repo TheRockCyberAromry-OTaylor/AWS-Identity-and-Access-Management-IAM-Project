@@ -83,12 +83,9 @@ These selections ensure passwords are complex and resistant to brute-force attac
   -  `Cancel` to discard edits
 
                                                                                                                         
-<img src=" https://i.imgur.com/DRSEWl5.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/DRSEWl5.png" height="100%" width="100%" />  
 
 
-###  IAM Password Policy Update Flow (Branded as "THE ROCK CYBER ARMORY")
-
-####  Step-by-Step Breakdown
 
 1. **Initiation of Password Policy Update**
    - The user accesses the IAM dashboard, likely under a **Security Settings** or **User Management** section.
