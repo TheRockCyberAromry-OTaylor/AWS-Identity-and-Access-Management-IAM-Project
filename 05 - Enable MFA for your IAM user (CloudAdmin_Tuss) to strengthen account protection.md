@@ -142,3 +142,29 @@ Second code gererated  by the **Google Authenticator** app
 - Consider enforcing MFA across your organization using IAM policies or AWS Organizations.
 
 
+###    The IAM user CloudAdmin_Tuss successfully logs in using Multi-Factor Authentication (MFA) following its configuration.
+
+
+<img src="https://i.imgur.com/KnZMSAM.png" height="50%" width="50%" />
+
+Code generated from Google Authenticator in the phone
+
+
+<img src="https://i.imgur.com/KnZMSAM.png" height="50%" width="50%" />
+
+
+###  IAM User Sign-In 
+- **Account ID or alias entered**: `3743`
+- **IAM username entered**: `CloudAdmin_Tuss`
+- **Password entered**: (hidden with asterisks)
+- **Options selected**: "Remember this account" checkbox is visible; "Show Password" option is available but not selected
+- **Next action**: Clicked the **Sign in** button
+
+###  MFA Verification 
+- **MFA prompt displayed**: Indicates the account is protected by multi-factor authentication
+- **MFA code entered**: `452608`
+- **Next action**: Clicked the **Sign in** button again to complete authentication
+
+
+
+
