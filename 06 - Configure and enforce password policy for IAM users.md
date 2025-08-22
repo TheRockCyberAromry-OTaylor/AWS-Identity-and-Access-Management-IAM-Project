@@ -107,6 +107,51 @@ These selections ensure passwords are complex and resistant to brute-force attac
    -  “Password requirements for IAM users are updated.”
    - This toast-style alert confirms successful application of the new policy.
 
+##    Verifying or Performing compliance checkthe on newly configured password policy settings.
+
+
+                                            
+<img src="https://i.imgur.com/JH0BqO4.png" height="100%" width="100%" />  
+
+
+
+### Steps Taken in the AWS IAM Console
+
+#### 1. **Navigating to IAM → Users → Add User**
+- Accesse the AWS Management Console and entere the **IAM (Identity and Access Management)** section.
+- TheN initiate the process to **create a new IAM user**.
+
+#### 2. **Entering User Details**
+- **Username entered**: `Test.User`
+  - This is visible in the “User name” field.
+  - AWS allows alphanumeric characters and certain symbols like periods (`.`), which are used here.
+
+#### 3. **Selecting AWS Access Type**
+- The checkbox for **“Provide user access to the AWS Management Console”** is selected.
+  - This means the user will be able to log in to the AWS Console via a browser.
+- The option **“I want to create an IAM user”** is selected.
+  - This is the recommended choice for programmatic access and fine-grained permissions.
+
+#### 4. **Setting Console Password**
+- The user chose **“Custom password”** instead of auto-generating one.
+  - This allows manual entry of a password for the new IAM user.
+
+#### 5. **Password Policy Enforcement**
+- An error message appears:  
+  **“Password does not conform to the account password policy. It must be at least 12 characters long.”**
+  - This indicates that the entered password is too short.
+  - AWS enforces password policies set in the **Account Settings**, which may include:
+    - Minimum length (e.g., 12 characters)
+    - Character complexity (uppercase, lowercase, numbers, symbols)
+    - Password expiration or reuse restrictions
+
+
+###  Visual Cues & Dashboard Highlights
+
+- The **red error message** is a visual alert that guides the user to correct the input.
+- The **highlighted fields** (like the password input box) are bordered in red, signaling validation failure.
+
+
 
 
 
