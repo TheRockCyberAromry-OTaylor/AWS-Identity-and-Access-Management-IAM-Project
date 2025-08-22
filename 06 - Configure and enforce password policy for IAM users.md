@@ -1,4 +1,4 @@
-### Configure and enforce password policy for IAM users
+## Configure and enforce password policy for IAM users
 
 
 
