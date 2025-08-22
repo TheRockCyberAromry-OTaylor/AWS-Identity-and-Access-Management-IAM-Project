@@ -150,7 +150,7 @@ Second code gererated  by the **Google Authenticator** app
 Code generated from Google Authenticator in the phone
 
 
-<img src="https://i.imgur.com/DvyW4Mm.png" height="80%" width="80%" />                                                          
+<img src="https://i.imgur.com/DvyW4Mm.png" height="100%" width="100%" />                                                          
 
 ###  IAM User Sign-In 
 - **Account ID or alias entered**: `3743`
