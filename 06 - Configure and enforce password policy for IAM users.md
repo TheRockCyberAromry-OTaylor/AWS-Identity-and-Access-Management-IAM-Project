@@ -1,3 +1,3 @@
 #### Configure and enforce password policy for IAM users
 
-                                                                               https://i.imgur.com/5rrrWa8.png
+ <img src="https://i.imgur.com/5rrrWa8.png" height="100%" width="100%" />                                                                               
