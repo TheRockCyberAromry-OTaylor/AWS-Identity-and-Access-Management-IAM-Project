@@ -104,35 +104,12 @@ Second code gererated  by the **Google Authenticator** app
 - Enter **two consecutive MFA codes**  generated from the Google Authenticator app to verify.
 
 ####  Step 5: Complete Setup
+- Click on Add MFA
 - Once verified, MFA will be enabled for your IAM user (`CloudAdmin_Tuss`).
 - You’ll now be prompted for an MFA code at each login.
 
 
-
-### 🧠 Pro Tip for Documentation
-Since you're refining onboarding visuals, consider adding:
-- 🔐 MFA badge icons for visual emphasis  
-- 📸 QR code setup screenshots  
-- ✅ Success confirmation screen for clarity  
-
-Want help drafting a branded visual snippet or checklist for this MFA flow? I can mock up a layout or icon set to match your AWS documentation style.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+###    Alternatively configuration using "My Security Credentials"
 
 ####  1. Navigate to "My Security Credentials"
 - From the **IAM Dashboard**, locate the **Quick Links** section.
@@ -159,11 +136,9 @@ Want help drafting a branded visual snippet or checklist for this MFA flow? I ca
 - Once verified, AWS will confirm that MFA is successfully enabled.
 - You’ll now see the MFA status updated to “Assigned.”
 
----
 
-### 🛡️ Bonus Tips for Security
+###  Bonus Tips for Security
 - **Enable MFA for the root user** too (via “Root access management” in the sidebar).
 - Consider enforcing MFA across your organization using IAM policies or AWS Organizations.
 
-Would you like this turned into a branded visual guide with AWS icons and badges for your documentation set? I can help you build that next.
 
