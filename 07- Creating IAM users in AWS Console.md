@@ -12,7 +12,7 @@
    - The IAM navigation pane on the left includes options like Dashboard, User groups, Users, Roles, and Policies.  
    - “Users” was selected to view individual IAM user accounts.
 
-
+#  STEP 1
 
 ###  IAM User Creation Flow (Starting from the Yellow Button)
 
