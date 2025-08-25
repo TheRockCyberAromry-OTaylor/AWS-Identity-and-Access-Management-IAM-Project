@@ -17,7 +17,7 @@ From the first screenshot:
 
 
 #### **2. Navigating to “User Groups” Section**
-- The second screenshot shows the **User Groups** tab selected.
+- The **User Groups** tab selected.
 - No groups exist yet, and the **“Create group”** button is highlighted.
 
 *Implication:* The admin is initiating the process to create a user group—essential for applying permissions to multiple users at once.
@@ -26,7 +26,7 @@ From the first screenshot:
 
 ###  What Happens Next: Creating a User Group
 
-If the admin clicks **“Create group,”** here’s what typically follows:
+I Admin clicks **“Create group,”** here’s what typically follows:
 
 #### **Step 1: Name the Group**
 - Choose a descriptive name (e.g., `DevOpsTeam`, `FinanceUsers`) to reflect the group's purpose.
