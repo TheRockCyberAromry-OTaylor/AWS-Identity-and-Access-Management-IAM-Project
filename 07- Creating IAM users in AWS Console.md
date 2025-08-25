@@ -185,37 +185,9 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - ** “Add tag” button visible**  
   - This encourages admins to include metadata like department, role, or environment (e.g., `Department: Sales`, `Environment: Production`).
 
----
 
-### 🧭 Dashboard Context and Flow
-
-- The IAM console uses a **three-step wizard**:
-  1. **Set user details**
-  2. **Set permissions**
-  3. **Review and create** ← *Current step*
-- The **highlighted characters** and layout emphasize clarity:
-  - Bold labels for each section (User details, Permissions, Tags)
-  - Inline summaries for quick scanning before finalizing
-  - Action buttons like **“Create user”** (not shown but implied next step)
-
----
-
-### 🔍 Suggestions for Documentation or Onboarding Guides
-
-Since you’re keen on clarity and visual enhancement, here’s how you might document this step:
-- Use icons for each section (👤 for user, 🔐 for password, 🚫 for permissions, 🏷️ for tags)
-- Include a branded callout box:  
-  ```markdown
-  ⚠️ Tip: Always attach at least one permission policy or group to avoid access issues post-creation.
-  ```
-- Consider a checklist format for onboarding guides:
-  ```markdown
-  ✅ Username follows naming convention  
-  ✅ Custom password set  
-  ✅ Permissions reviewed  
-  ✅ Tags added (optional but recommended)
-  ```
-
-Would you like help turning this into a branded IAM onboarding snippet or visual guide?
-
+- Action Buttons:
+- Cancel: Aborts the process and discards all inputs
+- Previous: Returns to the prior step to modify permissions or user settings
+- Create user: Finalizes creation with current settings and proceeds to credential download.This was selected
 
