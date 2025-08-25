@@ -195,7 +195,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
  #  STEP 5  "Retrieve password" is the final and critical step where AWS presents the one-time view of the newly created user's console password
 
 
- <img src="https://i.imgur.com/8mLHAqi.jpeg" height="100%" width="100%" /> 
+ <img src="https://i.imgur.com/u9SAUqY.png" height="100%" width="100%" /> 
 
   Once the user is created, the dashboard displays:
   
@@ -222,4 +222,5 @@ In this image, the **“Attach policies directly”** option is being used.As a 
   - Cancel or Return to users list: Ends the workflow or navigates back
 
  
+<img src="https://i.imgur.com/8mLHAqi.jpeg" height="100%" width="100%" /> 
 
