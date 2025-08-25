@@ -59,6 +59,7 @@
 6. **Review & create** — confirm settings and finalize user creation.
 
 
+#  STEP 2  **Enter user details** — name, access type (console or programmatic).
   
 <img src="https://i.imgur.com/4vvGdBT.png" height="100%" width="100%" />  
 
@@ -123,4 +124,4 @@ This step isn’t configured yet but is relevant if the user needs CLI or API ac
 - The **“Next”** button is highlighted, indicating readiness to proceed to **Step 2: Set Permissions**.
 
 
-                                                                                 
+ #  STEP 3  **Set credentials** — choose password options; MFA is configured later.                                                                              
