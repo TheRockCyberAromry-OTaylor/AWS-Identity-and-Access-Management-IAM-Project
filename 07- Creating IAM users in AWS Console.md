@@ -203,12 +203,15 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - Green banner confirms: “User created successfully”.
 - Option to View user is available.
    **Console Sign-In Details**
+  
 - Sign-in URL: A unique AWS console link for the user.
 - User name: SalesAssoc.jane
 - Console password: Masked for security, with an option to reveal.
    **Important Note**
+  
 - This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
    **Actions Available**
+  
 - Email sign-in instructions: Sends credentials and sign-in link to the user.
 - Download .csv file: Exports credentials for secure storage or onboarding documentation.
 - Cancel or Return to users list: Ends the workflow or navigates back
