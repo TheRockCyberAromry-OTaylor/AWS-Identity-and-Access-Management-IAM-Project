@@ -200,21 +200,26 @@ In this image, the **“Attach policies directly”** option is being used.As a 
   Once the user is created, the dashboard displays:
   
  **Success Banner**
-- Green banner confirms: “User created successfully”.
-- Option to View user is available.
-   **Console Sign-In Details**
+   - Green banner confirms: “User created successfully”.
+   - Option to View user is available.
+
   
-- Sign-in URL: A unique AWS console link for the user.
-- User name: SalesAssoc.jane
-- Console password: Masked for security, with an option to reveal.
-   **Important Note**
+ **Console Sign-In Details**
+  - Sign-in URL: A unique AWS console link for the user.
+  - User name: SalesAssoc.jane
+  - Console password: Masked for security, with an option to reveal.
+
   
-- This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
-   **Actions Available**
+**Important Note**
   
-- Email sign-in instructions: Sends credentials and sign-in link to the user.
-- Download .csv file: Exports credentials for secure storage or onboarding documentation.
-- Cancel or Return to users list: Ends the workflow or navigates back
+   - This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
+
+     
+ **Actions Available**
+  
+  - Email sign-in instructions: Sends credentials and sign-in link to the user.
+  - Download .csv file: Exports credentials for secure storage or onboarding documentation.
+  - Cancel or Return to users list: Ends the workflow or navigates back
 
  
 ✅ Post-Creation: Retrieve Password (Step 4 in Image)
