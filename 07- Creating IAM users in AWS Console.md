@@ -313,3 +313,38 @@ Once the user is created, the dashboard displays:
 - **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
 - **Select:** The file `Data-Interns@Julie.Tombo_credentials.xlsx` 
 - **Implication:** This suggests the user is preparing to access or manage credentials for the **Data Intern role**, specifically for the user `Julie.Tombo`.
+
+
+
+<img src="https://i.imgur.com/rMuUNZb.png" height="100%" width="100%" /> 
+
+
+Once the user is created, the dashboard displays:
+  
+ **Success Banner**
+   - Green banner confirms: “User created successfully”.
+   - Option to View user is available.
+
+  
+ **Console Sign-In Details**
+  - Sign-in URL: A unique AWS console link for the user.
+  - User name: App-Operator.john
+  - Console password: Masked for security, with an option to reveal.
+
+  
+**Important Note**
+  
+   - This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
+
+     
+ **Actions Available**
+  
+  - Email sign-in instructions: Sends credentials and sign-in link to the user.
+  - Download .csv file: Exports credentials for secure storage or onboarding documentation.This option is selected
+  - Cancel or Return to users list: Ends the workflow or navigates back
+
+#### **Locating the Credential File**
+- **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
+- **Select:** The file `App-Operator.john_credentials.xlsx` 
+- **Implication:** This suggests the user is preparing to access or manage credentials for the **Data Intern role**, specifically for the user `App-Operator.john`.
+
