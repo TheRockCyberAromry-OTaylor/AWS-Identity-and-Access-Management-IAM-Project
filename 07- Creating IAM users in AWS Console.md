@@ -190,4 +190,29 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - Cancel: Aborts the process and discards all inputs
 - Previous: Returns to the prior step to modify permissions or user settings
 - Create user: Finalizes creation with current settings and proceeds to credential download.This was selected
+  
 
+ #  STEP 5  "Retrieve password" is the final and critical step where AWS presents the one-time view of the newly created user's console password
+
+
+ <img src="https://i.imgur.com/u9SAUqY.png" height="100%" width="100%" /> 
+
+  Once the user is created, the dashboard displays:
+  
+ **Success Banner**
+- Green banner confirms: “User created successfully”.
+- Option to View user is available.
+   **Console Sign-In Details**
+- Sign-in URL: A unique AWS console link for the user.
+- User name: SalesAssoc.jane
+- Console password: Masked for security, with an option to reveal.
+   **Important Note**
+- This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
+   **Actions Available**
+- Email sign-in instructions: Sends credentials and sign-in link to the user.
+- Download .csv file: Exports credentials for secure storage or onboarding documentation.
+- Cancel or Return to users list: Ends the workflow or navigates back
+
+
+
+ 
