@@ -230,7 +230,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 #### **1. Locating the Credential File**
 - **Action:** Navigates to the `Downloads` folder in File Explorer.
 - **Highlight:** The file `SalesAssoc.jane_credentials.xlsx` is selected.
-- **Implication:** This suggests the user is preparing to access or manage credentials for the **Sales Associate role**, specifically for the user `jane`.
+- **Implication:** This suggests the user is preparing to access **Sales Associate role**, specifically for the user `jane`.
 
 
 
@@ -280,7 +280,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 #### **Locating the Credential File**
 - **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
 - **Select:** The file `Data-Interns@Hawa.Tombo_credentials.xlsx` 
-- **Implication:** This suggests the user is preparing to access or manage credentials for the **Data Intern role**, specifically for the user `Hawa.Tombo`.
+- **Implication:** This suggests the user is preparing to access **Data Intern role**, specifically for the user `Hawa.Tombo`.
 
 
 <img src="https://i.imgur.com/PPIZY2p.png" height="100%" width="100%" /> 
@@ -312,7 +312,7 @@ Once the user is created, the dashboard displays:
 #### **Locating the Credential File**
 - **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
 - **Select:** The file `Data-Interns@Julie.Tombo_credentials.xlsx` 
-- **Implication:** This suggests the user is preparing to access or manage credentials for the **Data Intern role**, specifically for the user `Julie.Tombo`.
+- **Implication:** This suggests the user is preparing to access  **Data Intern role**, specifically for the user `Julie.Tombo`.
 
 
 
@@ -346,5 +346,39 @@ Once the user is created, the dashboard displays:
 #### **Locating the Credential File**
 - **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
 - **Select:** The file `App-Operator.john_credentials.xlsx` 
-- **Implication:** This suggests the user is preparing to access or manage credentials for the **Data Intern role**, specifically for the user `App-Operator.john`.
+- **Implication:** This suggests the user is preparing to access **App-Operator role**, specifically for the user `App-Operator.john`.
 
+
+<img src="https://i.imgur.com/xnCs9uV.png" height="100%" width="100%" /> 
+
+
+Once the user is created, the dashboard displays:
+  
+ **Success Banner**
+   - Green banner confirms: “User created successfully”.
+   - Option to View user is available.
+
+  
+ **Console Sign-In Details**
+  - Sign-in URL: A unique AWS console link for the user.
+  - User name: SecurityAnlst.Musa
+
+
+  - Console password: Masked for security, with an option to reveal.
+
+  
+**Important Note**
+  
+   - This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
+
+     
+ **Actions Available**
+  
+  - Email sign-in instructions: Sends credentials and sign-in link to the user.
+  - Download .csv file: Exports credentials for secure storage or onboarding documentation.This option is selected
+  - Cancel or Return to users list: Ends the workflow or navigates back
+
+#### **Locating the Credential File**
+- **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
+- **Select:** The file `SecurityAnlst.Musa_credentials.xlsx` 
+- **Implication:** This suggests the user is preparing to access **Security analyst role**, specifically for the user `SecurityAnlst.Musa`.
