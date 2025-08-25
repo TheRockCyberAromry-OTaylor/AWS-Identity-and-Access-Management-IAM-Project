@@ -153,7 +153,7 @@ Code generated from Google Authenticator in the phone
 <img src="https://i.imgur.com/DvyW4Mm.png" height="100%" width="100%" />                                                          
 
 ###  IAM User Sign-In 
-- **Account ID or alias entered**: `3743`
+- **Account ID or alias entered**: `3743********`
 - **IAM username entered**: `CloudAdmin_Tuss`
 - **Password entered**: (hidden with asterisks)
 - **Options selected**: "Remember this account" checkbox is visible; "Show Password" option is available but not selected
