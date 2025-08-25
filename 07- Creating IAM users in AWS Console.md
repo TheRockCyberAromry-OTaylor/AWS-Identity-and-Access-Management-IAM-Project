@@ -66,8 +66,7 @@
 
 ###  Creating an IAM User in AWS Console
 
-#### **Step 1: Specify User Details**
-You're on the first step of the IAM user creation flow.
+#### **Step 1: Specify User Details
 
 - ** Username Entered:**  
   `SalesAssoc.jane`  
