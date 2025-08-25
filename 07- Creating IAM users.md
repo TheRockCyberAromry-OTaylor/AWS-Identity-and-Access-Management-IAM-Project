@@ -59,7 +59,7 @@
 6. **Review & create** — confirm settings and finalize user creation.
 
 
-<img src="https://i.imgur.com/GChakCe.png" height="100%" width="100%" />   
+<img src="https://i.imgur.com/4vvGdBT.png="100%" width="100%" />   
 
 
 
