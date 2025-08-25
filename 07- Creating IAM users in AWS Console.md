@@ -220,7 +220,31 @@ In this image, the **“Attach policies directly”** option is being used.As a 
   - Email sign-in instructions: Sends credentials and sign-in link to the user.
   - Download .csv file: Exports credentials for secure storage or onboarding documentation.This option is selected
   - Cancel or Return to users list: Ends the workflow or navigates back
+  - 
+
+   #  STEP 5 Locating the downloaded AWS Credential File
 
  
 <img src="https://i.imgur.com/8mLHAqi.jpeg" height="100%" width="100%" /> 
+
+#### **1. Locating the Credential File**
+- **Action:** Navigates to the `Downloads` folder in File Explorer.
+- **Highlight:** The file `SalesAssoc.jane_credentials.xlsx` is selected.
+- **Implication:** This suggests the user is preparing to access or manage credentials for the **Sales Associate role**, specifically for the user `jane`.
+
+
+
+#### **2. Opening the Credential Dashboard**
+- **Action:** The selected Excel file is opened, revealing a structured dashboard.
+- **Layout Insight:**
+  - **Column A:** `User name` — Identifies the IAM user (`SalesAssoc.jane`)
+  - **Column B:** `Password` — Shows the assigned password (`aBc123@456`) - sample password
+  - **Column C:** `Console sign-in URL` — Provides the AWS login link for this user
+
+
+
+#### **3. Credential Provisioning Context**
+- **Purpose:** This spreadsheet likely serves as a **manual credential distribution tool** for onboarding or role-based access.
+- **Security Note:** The presence of plaintext passwords and URLs suggests this is a **preliminary or internal staging document**, not yet hardened for secure delivery.
+- **NOTE **: Passwords is going to be hardened by the implementation of MFA
 
