@@ -246,5 +246,5 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 #### **3. Credential Provisioning Context**
 - **Purpose:** This spreadsheet likely serves as a **manual credential distribution tool** for onboarding or role-based access.
 - **Security Note:** The presence of plaintext passwords and URLs suggests this is a **preliminary or internal staging document**, not yet hardened for secure delivery.
-- **NOTE **: Passwords is going to be hardened by the implementation of MFA
+- **NOTE**: Passwords is going to be hardened by the implementation of MFA
 
