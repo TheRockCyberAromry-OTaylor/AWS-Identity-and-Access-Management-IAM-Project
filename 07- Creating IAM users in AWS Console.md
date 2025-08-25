@@ -247,4 +247,10 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - **Purpose:** This spreadsheet likely serves as a **manual credential distribution tool** for onboarding or role-based access.
 - **Security Note:** The presence of plaintext passwords and URLs suggests this is a **preliminary or internal staging document**, not yet hardened for secure delivery.
 - **NOTE**: Passwords is going to be hardened by the implementation of MFA
+  
+
+#  New User Accounts Added/Created for Project Workflow
+
+<img src="https://i.imgur.com/tQZCJzx.png" height="100%" width="100%" /> 
+
 
