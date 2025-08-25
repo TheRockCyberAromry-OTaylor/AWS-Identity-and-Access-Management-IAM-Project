@@ -58,9 +58,69 @@
 5. **Add tags (optional)** — for tracking or automation.
 6. **Review & create** — confirm settings and finalize user creation.
 
-After creation, the new user (e.g., `CloudAdmin_Tuss`) appears in the list with details like MFA status, password age, and last activity.
 
----
+<img src="  https://i.imgur.com/GChakCe.png" height="100%" width="100%" />   
 
-Want this turned into a visual checklist or onboarding snippet for your documentation? I can help sketch that out next.
 
+
+###  Step-by-Step Breakdown: Creating an IAM User in AWS Console
+
+#### **Step 1: Specify User Details**
+You're on the first step of the IAM user creation flow.
+
+- ** Username Entered:**  
+  `SalesAssoc.jane`  
+  This follows a clear naming convention—likely role-based (`SalesAssoc`) with a personal identifier (`jane`). This helps with traceability and access auditing.
+
+
+
+#### ** Access Type Selection**
+Two options are presented for user access:
+
+- **Option 1 (Recommended):**  
+  *Specify a user in Identity Center* – This is AWS’s preferred method for centralized identity management.
+
+- **Option 2 (Selected):**  
+   *I want to create an IAM user* – choose to create a traditional IAM user directly in AWS.
+
+
+#### ** Console Access Configuration**
+ Enabling access to the AWS Management Console:
+
+- **Console Password Type:**  
+   Selected **Custom password**, which triggers the password policy requirements.
+
+
+###  Password Requirements (Highlighted)
+To meet AWS’s security standards, the custom password must:
+
+- Be **at least 12 characters**
+- Include **one uppercase letter** (A–Z)
+- Include **one lowercase letter** (a–z)
+- Include **one number** (0–9)
+- Include **one non-alphanumeric character**  
+  Examples: `@ # $ % ^ & * ( ) _ + - = [ ] { } | ?`
+
+These requirements are designed to enforce strong password hygiene and reduce brute-force vulnerabilities.
+
+
+#### ** Additional Security Option**
+-  *Require password reset at next sign-in*  
+  This checkbox is selected, ensuring the user sets a personal password upon first login—great for initial onboarding security.
+
+
+
+#### ** Programmatic Access (Optional)**
+A note is included about enabling programmatic access via:
+
+- **Access keys**
+- **Service-specific credentials** (e.g., AWS CodeCommit, Amazon Keyspaces)
+
+This step isn’t configured yet but is relevant if the user needs CLI or API access.
+
+
+#### ** Navigation**
+- The **“Next”** button is highlighted, indicating readiness to proceed to **Step 2: Set Permissions**.
+
+
+                                                                                 
