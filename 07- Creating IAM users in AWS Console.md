@@ -121,7 +121,47 @@ This step isn’t configured yet but is relevant if the user needs CLI or API ac
 
 
 #### ** Navigation**
-- The **“Next”** button is highlighted, indicating readiness to proceed to **Step 2: Set Permissions**.
+- The **“Next”** button is highlighted, indicating readiness to proceed to **Step 3: Set Permissions**.
 
 
- #  STEP 3  **Set credentials** — choose password options; MFA is configured later.                                                                              
+ #  STEP 3  **Assign permissions** — via groups, existing users, or direct policies.   
+
+
+ 
+<img src="https://i.imgur.com/bpC84M3.png" height="100%" width="100%" />  
+
+
+
+This step determines **what the new user can access or do** within the AWS environment.
+
+####  **Choose How to Assign Permissions**
+Three options are presented:
+- **Add user to group**: Assign permissions via IAM groups.
+- **Copy permissions from existing user**: Clone access from another IAM user.
+- **Attach policies directly**: Manually select policies to apply to this user.
+
+In this image, the **“Attach policies directly”** option is being used.As a best practice,we recommend attaching policies to a group instead.
+
+
+#### 2. **Search and Select Policies**
+ Browsing AWS-managed policies. Three are visible:
+
+| Policy Name                         | Type           | Attached Entities |
+|------------------------------------|----------------|-------------------|
+| AmazonAPIGatewayPushToCloudWatchLogs | AWS Managed    | 0                 |
+| AmazonAppFlowFullAccess            | AWS Managed    | 0                 |
+| AmazonAppFlowReadOnlyAccess        | AWS Managed    | 0                 |
+
+- These policies are **not yet attached** to any users, groups, or roles.
+- The search bar allows filtering by keyword (e.g., “AppFlow”).
+
+
+####  **(Optional) Set Permissions Boundary**
+- This section lets you define the **maximum permissions** the user can have, even if other policies grant more.
+- No boundary is set yet , which means the user will inherit full permissions from the selected policies.
+
+
+
+
+
+
