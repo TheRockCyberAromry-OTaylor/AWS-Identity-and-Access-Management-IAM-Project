@@ -382,3 +382,42 @@ Once the user is created, the dashboard displays:
 - **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
 - **Select:** The file `SecurityAnlst.Musa_credentials.xlsx` 
 - **Implication:** This suggests the user is preparing to access **Security analyst role**, specifically for the user `SecurityAnlst.Musa`.
+
+
+<img src="https://i.imgur.com/VHBfmDG.png" height="100%" width="100%" /> 
+
+
+Once the user is created, the dashboard displays:
+  
+ **Success Banner**
+   - Green banner confirms: “User created successfully”.
+   - Option to View user is available.
+
+  
+ **Console Sign-In Details**
+  - Sign-in URL: A unique AWS console link for the user.
+  - User name: Prod-Analyst.mike
+
+
+
+
+  - Console password: Masked for security, with an option to reveal.
+
+  
+**Important Note**
+  
+   - This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
+
+     
+ **Actions Available**
+  
+  - Email sign-in instructions: Sends credentials and sign-in link to the user.
+  - Download .csv file: Exports credentials for secure storage or onboarding documentation.This option is selected
+  - Cancel or Return to users list: Ends the workflow or navigates back
+
+#### **Locating the Credential File**
+- **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
+- **Select:** The file `Prod-Analyst.mike_credentials.xlsx` 
+- **Implication:** This suggests the user is preparing to access **Product analyst role**, specifically for the user `Prod-Analyst.mike
+`.
+
