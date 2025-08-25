@@ -222,7 +222,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
   - Cancel or Return to users list: Ends the workflow or navigates back
   - 
 
-   #  STEP 5 Locating the downloaded AWS Credential File
+   #  STEP 6 Locating the downloaded AWS Credential File
 
  
 <img src="https://i.imgur.com/8mLHAqi.jpeg" height="100%" width="100%" /> 
@@ -253,4 +253,26 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 
 <img src="https://i.imgur.com/tQZCJzx.png" height="100%" width="100%" /> 
 
+  Once the user is created, the dashboard displays:
+  
+ **Success Banner**
+   - Green banner confirms: “User created successfully”.
+   - Option to View user is available.
 
+  
+ **Console Sign-In Details**
+  - Sign-in URL: A unique AWS console link for the user.
+  - User name: Data-Interns@Hawa.Tombo
+  - Console password: Masked for security, with an option to reveal.
+
+  
+**Important Note**
+  
+   - This is the only time the password can be viewed or downloaded. AWS does not store it for later retrieval.
+
+     
+ **Actions Available**
+  
+  - Email sign-in instructions: Sends credentials and sign-in link to the user.
+  - Download .csv file: Exports credentials for secure storage or onboarding documentation.This option is selected
+  - Cancel or Return to users list: Ends the workflow or navigates back
