@@ -16,7 +16,7 @@
 
 ###  IAM User Creation Flow (Starting from the Yellow Button)
 
-####  Step 1: Click **Create user**
+####  step:  Click **Create user**
 - Located top-right on the **Users** page.
 - Launches the IAM user creation wizard.
 
@@ -161,7 +161,61 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - No boundary is set yet , which means the user will inherit full permissions from the selected policies.
 
 
+ #  STEP 4   **Review & create** — confirm settings and finalize user creation.
 
 
+<img src="https://i.imgur.com/8HkosvN.png" height="100%" width="100%" />  
+
+
+#### **1. User Details Configuration Review**
+- ** User name:** `SalesAssoc.jane`  
+  - This follows a naming convention likely used for role-based access (e.g., Sales Associate). The dot notation (`Firstname.Lastname`) helps with clarity and traceability.
+- ** Console password type:** *Custom password*  
+  - Instead of auto-generating a password, the admin manually set one—useful for onboarding when credentials need to be shared securely.
+- ** Require password reset:** *No*  
+  - The user won’t be prompted to change their password on first login. This might be intentional for temporary access or pre-configured credentials.
+
+#### **2. Permissions Summary**
+- ** No resources listed**  
+  - This means no policies or groups have been attached yet. The user has no permissions to interact with AWS services. It’s a placeholder state—permissions can be added post-creation or via group membership.
+
+#### **3. Tags (Optional Metadata)**
+- **🏷 No tags associated**  
+  - Tags help with cost allocation, access control, and resource organization. None were added here, but the dashboard shows the option to add up to 50.
+- ** “Add tag” button visible**  
+  - This encourages admins to include metadata like department, role, or environment (e.g., `Department: Sales`, `Environment: Production`).
+
+---
+
+### 🧭 Dashboard Context and Flow
+
+- The IAM console uses a **three-step wizard**:
+  1. **Set user details**
+  2. **Set permissions**
+  3. **Review and create** ← *Current step*
+- The **highlighted characters** and layout emphasize clarity:
+  - Bold labels for each section (User details, Permissions, Tags)
+  - Inline summaries for quick scanning before finalizing
+  - Action buttons like **“Create user”** (not shown but implied next step)
+
+---
+
+### 🔍 Suggestions for Documentation or Onboarding Guides
+
+Since you’re keen on clarity and visual enhancement, here’s how you might document this step:
+- Use icons for each section (👤 for user, 🔐 for password, 🚫 for permissions, 🏷️ for tags)
+- Include a branded callout box:  
+  ```markdown
+  ⚠️ Tip: Always attach at least one permission policy or group to avoid access issues post-creation.
+  ```
+- Consider a checklist format for onboarding guides:
+  ```markdown
+  ✅ Username follows naming convention  
+  ✅ Custom password set  
+  ✅ Permissions reviewed  
+  ✅ Tags added (optional but recommended)
+  ```
+
+Would you like help turning this into a branded IAM onboarding snippet or visual guide?
 
 
