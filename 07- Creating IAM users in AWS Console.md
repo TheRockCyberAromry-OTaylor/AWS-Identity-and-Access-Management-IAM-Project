@@ -276,3 +276,8 @@ In this image, the **“Attach policies directly”** option is being used.As a 
   - Email sign-in instructions: Sends credentials and sign-in link to the user.
   - Download .csv file: Exports credentials for secure storage or onboarding documentation.This option is selected
   - Cancel or Return to users list: Ends the workflow or navigates back
+
+#### **Locating the Credential File**
+- **Action:** Navigates to the `Downloads` folder in File Explorer.**See File Explorer image above**
+- **Select:** The file `Data-Interns@Hawa.Tombo_credentials.xlsx` 
+- **Implication:** This suggests the user is preparing to access or manage credentials for the **Data Intern role**, specifically for the user `Hawa.Tombo`.
