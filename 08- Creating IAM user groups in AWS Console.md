@@ -145,20 +145,15 @@ These are critical for hardening IAM access. Since organization's are methodical
   - **Policies**
 
 
-
-###  AWS IAM Snapshot: "Interns" Group Created
-
-The screenshot captures a moment inside the **AWS Identity and Access Management (IAM)** console, specifically under **User groups**. Here's what stands out:
+### This captures a moment inside the **AWS Identity and Access Management (IAM)** console, specifically under **User groups**. Here's what stands out:
 
 -  **Group Name:** `Interns`  
 -  **Users in Group:** 2  
 -  **Permissions:** Not yet defined  
 -  **Created:** 2 days ago  
--  **Signed-in User:** `CloudAdmin_User @ 9134C`  
+-  **Signed-in User:** `CloudAdmin_User @ 3743`  
 
 ###  Your Next Steps: Creating Another IAM Group
-
-Based on your workflow, here’s how you might proceed to create a second group — perhaps for a different role like “Contractors” or “DevOps”:
 
  **Navigate to IAM > User groups**  
    From the left sidebar, click on **Groups** under **Access management**.
