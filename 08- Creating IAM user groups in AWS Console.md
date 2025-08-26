@@ -1,6 +1,6 @@
 
 
-<img src="https://i.imgur.com/hurPfI1.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/JV52iux.png" height="100%" width="100%" /> 
 
 
 
@@ -60,7 +60,7 @@ These are critical for hardening IAM access. Since organization's are methodical
 
 
 
-<img src="https://i.imgur.com/FbXZbRY.png" height="100%" width="100%" />    
+<img src="https://i.imgur.com/tUA5l56.png" height="100%" width="100%" />    
 
 
 ###  Steps Taken in the AWS IAM Console
