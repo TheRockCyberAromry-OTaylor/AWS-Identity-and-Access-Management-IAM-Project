@@ -1,4 +1,4 @@
-#    Create  uaser group for interns called "interns
+#    Create  user group for interns called "Interns"
 
 <img src="https://i.imgur.com/JV52iux.png" height="100%" width="100%" /> 
 
@@ -127,4 +127,4 @@ These are critical for hardening IAM access. Since organization's are methodical
 - The use of a dedicated **“Interns” group** allows centralized permission management — ideal for onboarding/offboarding workflows.
 
 
-#    Create another uaser group for the project team called "ProjectX-Team
+#    Create another user group for a project team called "ProjectX-Team"
