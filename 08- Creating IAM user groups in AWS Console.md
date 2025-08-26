@@ -290,3 +290,36 @@ Two groups— **Interns** and **Project-Team** initially created:
 -  Clicked the **“Create user group”** button to complete the setup.
 
 
+<img src="https://i.imgur.com/A4UYuzu.png" height="100%" width="100%" />
+
+
+1. **Login to AWS Console**
+   - User signs into the AWS Management Console with appropriate permissions.
+
+2. **Access IAM Service**
+   - From the AWS Services menu or search bar, selects **IAM (Identity and Access Management)**.
+
+3. **Navigate via Sidebar**
+   - In the IAM dashboard’s left-hand sidebar:
+     - Click on **Access management**
+     - Then select **User groups** (highlighted in the image)
+
+
+### User Group Creation 
+
+Three groups — **CloudAdmin** — **Interns** and — **ProjectX-Team** initially created:
+
+1. **(Optional) Attach Permissions**
+   - Two groups — **Interns** and — **ProjectX-Team** currently shows “Permissions: Not defined,” meaning no policies were attached during creation.
+   - -However — **CloudAdmin** group has “Permissions as: defined”
+
+2. **Add Users to Group**
+   - Users were added during or after creation:
+     
+     -  `CloudAdmin`: 1 user `CloudAdmin_Tuss`
+     - `Interns`: 2 users
+     - `Project-Team`: 4 users
+
+3. **Review and Confirm**
+   - Final confirmation creates the group and logs the creation time (visible in the image).
+
