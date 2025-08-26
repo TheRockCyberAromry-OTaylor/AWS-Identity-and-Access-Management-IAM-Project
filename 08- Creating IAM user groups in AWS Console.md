@@ -128,3 +128,8 @@ These are critical for hardening IAM access. Since organization's are methodical
 
 
 #    Create another user group for a project team called "ProjectX-Team"
+
+
+     <img src=" https://i.imgur.com/aqOCbx8.png" height="100%" width="100%" />                                            
+
+
