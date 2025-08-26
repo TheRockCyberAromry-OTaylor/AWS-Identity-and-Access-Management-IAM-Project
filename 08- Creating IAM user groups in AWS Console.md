@@ -63,10 +63,7 @@ These are critical for hardening IAM access. Since you're methodical about IAM o
 <img src="https://i.imgur.com/FbXZbRY.png" height="100%" width="100%" />    
 
 
-
-
-
-### 🛠️ Steps Taken in the AWS IAM Console
+###  Steps Taken in the AWS IAM Console
 
 #### 1. **Name the Group**
 - **Action**: Entered `"Interns"` in the **Group Name** field.
@@ -79,10 +76,8 @@ These are critical for hardening IAM access. Since you're methodical about IAM o
 - **Purpose**: These users will inherit the permissions attached to the group. This step streamlines access management by assigning policies at the group level rather than individually.
 
 #### 3. **Attach Permissions Policies (Optional)**
-- **Action**: Selected **2 policies** out of 1066 available:
-  - `AdministratorAccess`: Grants full access to all AWS services and resources.
-  - `AdministratorAccess-Am...`: Likely a custom or scoped version of admin access (truncated name suggests it might be account-specific).
-- **Purpose**: These policies define what actions group members can perform. Attaching powerful policies like these to interns should be carefully reviewed—especially if the group is meant for limited access.
+- **Action**: Selected **0 policies** out of 1066 available: NO policy was attached at this stage
+- **Purpose**:Policies defines what actions group members can perform.Attaching  policies to interns should be carefully reviewed,especially if the group is meant for limited access.
 
 #### 4. **Review and Create**
 - **Action**: Clicked the **"Create user group"** button.
