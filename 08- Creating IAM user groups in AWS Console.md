@@ -311,7 +311,8 @@ Three groups — **CloudAdmin** — **Interns** and — **ProjectX-Team** initia
 
 1. **(Optional) Attach Permissions**
    - Two groups — **Interns** and — **ProjectX-Team** currently shows “Permissions: Not defined,” meaning no policies were attached during creation.
-   - -However — **CloudAdmin** group has “Permissions as: defined”
+   - However — **CloudAdmin** group has “Permissions as: defined” meaning the CloudAdmin group has active IAM policies attached, granting its members specific AWS access rights.
+
 
 2. **Add Users to Group**
    - Users were added during or after creation:
