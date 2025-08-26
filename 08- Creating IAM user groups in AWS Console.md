@@ -194,7 +194,7 @@ These are critical for hardening IAM access. Since organization's are methodical
 
 #### 3. **Attach Permissions Policies (Optional)**
 - **Action**: Selected **0 policies** out of 1066 available: NO policy was attached at this stage
-- **Purpose**:Policies defines what actions group members can perform.Attaching  policies to interns should be carefully reviewed,especially if the group is meant for limited access.
+- **Purpose**:Policies defines what actions group members can perform. Attaching  policies to a  project group of multi-functional users should be carefully reviewed,to mitigate the risk of privilege escalation
 
 #### 4. **Review and Create**
 - **Action**: Clicked the **"Create user group"** button.
