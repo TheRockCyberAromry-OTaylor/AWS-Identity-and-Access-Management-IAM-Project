@@ -233,4 +233,9 @@ These are critical for hardening IAM access. Since organization's are methodical
  This reflect a cross-functional team composition, blending operational, analytical, sales, and security roles under the `ProjectX-Team` umbrella. This setup suggests a collaborative environment where access controls and permissions will need to be carefully tailored to support both role-specific tasks and shared project objectives.
 
 
+# Assigning an Admin User to a Group and Granting Role-Based Permissions
+
+
+<img src="https://i.imgur.com/9khoFof.png" height="100%" width="100%" />
+
 
