@@ -152,22 +152,22 @@ These are critical for hardening IAM access. Since organization's are methodical
 
 ###  Your Next Steps: Creating Another IAM Group
 
- **Navigate to IAM > User groups**  
+- **Navigate to IAM > User groups**  
    From the left sidebar, click on **Groups** under **Access management**.
 
- **Click “Create group”**  
+- **Click “Create group”**  
    This opens the group creation wizard.
 
- **Name the Group**  
+ - **Name the Group**  
    Choose a descriptive name (e.g., `Contractors`, `DevOps_Team`, `SecurityAuditors`).
 
- **Add Users (Optional)**  
+- **Add Users (Optional)**  
    You can assign users now or skip and add them later.
 
- **Attach Permissions Policies**  
+- **Attach Permissions Policies**  
    Select predefined AWS policies (like `ReadOnlyAccess`, `AmazonEC2FullAccess`) or attach custom ones.
 
- **Review and Create**  
+ - **Review and Create**  
    Confirm your selections and click **Create group**.
 
 
