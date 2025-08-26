@@ -8,7 +8,7 @@
  IAM Dashboard Actions
 
 #### **1. Reviewing IAM Resource Summary**
-From the first screenshot:
+
 - **Users (7)** and **Roles (2)** exist, but **User Groups (0)** and **Policies (0)** are empty.
 - This suggests the account has individual users and roles set up, but no grouping or centralized policy management yet.
 
@@ -26,7 +26,7 @@ From the first screenshot:
 
 ###  What Happens Next: Creating a User Group
 
-I Admin clicks **“Create group,”** here’s what typically follows:
+ Admin clicks **“Create group,”** here’s what typically follows:
 
 #### **Step 1: Name the Group**
 - Choose a descriptive name (e.g., `DevOpsTeam`, `FinanceUsers`) to reflect the group's purpose.
@@ -60,26 +60,11 @@ These are critical for hardening IAM access. Since you're methodical about IAM o
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <img src="https://i.imgur.com/FbXZbRY.png" height="100%" width="100%" />    
 
 
 
-Absolutely, Olatunji. Based on the AWS IAM dashboard screenshot you shared, here’s a clear breakdown of the steps taken to create a user group named **"Interns"**, with attention to the selected users and permission policies:
 
----
 
 ### 🛠️ Steps Taken in the AWS IAM Console
 
@@ -103,14 +88,5 @@ Absolutely, Olatunji. Based on the AWS IAM dashboard screenshot you shared, here
 - **Action**: Clicked the **"Create user group"** button.
 - **Purpose**: Finalizes the group creation, applying the selected users and permissions.
 
----
 
-### 🔍 Observations & Suggestions
 
-- **Naming Convention**: The use of `Data-Interns@Name.Tombo` suggests a structured naming scheme—great for traceability and filtering.
-- **Permissions Caution**: Assigning `AdministratorAccess` to interns might be excessive unless they’re in a sandbox or training environment. You might consider scoped policies like `ReadOnlyAccess`, `AmazonS3ReadOnlyAccess`, or a custom policy tailored to their tasks.
-- **Visual Clarity**: The dashboard layout is intuitive, but with 1000+ policies, using tags or policy groups could help streamline future selections.
-
----
-
-Would you like help drafting a branded, icon-enhanced IAM onboarding guide for interns? I could include visual cues for each step and accessibility tips to make it pop.
