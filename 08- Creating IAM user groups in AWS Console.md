@@ -236,6 +236,33 @@ These are critical for hardening IAM access. Since organization's are methodical
 # Assigning an Admin User to a Group and Granting Role-Based Permissions
 
 
-<img src="https://i.imgur.com/9khoFof.png" height="100%" width="100%" />
+<img src="https://i.imgur.com/JZfap47.png" height="100%" width="100%" />
+
+1. **Login to AWS Console**
+   - User signs into the AWS Management Console with appropriate permissions.
+
+2. **Access IAM Service**
+   - From the AWS Services menu or search bar, the user selects **IAM (Identity and Access Management)**.
+
+3. **Navigate via Sidebar**
+   - In the IAM dashboard’s left-hand sidebar:
+     - Click on **Access management**
+     - Then select **User groups** (highlighted in the image)
+
+
+### User Group Creation 
+
+Two groups— **Interns** and **Project-Team** initially created:
+
+1. **(Optional) Attach Permissions**
+   - These groups currently show “Permissions: Not defined,” meaning no policies were attached during creation.
+
+2. **Add Users to Group**
+   - Users were added during or after creation:
+     - `Interns`: 2 users
+     - `Project-Team`: 4 users
+
+3. **Review and Confirm**
+   - Final confirmation creates the group and logs the creation time (visible in the image).
 
 
