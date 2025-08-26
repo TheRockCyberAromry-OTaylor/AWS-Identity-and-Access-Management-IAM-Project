@@ -199,4 +199,38 @@ These are critical for hardening IAM access. Since organization's are methodical
 #### 4. **Review and Create**
 - **Action**: Clicked the **"Create user group"** button.
 - **Purpose**: Finalizes the group creation, applying the selected users and permissions.
+  
+
+<img src="https://i.imgur.com/9khoFof.png" height="100%" width="100%" />
+
+#### **1. Navigating to IAM > User Groups**
+- From the AWS Management Console, the user navigated to **IAM** via the left-hand menu.
+- Selected **“User groups”** to manage group-based access control.
+
+#### **2. Creating the “ProjectX-Team” User Group**
+- A green banner confirms successful creation of a group named **“ProjectX-Team.”**
+- This step likely involved:
+  - Clicking **“Create group”**
+  - Naming the group “ProjectX-Team”
+  - Optionally attaching policies (not shown in this view)
+    
+- Two groups now appears in the list with:
+- Users: 2 users initially assigned to the Intern Group
+- Users: 4 users assigned to the ProjectX-Team Group
+- Permissions: Not yet defined
+
+3. Access Group Details
+- The user clicks into the ProjectX-Team group to view configuration.
+- This opens a detailed view with tabs: Users, Permissions, and Access Advisor.
+  
+4. Users added to the Group “ProjectX-Team”
+- Under the Users tab, four members were added:
+- `App-Operator.John`
+- `Prod.Analyst.mike`
+-  `SalesAssoc.jane`
+-  `SecurityAnlst.Musa`
+
+ This reflect a cross-functional team composition, blending operational, analytical, sales, and security roles under the `ProjectX-Team` umbrella. This setup suggests a collaborative environment where access controls and permissions will need to be carefully tailored to support both role-specific tasks and shared project objectives.
+
+
 
