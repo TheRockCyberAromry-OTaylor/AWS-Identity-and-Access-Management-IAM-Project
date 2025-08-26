@@ -144,39 +144,38 @@ These are critical for hardening IAM access. Since organization's are methodical
   - **Roles**
   - **Policies**
 
-#### 2. **Creating the "Interns" Group**
-- In the **"Groups"** section, the user clicked **“Create group”**.
-- They entered the group name: `Interns`.
-- At this stage, they could optionally:
-  - Add users to the group.
-  - Attach permissions policies (e.g., `AmazonS3ReadOnlyAccess`, `IAMUserChangePassword`, etc.).
-- In this case, **permissions were left undefined**, likely to be configured later.
-
-#### 3. **Adding Users to the Group**
-- After group creation, the user added **2 users** to the "Interns" group.
-- This is done by selecting the group, clicking **“Add users to group”**, and choosing from existing IAM users.
-
-#### 4. **Reviewing Group Details**
-- The screenshot shows the **group summary page**, which includes:
-  - Group name: `Interns`
-  - Number of users: `2`
-  - Permissions: `Not defined`
-  - Creation date: `2 days ago`
 
 
+###  AWS IAM Snapshot: "Interns" Group Created
 
-### 🔍 Suggested Next Steps for IAM Hygiene
+The screenshot captures a moment inside the **AWS Identity and Access Management (IAM)** console, specifically under **User groups**. Here's what stands out:
 
-Since permissions are currently undefined, here’s what you might document next:
+-  **Group Name:** `Interns`  
+-  **Users in Group:** 2  
+-  **Permissions:** Not yet defined  
+-  **Created:** 2 days ago  
+-  **Signed-in User:** `CloudAdmin_User @ 9134C`  
 
-| Step | Action | Purpose |
-|------|--------|---------|
-| 1️⃣ | Attach Managed Policies | Define least-privilege access for interns (e.g., read-only to specific services) |
-| 2️⃣ | Enable MFA for Users | Strengthen login security |
-| 3️⃣ | Tag Group with Metadata | Add tags like `Environment:Training`, `Role:Intern` for audit clarity |
-| 4️⃣ | Document Group Workflow | Create a branded guide showing how interns are onboarded and offboarded |
+###  Your Next Steps: Creating Another IAM Group
 
----
+Based on your workflow, here’s how you might proceed to create a second group — perhaps for a different role like “Contractors” or “DevOps”:
 
-Would you like help drafting a visual onboarding guide for this group, maybe with icons and branded headers to match “THE ROCK CYBER ARMORY”? I can help you build out a step-by-step flow with paraphrased tooltips and accessibility notes.
+ **Navigate to IAM > User groups**  
+   From the left sidebar, click on **Groups** under **Access management**.
+
+ **Click “Create group”**  
+   This opens the group creation wizard.
+
+ **Name the Group**  
+   Choose a descriptive name (e.g., `Contractors`, `DevOps_Team`, `SecurityAuditors`).
+
+ **Add Users (Optional)**  
+   You can assign users now or skip and add them later.
+
+ **Attach Permissions Policies**  
+   Select predefined AWS policies (like `ReadOnlyAccess`, `AmazonEC2FullAccess`) or attach custom ones.
+
+ **Review and Create**  
+   Confirm your selections and click **Create group**.
+
 
