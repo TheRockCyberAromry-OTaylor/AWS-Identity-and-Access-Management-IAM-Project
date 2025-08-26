@@ -171,3 +171,32 @@ These are critical for hardening IAM access. Since organization's are methodical
    Confirm your selections and click **Create group**.
 
 
+<img src="https://i.imgur.com/U37SAco.pngg" height="100%" width="100%" />   
+
+
+
+###  Steps Taken in the AWS IAM Console
+
+### Step 1. **Name the Group**
+- Group Name: ProjectX-Team
+- This name designates a specialized administrative team, likely aligned with a specific project or initiative named "ProjectX.
+- The naming convention is concise and modular, making it easy to replicate across environments, regions, or functional domains (e.g., ProjectX-Dev, ProjectX-Security).
+- It supports scalability and clarity in IAM governance, especially when managing multiple teams with distinct roles.
+  
+#### 2. **Add Users to the Group (Optional)**
+- **Action**: Selected **another 4 out of 7** available users:
+- `App-Operator.John` – Deploying, monitoring, and managing app-level resources 
+- `Prod.Analyst.mike` - Accessing analytics tools, querying databases, generating reports from production datasets
+- `SalesAssoc.jane` - Viewing dashboards, accessing integrated resources, limited data export permissions
+- `SecurityAnlst.Musa` - Monitoring IAM activity, reviewing CloudTrail logs, managing security alerts and audits
+
+- **Purpose**: These users will inherit the permissions attached to the group or based on their functions as individual group members. This step streamlines access management by assigning policies at the group level rather than individually.
+
+#### 3. **Attach Permissions Policies (Optional)**
+- **Action**: Selected **0 policies** out of 1066 available: NO policy was attached at this stage
+- **Purpose**:Policies defines what actions group members can perform.Attaching  policies to interns should be carefully reviewed,especially if the group is meant for limited access.
+
+#### 4. **Review and Create**
+- **Action**: Clicked the **"Create user group"** button.
+- **Purpose**: Finalizes the group creation, applying the selected users and permissions.
+
