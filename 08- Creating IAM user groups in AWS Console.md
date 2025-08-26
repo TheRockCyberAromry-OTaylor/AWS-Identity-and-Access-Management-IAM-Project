@@ -39,18 +39,18 @@
 - Choose one or more IAM policies to define what the group can do.
 - Since **Policies = 0**, the admin may need to create or import policies first (e.g., `AmazonS3ReadOnlyAccess`, `AdministratorAccess`).
 
- *Tip:* You can use AWS managed policies or create custom ones tailored to your org’s needs.
+ *Tip:* You can use AWS managed policies or create custom ones tailored to your organization's needs.
 
 
 
 ### Security Considerations from the Dashboard
 
-The **Quick Links** section in the first screenshot points to:
+The **Quick Links** section points to:
 - **MFA setup**
 - **Access key management**
 - **Security credentials**
 
-These are critical for hardening IAM access. Since you're methodical about IAM onboarding, this is a great moment to:
+These are critical for hardening IAM access. Since organization's are methodical about IAM onboarding, this is a great moment to:
 - Enforce MFA for all users
 - Audit access keys and rotate them regularly
 - Set password policies (e.g., minimum length, expiration)
