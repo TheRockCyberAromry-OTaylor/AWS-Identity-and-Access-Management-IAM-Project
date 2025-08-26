@@ -87,12 +87,6 @@ These are critical for hardening IAM access. Since organization's are methodical
 <img src="https://i.imgur.com/hXDUbvT.png" height="100%" width="100%" />    
 
 
-Absolutely, Olatunji — this screenshot captures a clean and methodical IAM workflow in AWS, and it looks like you're documenting intern access provisioning. Here's a breakdown of the steps reflected in the image, tailored to the dashboard layout and the characters involved:
-
----
-
-### 🛠️ IAM Workflow Steps Reflected in the Image
-
 #### **1. Navigating to IAM > User Groups**
 - From the AWS Management Console, the user navigated to **IAM** via the left-hand menu.
 - Selected **“User groups”** to manage group-based access control.
@@ -105,16 +99,16 @@ Absolutely, Olatunji — this screenshot captures a clean and methodical IAM wor
   - Optionally attaching policies (not shown in this view)
 
 #### **3. Viewing Group Details**
-- The user clicked **“View group”** next to “Interns” to inspect its configuration.
+- The Admin clicked **“View group”** next to “Interns” to inspect its configuration.
 - The bottom panel shows the **Group Summary**, including:
   - **Group name:** Interns  
   - **Creation time:** July 18, 2023  
-  - **ARN:** `arn:aws:iam::5748:group/Interns`
+  - **ARN:** `arn:aws:iam::3743********group/Interns`
 
 #### **4. Adding Users to the Group**
 - Under the **“Users” tab**, two users were added:
-  - `Intern_Mike_Tombo`
-  - `Intern_Julie_Tombo`
+  - `Intern_Hawa.Tombo`
+  - `Intern_Julie.Tombo`
 - Each entry includes:
   - **Console access status** (likely enabled)
   - **Last activity timestamp** (useful for auditing)
@@ -124,24 +118,11 @@ Absolutely, Olatunji — this screenshot captures a clean and methodical IAM wor
   - **Permissions tab** would show attached policies (e.g., read-only access, S3 viewer, etc.)
   - **Access Advisor** helps monitor service usage for least privilege enforcement
 
----
 
-### 🔍 Notable Characters & Naming Convention
+### Notable Characters & Naming Convention
 
 - The usernames follow a clear, role-based naming pattern:  
-  `Intern_<FirstName>_Tombo`  
+  `Intern_<FirstName>.Tombo`  
   This is excellent for traceability and aligns with best practices in IAM hygiene.
 - The use of a dedicated **“Interns” group** allows centralized permission management — ideal for onboarding/offboarding workflows.
 
----
-
-### 📋 Suggested Enhancements for Documentation
-
-Since you're building branded, icon-rich guides, here are a few ideas to elevate this flow visually:
-
-- ✅ Add icons for each IAM entity (👤 Users, 👥 Groups, 🛡️ Policies)
-- 🧭 Include a sidebar map of IAM navigation paths
-- 📎 Annotate timestamps and ARNs with tooltips or callouts
-- 🔐 Highlight MFA status if relevant for interns
-
-Would you like help turning this into a visual onboarding checklist or branded guide? I can help sketch out the layout or suggest icon sets.
