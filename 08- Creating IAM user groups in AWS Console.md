@@ -132,7 +132,7 @@ These are critical for hardening IAM access. Since organization's are methodical
 <img src="https://i.imgur.com/aqOCbx8.png" height="100%" width="100%" />   
   
 ####  **Accessing the IAM Console**
-- From the AWS Management Console homepage, the user navigated to **"IAM"** under the **Security, Identity, & Compliance** section.
+- From the AWS Management Console homepage,navigate to **"IAM"** under the **Security, Identity, & Compliance** section.
 - This opens the **IAM Dashboard**, which includes navigation links like:
   - **Dashboard**
   - **Access Management**
