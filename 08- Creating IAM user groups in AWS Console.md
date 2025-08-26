@@ -266,3 +266,27 @@ Two groups— **Interns** and **Project-Team** initially created:
    - Final confirmation creates the group and logs the creation time (visible in the image).
 
 
+<img src="https://i.imgur.com/dRzMRNk.png" height="100%" width="100%" />
+
+
+
+### Steps to Create a User Group in AWS IAM
+
+#### 1. **Name the User Group**
+- **Field Entered**: `CloudAdmin`
+- This name identifies the group and reflects its purpose — likely for cloud administrators.
+
+#### 2. **Add Users to the Group (Optional)**
+- **User Selected**: `CloudAdmin_Tuss`
+-  Checkbox ticked to include this user in the group.
+
+#### 3. **Attach Permissions Policies (Optional)**
+- **Policy Selected**: `AdministratorAccess`
+  - **Type**: AWS Managed
+  - **Permissions**: Full access to all AWS services and resources
+  - This grants the group comprehensive administrative privileges.
+
+#### 4. **Finalize Group Creation**
+-  Clicked the **“Create user group”** button to complete the setup.
+
+
