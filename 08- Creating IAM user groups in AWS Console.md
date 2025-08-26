@@ -130,11 +130,8 @@ These are critical for hardening IAM access. Since organization's are methodical
 #    Create another user group for a project team called "ProjectX-Team"
 
 <img src="https://i.imgur.com/aqOCbx8.png" height="100%" width="100%" />   
-     
-
-### 🛠️ Steps Taken to Create and View the "Interns" User Group
-
-#### 1. **Accessing the IAM Console**
+  
+####  **Accessing the IAM Console**
 - From the AWS Management Console homepage, the user navigated to **"IAM"** under the **Security, Identity, & Compliance** section.
 - This opens the **IAM Dashboard**, which includes navigation links like:
   - **Dashboard**
