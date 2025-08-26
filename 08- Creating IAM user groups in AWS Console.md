@@ -220,7 +220,7 @@ These are critical for hardening IAM access. Since organization's are methodical
 - Permissions: Not yet defined
 
 3. Access Group Details
-- The user clicks into the ProjectX-Team group to view configuration.
+- Clicks into the ProjectX-Team group to view configuration settings
 - This opens a detailed view with tabs: Users, Permissions, and Access Advisor.
   
 4. Users added to the Group “ProjectX-Team”
