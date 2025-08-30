@@ -22,24 +22,24 @@
 <img src="https://i.imgur.com/Cco4Y7M.png" height="100%" width="100%" /> 
 <img src="https://i.imgur.com/gcwHV8B.png" height="100%" width="100%" /> 
 
-###  Steps Taken in the IAM Policy Configuration for S3
 
-#### 1. **Policy Effect Selection**
-- **Action:** The user toggled the policy effect to **“Allow”**.
+
+#### 4. **Policy Effect Selection**
+- **Action:** Toggle the policy effect to **“Allow”**.
 - **Purpose:** Grants the specified permissions to the IAM entity (user, group, or role).
 
-#### 2. **Permission Scope: Amazon S3**
+#### 4a. **Permission Scope: Amazon S3**
 - **Action:** Selected **Amazon S3** as the service for which permissions are being configured.
 - **Purpose:** Targets S3-specific actions like bucket and object management.
 
-#### 3. **Action Categories **
+#### 4b. **Action Categories **
 - **Action:** Expand the  three key action categories:
   - **List**
   - **Read**
   - **Write**
 - **Purpose:** To view and select granular permissions within each category.
 
-#### 4. **Granular Permission Selection**
+#### 4c. **Granular Permission Selection**
 - **Action:** Specific checkboxes under each category were selected to define access:
   - **List Actions:** e.g., `ListBucket`, `ListAllMytBucket`
   - **Read Actions:** e.g., `GetAccessPoint`, `GetBuckeLocation`,`GetAccountPublicAccessBlock`
@@ -49,7 +49,7 @@
 
 #### 5. **Resource Scope Selection**
 - **Radio Buttons: "All" vs. "Specific"**
-  - **"All"** applies the wildcard `*`, granting access to all resources for the selected actions.
+  - **"All"** applies the wildcard `*`, granting access to all resources for the selected actions.This was selected
   - **"Specific"** allows the user to define exact ARNs (Amazon Resource Names), tightening access control.
 
  **Security Implication:**  
