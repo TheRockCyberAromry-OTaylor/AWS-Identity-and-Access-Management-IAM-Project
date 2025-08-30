@@ -17,4 +17,4 @@
 - Under the **Specify permissions** section:
   - Select a service from the dropdown. In the image, **Amazon S3** is chosen.
   - This determines which AWS service the policy will apply to.
-
+  - Click next to proceed
