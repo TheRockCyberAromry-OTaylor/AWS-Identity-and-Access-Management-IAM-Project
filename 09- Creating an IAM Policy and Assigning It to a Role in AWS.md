@@ -186,7 +186,7 @@ Use scoped ARNs like  e.g `arn:aws:dms:us-east-1:123456789012:task:my-replicatio
 - **Action:** Toggle the policy effect to **“Allow”**.
 - **Purpose:** Grants the specified permissions to the IAM entity (user, group, or role).
 
-#### 4a. **Permission Scope: Amazon DMS **
+#### 4a. **Permission Scope: Amazon CloudWatch **
 - **Action:** Select **Amazon  CloudWatch** as the service for which permissions are being configured.
 -  Purpose: Grants access to CloudWatch-specific actions for retrieving metric data and listing available metrics. This policy enables users or services to monitor performance and visualize operational health without modifying dashboards or resources.
    
@@ -233,3 +233,6 @@ Use scoped ARNs like arn:aws:cloudwatch:us-east-1:123456789012:dashboard/MyApp-M
 - **Buttons:** `Cancel` and `Next`
   - Standard UI flow for discarding or advancing the permission setup.
   - Click `Next` to proceed .
+
+
+ <img src="https://i.imgur.com/rYLZ5R7.png" height="100%" width="100%" /> 
