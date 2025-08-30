@@ -75,5 +75,11 @@ Use scoped ARNs like `arn:aws:s3:::my-secure-bucket/*` to avoid accidental privi
 - **Buttons:** `Cancel` and `Next`
   - Standard UI flow for discarding or advancing the permission setup.
 
+<img src="https://i.imgur.com/5ZuxOjo.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/7vsZm1h.png" height="100%" width="100%" /> 
 
-
+#### **3. Specify Permissions**
+- Under the **Specify permissions** section:
+  - Select a service from the dropdown. In the image, **Amazon DMS** is chosen.
+  - This determines which AWS service the policy will apply to.
+  - Click next to proceed
