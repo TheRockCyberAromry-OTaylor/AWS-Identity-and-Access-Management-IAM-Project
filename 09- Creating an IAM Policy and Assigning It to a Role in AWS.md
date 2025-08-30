@@ -29,7 +29,7 @@
 - **Purpose:** Grants the specified permissions to the IAM entity (user, group, or role).
 
 #### 4a. **Permission Scope: Amazon S3**
-- **Action:** Selected **Amazon S3** as the service for which permissions are being configured.
+- **Action:** Select **Amazon S3** as the service for which permissions are being configured.
 - **Purpose:** Targets S3-specific actions like bucket and object management.
 
 #### 4b. **Action Categories **
