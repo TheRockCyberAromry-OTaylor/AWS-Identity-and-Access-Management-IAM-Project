@@ -74,6 +74,9 @@ Use scoped ARNs like `arn:aws:s3:::my-secure-bucket/*` to avoid accidental privi
 #### 8. **Navigation Controls**
 - **Buttons:** `Cancel` and `Next`
   - Standard UI flow for discarding or advancing the permission setup.
+    
+ # Add and sprecify DMS (Database Migration Service) permissions to the policy
+
 
 <img src="https://i.imgur.com/5ZuxOjo.png" height="100%" width="100%" /> 
 <img src="https://i.imgur.com/7vsZm1h.png" height="100%" width="100%" /> 
