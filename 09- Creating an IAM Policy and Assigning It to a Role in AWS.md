@@ -334,5 +334,29 @@ This policy essentially gives the user **read-only access** to CloudWatch and DM
 
 
 
+<img src="https://i.imgur.com/LU2lY20.png" height="100%" width="100%" /> 
+
+Perfect — this screenshot confirms that your IAM policy was **successfully created** in AWS. Let’s go over the details:
+
+
+### **Top Green Banner**
+
+* **Message:**  *Policy `Policy@DataInterns001` created.*
+* This is AWS’s confirmation that the policy was created successfully and is now stored in IAM.
+* There’s also a **View policy** button that lets you see the JSON and details of this new policy.
+
+
+### **Main Section – Policies List**
+
+* **Policies (1380)** → This means the AWS account currently has **1,380 IAM policies** (including AWS-managed and customer-managed).
+* **Filter/Search** → You searched for `Policy@DataInterns001`. The system filtered the list to show only that matching policy.
+* **Policy name:**
+
+  * `Policy@DataInterns001` → This is the new **customer-managed IAM policy**.
+  * The clickable blue link lets you open it to view/edit JSON, permissions, tags, etc.
+
+
+
+
 
 
