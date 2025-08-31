@@ -355,8 +355,136 @@ Perfect — this screenshot confirms that your IAM policy was **successfully cre
   * `Policy@DataInterns001` → This is the new **customer-managed IAM policy**.
   * The clickable blue link lets you open it to view/edit JSON, permissions, tags, etc.
 
+#   Creating role to assign to the created policy  `Policy@DataInterns001`
+
+      <img src="https://i.imgur.com/qPvn7Le.jpeg" height="100%" width="100%" />
+
+## **Top Half (Existing Roles Overview)**
+
+* **On the left pane :** `IAM access Management slect Roles`
+
+* **Roles (2):**
+
+  * `AWSServiceRoleForSupport`
+  * `AWSServiceRoleForTrustedAdvisor`
+    These are **AWS Service-linked roles**, automatically created by AWS so services (Support, Trusted Advisor) can perform actions on your behalf.
+
+* **Columns:**
+
+  * **Role name** → The name of the role.
+  * **Trusted entities** → Which services/accounts can assume this role.
+  * **Last activity** → When the role was last used.
+
+* **Actions:**
+
+  * **Create role (orange button)** → Starts the process of creating a new IAM role. Clicke on it
+  * **Delete** → Option to delete selected roles (with restrictions).
+
+
+## **Bottom Half (Creating a Role – Step 1: Select Trusted Entity)**
+
+### **Trusted entity type options**
+
+This determines **who/what can assume the role**:
+
+1. **AWS service** → Lets AWS services (like EC2, Lambda) assume the role.
+2. **AWS account ( is selected)** → Allows users, roles, or services in **your AWS account or another AWS account** to assume the role.
+3. **Web identity** → Lets federated users sign in via identity providers (like Google, Amazon, Facebook, Cognito).
+4. **SAML 2.0 federation** → For enterprise single sign-on using SAML identity providers.
+5. **Custom trust policy** → Lets you manually define the trust policy JSON.
 
 
 
 
+* **AWS account option selected** → Meaning this role can be assumed by entities in your own AWS account (`3743********`) or optionally another AWS account.
 
+* **Options:**
+
+  * **Require external ID** → Best practice when allowing third parties to assume the role (adds security).
+  * **Require MFA** → Ensures that only users with MFA enabled can assume the role.
+
+* **Buttons:**
+
+  * **Cancel** → Exit the process.
+  * **Next** (yellow) → Proceed to **Step 2: Add permissions**, where you attach policies (like the `Policy@DataInterns001` you just created).
+
+
+
+<img src="https://i.imgur.com/3O0wKSO.jpeg" height="100%" width="100%" /> 
+
+
+###  **Step 2: Add Permissions**
+This section is where you attach policies to the IAM role:
+
+- **Policy Selected**: `Policy@DataInterns001`  
+  - Type: *Customer managed*
+  - Description: *Empty* — consider adding a short summary for clarity in future documentation.
+- **Filter Applied**: *Customer managed*  
+  - This narrows the list to only policies created and managed within your account.
+- **Visual Cue**: The dark mode interface enhances contrast, which could be useful for accessibility screenshots in your guides.
+
+
+
+###  **Step 3: Name, Review, and Create**
+This is the final checkpoint before role creation:
+
+- **Role Name**: `Policy@DataInterns0011`  
+  - Matches the policy name, suggesting a naming convention — possibly part of your branded “Cyber Armory” theme.
+- **Description**: *Empty*  
+  - AWS allows up to **64 characters**, including `+=,.@-` — a good reminder to include this in onboarding checklists.
+- **Validation Note**: AWS enforces character limits and allowed symbols, which is useful to highlight in your permission hygiene documentation.
+
+<img src="https://i.imgur.com/IxnzcUF.jpeg" height="100%" width="100%" /> 
+
+
+
+###  **Step 1: Select Trusted Entities**
+This is where the trust relationship is defined — essentially, who can assume the role.
+
+- **Trust Policy (JSON)**:
+  ```json
+  {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Principal": {
+          "Service": "ec2.amazonaws.com"
+        },
+        "Action": "sts:AssumeRole"
+      }
+    ]
+  }
+  ```
+  - **Principal**: `ec2.amazonaws.com` — this means EC2 instances are allowed to assume the role.
+  - **Action**: `sts:AssumeRole` — the standard action that enables role assumption.
+  - This setup is typical for granting EC2 instances access to AWS resources via IAM roles.
+
+ *Tip for documentation*: You could visually annotate this JSON with callouts like “Who can assume?” and “What action is allowed?” to make it beginner-friendly.
+
+
+
+### **Step 2: Add Permissions**
+This section summarizes the policies that will be attached to the role.
+
+- **Permissions Policy Summary**:
+  - Columns shown: **Policy name**, **Type**, **Attached as**
+  - No policies are listed in this screenshot — possibly a placeholder or pre-attachment state.
+ *Suggestion*: Include a checklist in your guide for verifying that appropriate policies (e.g., read-only, S3 access) are attached before proceeding.
+
+
+
+###  **Step 3: Add Tags (Optional)**
+Tags help organize and manage roles across environments.
+
+- **Add Tag Button**: Prompts the user to input key-value metadata.
+  - Example tags: `Environment=Production`, `Team=Security`, `Project=CyberArmory`
+
+* **Buttons:**
+
+  * **Cancel** → Exit the process.
+  * **Previous** → To go back
+  * **Next** (yellow) → Proceed to Create the Role
+
+
+<img src="https://i.imgur.com/IxnzcUF.jpeg" height="100%" width="100%" /> 
