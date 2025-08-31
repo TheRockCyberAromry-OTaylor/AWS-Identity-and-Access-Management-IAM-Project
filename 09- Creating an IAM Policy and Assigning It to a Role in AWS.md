@@ -236,3 +236,100 @@ Use scoped ARNs like arn:aws:cloudwatch:us-east-1:123456789012:dashboard/MyApp-M
 
 
  <img src="https://i.imgur.com/rYLZ5R7.png" height="100%" width="100%" /> 
+
+ ###   Review and Create Policy Details Configuration
+
+* This is the **final step (Step 2: Review and create)** after selecting permissions in Step 1.
+
+#### **Policy Details**
+
+* **Policy name**: `Policy@DataInterns001`
+
+  * This is the chosen name for the IAM policy.
+  * AWS requires the name to be unique within the account.
+  * Allowed characters: alphanumeric plus `+=,.@-`.
+
+* **Description (optional)**:
+
+  * This field is empty 
+  * Here you can provide a short explanation about what the policy is for.
+  * Example: *“This policy grants read access to DMS and CloudWatch, and read/write to S3.”*
+  * Max length: **1,000 characters**.
+
+
+### **Top Section: Explicit Deny**
+
+* **DMS (Database Migration Service)**
+
+  * **Access level:** Limited: Write
+  * **Resource:** All resources
+  * **Request condition:** None
+
+ This means the policy **explicitly denies** the ability to perform **write operations** in AWS Database Migration Service (DMS). Explicit denies always take precedence over allows, so even if another policy grants write to DMS, this deny will block it.
+
+
+
+### **Bottom Section: Allow**
+
+This section lists the services that are allowed under this policy.
+
+1. **CloudWatch**
+
+   * **Access level:** Limited: List, Read
+   * **Resource:** All resources
+   * **Request condition:** None
+      The user can **list and read** monitoring and log data in CloudWatch but cannot write, delete, or create alarms.
+
+2. **DMS**
+
+   * **Access level:** Limited: Read
+   * **Resource:** All resources
+   * **Request condition:** None
+      The user can **read information** from AWS Database Migration Service (DMS) but cannot perform write operations. (The explicit deny above enforces this restriction more strongly.)
+
+3. **S3**
+
+   * **Access level:** Limited: List, Read, Write
+   * **Resource:** All resources
+   * **Request condition:** None
+     The user can **list, read, and write** objects in S3 buckets. This includes uploading, retrieving, and listing objects. However, it’s "limited," meaning certain admin actions like bucket policy changes may not be included.
+
+### **Key Takeaways**
+
+* **Explicit Deny on DMS Write** → User cannot perform write actions in DMS (migration tasks, modifications, etc.).
+* **Allow CloudWatch (read-only)** → User can only view metrics and logs.
+* **Allow DMS (read-only)** → User can view but not write in DMS.
+* **Allow S3 (list, read, write)** → User has moderate-level permissions in S3.
+
+This policy essentially gives the user **read-only access** to CloudWatch and DMS while giving **read/write access** to S3, with a strict **deny on DMS write** operations to prevent database migration changes.
+
+
+
+### **Section: Add tags – optional**
+
+* **Tags** are key-value pairs you can attach to AWS resources (like IAM policies, users, roles, EC2 instances, etc.).
+
+* They are **optional**, but very useful for:
+
+  * **Identification** → Example: `Owner=DataTeam`
+  * **Organization** → Example: `Department=Interns`
+  * **Cost tracking** (via AWS Cost Explorer)
+  * **Automation/Filtering** (finding resources by tag)
+
+* **Current status**:
+
+  * No tags have been added yet.
+  * You can add a new tag by clicking **Add new tag**.
+  * AWS allows up to **50 tags per resource**.
+
+
+### **Bottom Navigation Buttons**
+
+* **Cancel** → Aborts the policy creation process.
+* **Previous** → Goes back to the prior step (Review & Create).
+* **Create policy (yellow button)** → Finalizes the creation of this IAM policy with the defined permissions, name, and optional tags.
+
+
+
+
+
