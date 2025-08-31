@@ -233,11 +233,14 @@ Use scoped ARNs like arn:aws:cloudwatch:us-east-1:123456789012:dashboard/MyApp-M
 - **Buttons:** `Cancel` and `Next`
   - Standard UI flow for discarding or advancing the permission setup.
   - Click `Next` to proceed .
+ 
+
+#    ###   Review and Create Policy Details Configuration
 
 
- <img src="https://i.imgur.com/rYLZ5R7.png" height="100%" width="100%" /> 
+ <img src="https://i.imgur.com/3RHBuUc.jpeg" height="100%" width="100%" /> 
 
- ###   Review and Create Policy Details Configuration
+
 
 * This is the **final step (Step 2: Review and create)** after selecting permissions in Step 1.
 
