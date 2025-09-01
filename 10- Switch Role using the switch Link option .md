@@ -93,3 +93,35 @@
   - The console will update to reflect the new role context, including the green highlight and display name.
 
 
+<img src="https://i.imgur.com/T45nIoc.png" height="100%" width="100%" /> 
+
+
+
+### Top Right: Account Info
+- **User:** `Role@Datainterns001@3743********`currently logged into AWS as the IAM role Role@DataInterns001 in account 3743******** successfully.
+- User not acting as original user directly.Once this role assumed,permissions are limited to what Policy@DataInterns001 (attached to the role) allows.
+
+###  Region Selector
+- **Region:** `US East (N. Virginia)`  
+  This defines the AWS region where services are being accessed. It affects latency, data residency, and service availability.
+
+
+###  Center Panel: Applications & Permissions
+- **Applications (0):**  
+  No applications are currently listed under the AWS Service Catalog.
+- **Error Message:**  
+  `"Access denied to servicecatalog:ListApplications"`  
+  This means the current IAM user lacks permission to list applications via the Service Catalog API. It’s likely a missing policy or role assignment.
+- **Button:** `Diagnose with Amazon Q`  
+  This offers a diagnostic tool powered by Amazon Q to help troubleshoot permission issues—potentially useful for guided remediation.
+
+
+
+### Left Sidebar: Recently Visited Services
+- **Database Migration Service**  
+  Indicates recent work involving data migration—possibly part of a cloud modernization or lift-and-shift workflow.
+- **S3 (Simple Storage Service)**  
+  Suggests recent interaction with object storage—could be for storing logs, assets, or migration targets.
+
+
+
