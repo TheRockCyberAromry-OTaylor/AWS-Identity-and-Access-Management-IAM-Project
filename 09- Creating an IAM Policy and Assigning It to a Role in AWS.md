@@ -625,3 +625,27 @@ Buttons available: Simulate, Remove, and Add permissions → meaning the next st
 
 
 
+<img src="https://i.imgur.com/UjswBdl.jpeg" height="100%" width="100%" /> 
+
+1. **Policy Creation Confirmation**
+
+   * The green banner at the top confirms:
+      **“Policy Policy\@DataInterns002 created.”**
+
+2. **Interns Group Details**
+
+   * **User group name:** `Interns`
+   * **Creation time:** July 24, 2025, 17:46 (UTC-04:00)
+   * **ARN:** Unique Amazon Resource Name for this IAM group is displayed.
+   * This group currently has **2 users** (seen under the *Users* tab).
+
+3. **Permissions Tab**
+
+   * The newly created policy **`Policy@DataInterns002`** is listed under *Permissions policies*.
+   * This confirms that the **Interns group** has been granted the ability to **assume the role `Role@DataInterns001`**.
+
+* **Interns Group** → Has the policy allowing **`sts:AssumeRole`** into `Role@DataInterns001`.
+* **Interns Users (2 of them)** → As members of this group, they inherit this policy.
+* **Next Step Required:** The role `Role@DataInterns001` itself must have policies attached (e.g., read-only access to S3, CloudWatch logs, etc.). Otherwise, even if interns assume it, they won’t be able to do anything useful.
+
+
