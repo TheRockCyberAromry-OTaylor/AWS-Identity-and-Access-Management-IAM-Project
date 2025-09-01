@@ -518,3 +518,66 @@ Other IAM features are visible (Roles Anywhere, X.509 Standard, Temporary creden
 - Currently, no policies are attached (the table shows “No resources to display”).
 
 Buttons available: Simulate, Remove, and Add permissions → meaning the next step would be to grant this role permissions.
+
+#  Assign created role to a user or group
+
+<img src="https://i.imgur.com/4EFag0J.jpeg" height="100%" width="100%" /> 
+
+- Navigate to IAM → User Groups
+- From the AWS Console, go to IAM under Security, Identity, & Compliance.
+- In the left sidebar, select User groups under Access management.
+- Select User Group "Interns"
+- Select Add Permission
+
+- #  create a  policy so that a user group (likely “Interns”) can assume the IAM role Role@DataInterns001.
+
+<img src="https://i.imgur.com/DAB9b4H.jpeg" height="100%" width="100%" /> 
+
+
+### **What We’re Seeing**
+
+* **Service:** AWS IAM → **Create Policy** workflow.
+* **Step 1:** "Specify permissions" is selected.
+* The **Policy editor** is open in **JSON mode**.
+
+
+1. **Writing a Custom IAM Policy (in JSON):**
+
+   * The JSON policy grants permission for the action **`sts:AssumeRole`**.
+   * This allows the entity (such as a user or group) to assume a specific IAM role.
+
+2. **Policy Content (explained line by line):**
+
+   ```json
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Sid": "Statement1",
+         "Effect": "Allow",
+         "Action": [
+           "sts:AssumeRole"
+         ],
+         "Resource": [
+           "arn:aws:iam::374XXXXXXX:role/Role@DataInterns001"
+         ]
+       }
+     ]
+   }
+   ```
+
+   * `"Version": "2012-10-17"` → Standard version for IAM policies.
+   * `"Effect": "Allow"` → Grants the permission.
+   * `"Action": "sts:AssumeRole"` → Lets the principal call the `AssumeRole` action.
+   * `"Resource": "arn:aws:iam::...:role/Role@DataInterns001"` → Restricts this permission to **only the role `Role@DataInterns001`**.
+
+3. **UI Elements Noticed:**
+
+   * On the right side, it says **“Select a statement”** → you can add or edit JSON statements.
+   * At the bottom, it shows **0 errors, 0 warnings** → meaning the JSON is valid.
+   * Button **“Next”** is available to proceed to **Step 2 (Review and create)**.
+
+* Once attached, members of the “Interns” group will be able to **switch to the role** and operate under its permissions (though currently, the role itself still has no policies attached — so it needs permissions too).
+
+
+
