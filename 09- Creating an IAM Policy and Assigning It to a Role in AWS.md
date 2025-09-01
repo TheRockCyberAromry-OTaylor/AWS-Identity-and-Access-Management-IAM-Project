@@ -580,4 +580,48 @@ Buttons available: Simulate, Remove, and Add permissions → meaning the next st
 * Once attached, members of the “Interns” group will be able to **switch to the role** and operate under its permissions (though currently, the role itself still has no policies attached — so it needs permissions too).
 
 
+#   Create a custom IAM policy (Policy@DataInterns002) that allows members of the Interns group to assume the role Role@DataInterns001
+
+<img src="https://i.imgur.com/5IVIKXy.jpeg" height="100%" width="100%" /> 
+
+
+### **Step 2: Review and Create**
+
+* After defining permissions in the JSON editor,review the policy before creating it.
+
+1. **Policy name**
+
+   * Chosen name: **`Policy@DataInterns002`**
+   * This identifies the policy in IAM. The name suggests it’s tied to interns and is the second iteration (`002`).
+
+2. **Permissions defined in this policy**
+
+   * **Service:** **STS** (AWS Security Token Service)
+   * **Access level:** Limited → Write
+   * **Action Allowed:** `sts:AssumeRole`
+   * **Resource:** Restricted specifically to
+
+     ```
+     Role@DataInterns001
+     ```
+
+     This means the only thing allowed is for the entity with this policy to assume the IAM role `Role@DataInterns001`.
+
+3. **Request conditions**
+
+   * None have been set → So there are no restrictions like MFA enforcement, source IP limits, or tag-based conditions.
+
+
+### **Final Step**
+
+* At the bottom, the **“Create policy”** button is highlighted.
+* Once clicked,the policy will be created and can be **attached to a user, group, or another role** (in this case, likely the **Interns user group**).
+
+* Just created a custom IAM policy (`Policy@DataInterns002`) that allows members of the Interns group to **assume the role `Role@DataInterns001`**.
+* This fits into a **two-step access control system**:
+
+  1. **Interns Group** → gets the AssumeRole policy (so they can switch into the role).
+  2. **Role\@DataInterns001** → will need its own permissions (e.g., read-only access to S3, CloudWatch logs, etc.) to define what interns can actually do once they assume it.
+
+
 
