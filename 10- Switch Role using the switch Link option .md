@@ -5,7 +5,7 @@
 ### **1. IAM Roles Section (Left Sidebar Highlighted)**
 
 * The **“Roles”** menu item in the IAM sidebar is highlighted.
-* This shows the user Data-Interns@Hawa.Tombo has logged-i and  **navigated specifically into the Roles section** of IAM.
+* This shows the user Data-Interns@Hawa.Tombo has logged-in and  **navigated specifically into the Roles section** of IAM.
 
   * Roles are central to this setup. Instead of attaching policies directly to interns (users), access is being **delegated via an IAM role**.
   * This aligns with AWS best practice: *grant permissions to roles, then let users/groups assume them*.
@@ -61,5 +61,35 @@
 
 5. **Attach Policy to Role.**
 
-   * `Policy@DataInterns001` defines what interns can do after assuming the role.
+
+#  Steps Taken in the AWS "Switch Role" Interface
+
+<img src="https://i.imgur.com/heWQjYU.png" height="100%" width="100%" /> 
+
+ 
+#### 1. **Navigating to the Role Switch URL**
+- The user accesses a direct URL for switching roles:  `https://signin.aws.amazon.com/switchrole?...` pasted in a browser
+- This URL is often bookmarked or shared internally to streamline access to specific roles.
+
+#### 2. **Entering the Target Account ID**
+- **Field:** `Account ID`  
+  - The user inputs the AWS account ID they want to switch into.  
+  - In the image, it begins with `3743********` suggesting a truncated or partially redacted value for privacy.
+
+#### 3. **Specifying the IAM Role Name**
+- **Field:** `IAM role name`  
+  - The user enters `Role@Datainterns001`, which is likely a predefined IAM role in the target account.  
+  - This role governs what permissions the user will have once switched.
+
+#### 4. **Customizing the Role Display**
+- **Field:** `Display name - optional`  
+  - The user repeats `Role@Datainterns001` here, which will appear in the AWS console header once the role is assumed.
+- **Field:** `Display color - optional`  
+  - The user selects **Green**, which helps visually distinguish this role from others in the console UI.
+
+#### 5. **Executing the Role Switch**
+- **Button:** `Switch Role`  
+  - Clicking this submits the form and transitions the user into the specified role.  
+  - The console will update to reflect the new role context, including the green highlight and display name.
+
 
