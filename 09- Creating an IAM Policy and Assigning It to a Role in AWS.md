@@ -487,4 +487,34 @@ Tags help organize and manage roles across environments.
   * **Next** (yellow) → Proceed to Create the Role
 
 
-<img src="https://i.imgur.com/IxnzcUF.jpeg" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/9Ya1VuV.jpeg" height="100%" width="100%" /> 
+
+
+
+
+ This is the AWS IAM (Identity and Access Management) console 
+
+- A new IAM role has been successfully created.see the green banner  “Role Role@DataInterns001 created.”
+
+-  Select the Roles section from the left-hand sidebar.
+    - In the Roles section, the search bar shows Role@DataInterns001, and the console confirms 1 match.
+
+- The role is associated with a specific AWS account (3743*******) as a trusted entity.
+
+Other IAM features are visible (Roles Anywhere, X.509 Standard, Temporary credentials), but they weren’t acted on in this step — just informational.
+
+  ##  Role Details Viewed:
+
+
+
+- The ARN (Amazon Resource Name) for the role is shown.
+
+- A console link to switch to this role is displayed (used by users in the AWS Management Console to assume this role).
+
+- Maximum session duration is set to 1 hour.
+
+- Permissions Policies Section:
+
+- Currently, no policies are attached (the table shows “No resources to display”).
+
+Buttons available: Simulate, Remove, and Add permissions → meaning the next step would be to grant this role permissions.
