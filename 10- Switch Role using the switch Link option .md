@@ -68,7 +68,7 @@
 
  
 #### 1. **Navigating to the Role Switch URL**
-- The user accesses a direct URL for switching roles:  `https://signin.aws.amazon.com/switchrole?...` pasted in a browser
+- The user accesses a direct URL for switching roles:  `https://signin.aws.amazon.com/switchrole?...` pasted in a browser(coppied earlier)
 - This URL is often bookmarked or shared internally to streamline access to specific roles.
 
 #### 2. **Entering the Target Account ID**
