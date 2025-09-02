@@ -238,7 +238,7 @@ Use scoped ARNs like arn:aws:cloudwatch:us-east-1:123456789012:dashboard/MyApp-M
 #    ###   Review and Create Policy Details Configuration
 
 
- <img src="https://i.imgur.com/3RHBuUc.jpeg" height="100%" width="100%" /> 
+ <img src="https://i.imgur.com/3RHBuUc.png" height="100%" width="100%" /> 
 
 
 
