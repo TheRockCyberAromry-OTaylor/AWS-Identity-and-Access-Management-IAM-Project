@@ -493,7 +493,7 @@ Tags help organize and manage roles across environments.
 <img src="https://i.imgur.com/9Ya1VuV.jpeg" height="100%" width="100%" /> 
 
 
-
+<img src="https://i.imgur.com/QF5D5JY.jpeg" height="100%" width="100%" /> 
 
  This is the AWS IAM (Identity and Access Management) console 
 
