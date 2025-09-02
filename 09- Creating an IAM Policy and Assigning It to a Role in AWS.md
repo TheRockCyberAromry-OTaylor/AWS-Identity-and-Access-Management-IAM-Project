@@ -1,6 +1,9 @@
 
 <img src="https://i.imgur.com/eOuf9LD.png" height="100%" width="100%" /> 
 
+<img src="https://i.imgur.com/Cco4Y7M.png" height="100%" width="100%" /> 
+
+<img src="https://i.imgur.com/gcwHV8B.png" height="100%" width="100%" /> 
 
 ###  Steps in Creating an IAM Policy via (Visual Editor Flow)
 
@@ -18,14 +21,6 @@
   - Select a service from the dropdown. In the image, **Amazon S3** is chosen.
   - This determines which AWS service the policy will apply to.
   - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
-
-
-<img src="https://i.imgur.com/Cco4Y7M.png" height="100%" width="100%" /> 
-
-
-<img src="https://i.imgur.com/gcwHV8B.png" height="100%" width="100%" /> 
-
-
 
 #### 4. **Policy Effect Selection**
 - **Action:** Toggle the policy effect to **“Allow”**.
@@ -77,9 +72,9 @@ Use scoped ARNs like `arn:aws:s3:::my-secure-bucket/*` to avoid accidental privi
 #### 8. **Navigation Controls**
 - **Buttons:** `Cancel` and `Next`
   - Standard UI flow for discarding or advancing the permission setup.
-  - Click `Next` to proceed .
+  - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
     
- # Add and sprecify DMS (Database Migration Service) permissions to the policy
+ # Add permissions to sprecify  access to  specific DMS (Database Migration Service) resources
 
 
 <img src="https://i.imgur.com/5ZuxOjo.png" height="100%" width="100%" /> 
@@ -155,34 +150,31 @@ Use scoped ARNs like  e.g `arn:aws:dms:us-east-1:123456789012:task:my-replicatio
 #### 8. **Navigation Controls**
 - **Buttons:** `Cancel` and `Next`
   - Standard UI flow for discarding or advancing the permission setup.
-  - Click `Next` to proceed .
+  - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
 
 
-
-
+# Add permissions to sprecify  access to  specific ClousWatch resources
 
  <img src="https://i.imgur.com/rYLZ5R7.png" height="100%" width="100%" /> 
 <img src="https://i.imgur.com/6aaf6Vg.png" height="100%" width="100%" /> 
 
-# Add and sprecify ClousWatch permissions to the policy
 
 
-###  Steps Reflected in the Image: Creating a DMS-Focused IAM Policy
 
 #### 1. **Navigating to the Policy Creation Interface**
 - The user is in the **IAM > Policies** section of the AWS Management Console.
 - They’ve clicked **“Create policy”**, launching the policy editor in **Visual mode** (not JSON).
 
 #### 2. **Choosing the Service:  CloudWatch**
-- Under **“Specify permissions”**,Select **DMS (Database Migration Service)** from the service list.
-- This filters available actions and resources to those relevant to DMS.
+- Under **“Specify permissions”**,Select **CloudWatch** from the service list.
+- This filters available actions and resources to those relevant to CloudWatch.
 
 
 #### **3. Specify Permissions**
 - Under the **Specify permissions** section:
   - Select a service from the dropdown. In the image, **Amazon  CloudWatch** is chosen.
   - This determines which AWS service the policy will apply to.
-  - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
+    
 
 
 #### 4. **Policy Effect Selection**
