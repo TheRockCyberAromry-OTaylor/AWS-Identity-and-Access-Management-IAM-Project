@@ -427,7 +427,7 @@ This is the final checkpoint before role creation:
   - AWS allows up to **64 characters**, including `+=,.@-` — a good reminder to include this in onboarding checklists.
 - **Validation Note**: AWS enforces character limits and allowed symbols, which is useful to highlight in your permission hygiene documentation.
 
-<img src="https://i.imgur.com/IxnzcUF.jpeg" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/J5OqGyh.jpeg" height="100%" width="100%" /> 
 
 
 ###  **Step 1: Select Trusted Entities**
@@ -450,6 +450,8 @@ This is where the trust relationship is defined — essentially, who can assume 
     }
   ]
 }
+
+```
 
 1. **`"Version": "2012-10-17"`**
 
@@ -559,7 +561,10 @@ Buttons available: Simulate, Remove, and Add permissions → meaning the next st
 
 2. **Policy Content (explained line by line):**
 
-   ```json
+
+
+
+    ```json
    {
      "Version": "2012-10-17",
      "Statement": [
