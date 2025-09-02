@@ -17,7 +17,8 @@
 - Under the **Specify permissions** section:
   - Select a service from the dropdown. In the image, **Amazon S3** is chosen.
   - This determines which AWS service the policy will apply to.
-  - Click next to proceed
+  - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
+
 
 <img src="https://i.imgur.com/Cco4Y7M.png" height="100%" width="100%" /> 
 <img src="https://i.imgur.com/gcwHV8B.png" height="100%" width="100%" /> 
@@ -99,7 +100,7 @@ Use scoped ARNs like `arn:aws:s3:::my-secure-bucket/*` to avoid accidental privi
 - Under the **Specify permissions** section:
   - Select a service from the dropdown. In the image, **Amazon DMS** is chosen.
   - This determines which AWS service the policy will apply to.
-  - Click next to proceed
+  - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
 
 
 #### 4. **Policy Effect Selection**
@@ -179,7 +180,7 @@ Use scoped ARNs like  e.g `arn:aws:dms:us-east-1:123456789012:task:my-replicatio
 - Under the **Specify permissions** section:
   - Select a service from the dropdown. In the image, **Amazon  CloudWatch** is chosen.
   - This determines which AWS service the policy will apply to.
-  - Click next to proceed
+  - Click Add More Permission - proceed to attach additional policies.Each policy adds new capabilities (e.g., access to S3, EC2, Lambda etc).
 
 
 #### 4. **Policy Effect Selection**
