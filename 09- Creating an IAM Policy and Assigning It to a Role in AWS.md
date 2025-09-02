@@ -357,7 +357,9 @@ Perfect — this screenshot confirms that your IAM policy was **successfully cre
 
 #   Creating role to assign to the created policy  `Policy@DataInterns001`
 
-   <img src="https://imgur.com/qPvn7Le" height="100%" width="100%" /> 
+
+   <img src="https://i.imgur.com/qPvn7Le.jpeg" height="100%" width="100%" /> 
+   
 
 
 ## **Top Half (Existing Roles Overview)**
