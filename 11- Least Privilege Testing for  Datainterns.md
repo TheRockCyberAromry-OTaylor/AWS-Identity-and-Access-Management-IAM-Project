@@ -77,4 +77,17 @@ Specifically:
 
 - Most likely: The IAM user lacks the cloudwatch:DescribeAlarms permission.
  
- 
+
+## `Data-Interns@Hawa.Tombo` Assume the role  Role@DataInterns001 @ 3743******** to view existing buckets
+
+ <img src="https://i.imgur.com/KHtenp4.jpeg" height="100%" width="100%" />  
+
+ User logged in with Role@DataInterns001 in AWS account 3743********.
+
+- Opened the Amazon S3 service.
+
+- Navigated to General Purpose Buckets view.
+
+- Viewed the list of buckets → only one bucket (olatunji28bucket) is present in us-east-1.
+
+- Console shows extra insights (Storage Lens, External Access Summary) for visibility into usage and security.
