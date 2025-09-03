@@ -41,12 +41,40 @@
 
 - Dashboard displayed zero resources and error messages instead of monitoring data.
  
+ ### Possible Causes of the Error
+
+ The **possible cause of the error** is that the IAM user **`Data-Interns@Hawa.Tombo`** does not have the necessary **permissions** in their IAM policy.
+
+Specifically:
+
+* Missing **`dms:DescribeReplicationTasks`** → prevents DMS from showing replication tasks and endpoints.
+* Missing **`cloudwatch:DescribeAlarms`** → prevents CloudWatch alarms from being retrieved.
+
+ In short: The error happens because the user’s IAM policy is too restrictive and does not include the required **read-only permissions** for **DMS** and **CloudWatch monitoring**.
+
+
  
+    
+ <img src=" https://i.imgur.com/wi2F4xg.jpeg" height="100%" width="100%" />                                                                       
  
+- User Data-Interns@Hawa.Tombo opened the CloudWatch service.
+
+- Console attempted to fetch alarms using cloudwatch:DescribeAlarms.
+
+- The IAM user lacked that permission, so the request was denied.
+
+- Dashboard showed a red error banner and no alarm data.
  
- 
- 
- 
- 
+ ### Possible Causes of the Error
+
+- Missing cloudwatch:DescribeAlarms in the user’s IAM policy.
+
+- Policy or Service Control Policy (SCP) explicitly denying CloudWatch.
+
+- User logged in directly instead of assuming a role with proper permissions.
+
+- Region mismatch (alarms exist in another AWS region).
+
+- Most likely: The IAM user lacks the cloudwatch:DescribeAlarms permission.
  
  
