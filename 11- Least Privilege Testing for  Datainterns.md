@@ -47,15 +47,15 @@
 
 Specifically:
 
-* Missing **`dms:DescribeReplicationTasks`** → prevents DMS from showing replication tasks and endpoints.
-* Missing **`cloudwatch:DescribeAlarms`** → prevents CloudWatch alarms from being retrieved.
+* Missing **`dms:DescribeReplicationTasks`** : prevents DMS from showing replication tasks and endpoints.
+* Missing **`cloudwatch:DescribeAlarms`** : prevents CloudWatch alarms from being retrieved.
 
  In short: The error happens because the user’s IAM policy is too restrictive and does not include the required **read-only permissions** for **DMS** and **CloudWatch monitoring**.
 
 
  
     
- <img src=" https://i.imgur.com/wi2F4xg.jpeg" height="100%" width="100%" />                                                                       
+ <img src="https://i.imgur.com/wi2F4xg.jpeg" height="100%" width="100%" />                                                                       
  
 - User Data-Interns@Hawa.Tombo opened the CloudWatch service.
 
