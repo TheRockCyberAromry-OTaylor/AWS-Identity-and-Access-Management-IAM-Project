@@ -42,10 +42,6 @@
 - Console shows extra insights (Storage Lens, External Access Summary) for visibility into usage and security.
 
 
-Perfect — now let’s **redo the comparison** while considering that the IAM **policy `Policy@DataInterns001`** is attached to the **role `Role@DataInterns001`**.
-
----
-
 ## **Scenario 1: IAM User `Data-Interns@Hawa.Tombo`**
 
 * **Login Identity:** Direct IAM **user account**.
@@ -56,7 +52,6 @@ Perfect — now let’s **redo the comparison** while considering that the IAM *
 * **Result:** Access Denied when attempting to view S3 buckets.
 * **Priority Level:** **Low** — restricted intern-level access, least privilege enforced.
 
----
 
 ## **Scenario 2: IAM Role `Role@DataInterns001` (with `Policy@DataInterns001` attached)**
 
