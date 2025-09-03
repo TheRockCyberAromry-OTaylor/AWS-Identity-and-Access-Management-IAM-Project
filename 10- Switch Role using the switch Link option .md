@@ -16,9 +16,9 @@
 
 ### **3. Validate that `Role@DataInterns001` has  policy or policies attached to it**
 
-   * Click on permissions to verify if policy or policies was  attached to the  selected `Role@DataInterns001`
-    * The purpose of clicking on **Permissions** for `Role@DataInterns001` is to **confirm that the correct policies are attached**.
-    * This ensures the role has the intended access, supports  least privilege,and  prevents misconfigurations.
+   * Click on permissions to verify if policy or policies was  attached to the  selected `Role@DataInterns001` ``
+     * The purpose of clicking on **Permissions** for `Role@DataInterns001` is to **confirm that the correct policies are attached**.
+     * This ensures the role has the intended access, supports  least privilege,and  prevents misconfigurations.
 
 
 ### **4. Switch Role Link (Middle Right – Red Box & Arrow)**
