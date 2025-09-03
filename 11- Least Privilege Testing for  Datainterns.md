@@ -20,9 +20,9 @@
 
 ### Possible Causes of the Error
 
-- **IAM Policy Restrictions**: The signed-in user might not have `s3:ListBucket` or `s3:GetBucketLocation` permissions.
+- **IAM Policy Restrictions**: The signed-in user `Data-Interns@Hawa.Tombo` might not have `s3:ListBucket` or `s3:GetBucketLocation` permissions.
 - **Bucket-Level Permissions**: The bucket may have a restrictive bucket policy or ACL that blocks access.
-- ** Bucket Policy Denial**  The bucket policy may contain a `Deny` statement or fail to include an `Allow` for the requesting principal
+- **Bucket Policy Denial**  The bucket policy may contain a `Deny` statement or fail to include an `Allow` for the requesting principal
 - **Cross-Account Access**: If the bucket belongs to another AWS account, proper trust relationships or resource policies may be missing.
 - **Service Control Policies (SCPs)**: If using AWS Organizations, SCPs might be limiting access.
 
