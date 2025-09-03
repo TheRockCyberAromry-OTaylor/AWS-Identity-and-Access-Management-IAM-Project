@@ -93,13 +93,6 @@
 
 
 
-
-
-
-
-
-
- 
  <img src="https://i.imgur.com/DPBgcOX.jpeg" height="100%" width="100%" /> 
 
 - User logged in as Data-Interns@Hawa.Tombo.
@@ -124,9 +117,104 @@ Specifically:
  In short: The error happens because the user’s IAM policy is too restrictive and does not include the required **read-only permissions** for **DMS** and **CloudWatch monitoring**.
 
 
+ <img src="https://i.imgur.com/i0u1Jha.jpeg" height="100%" width="100%" />  
+
+
+
+* User logged in with **Role\@DataInterns001** in AWS account `3743********`.
+* Navigated to **AWS DMS → Enhanced Monitoring** in the Ohio region.
+* Dashboard showed **0 tasks, 0 replication instances, 0 endpoints, 0 serverless replications**.
+* **CloudWatch alarms** panel showed none configured or active.
+* **Service health** confirmed DMS was operating normally in the region.
+* **Task monitoring tab** was selected with filters available (task type, time range, tags).
+* IAM policy attached to the role allowed read-only access to **DMS monitoring data** and **CloudWatch alarms**.
+
+
+
+### **Scenario 1:** Login as **[Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo)** (direct IAM user)
+
+* **Action**: Navigated to **AWS DMS → Enhanced Monitoring**.
+* **Result**: Console attempted to fetch replication tasks, endpoints, and CloudWatch alarms.
+* **Error**: Failed to retrieve data due to **missing IAM permissions** (e.g., `dms:DescribeReplicationTasks`, `cloudwatch:DescribeAlarms`).
+* **Outcome**: Dashboard displayed **zero resources with error messages**.
+* **Reason**: The IAM user’s **policy was too restrictive** and lacked even basic read-only monitoring permissions.
+
+---
+
+### Scenario 2**: Login with **Role\@DataInterns001** (role assumed with Policy\@Datainterns001)
+
+* **Action**: Navigated to **AWS DMS → Enhanced Monitoring** 
+* **Result**: Dashboard loaded successfully without errors.
+* **Observations**: Displayed **0 tasks, 0 replication instances, 0 endpoints, 0 serverless replications** (because none existed).
+* **CloudWatch Alarms**: No alarms configured, but the panel loaded correctly.
+* **Service Health**: Showed **“Service operating normally”**.
+* **Reason**: The attached **Policy\@Datainterns001** granted **read-only monitoring permissions**, allowing access to DMS and CloudWatch data without errors.
+
+
+ **Comparison Summary**:
+
+* The **IAM user ([Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo))** session failed because its inline/attached policies were too restrictive.
+* The **role-based session (Role\@DataInterns001 with Policy\@Datainterns001)** succeeded because the role had the correct read-only permissions for **DMS monitoring** and **CloudWatch alarms**.
+
+
+
+## **Comparison: IAM User vs. IAM Role (with Policy\@DataInterns001)**
+
+| **Aspect**                        | **Login as [Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo) (IAM User)**    | **Login with Role\@DataInterns001 (Role + Policy\@Datainterns001)**       |
+| --------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| **Login Identity**                | Direct IAM user: `Data-Interns@Hawa.Tombo`                                           | Assumed role: `Role@DataInterns001` with attached `Policy@Datainterns001` |
+| **Service Accessed**              | AWS DMS → Enhanced Monitoring                                                        | AWS DMS → Enhanced Monitoring                                             |
+| **Dashboard Behavior**            | Failed to load monitoring data                                                       | Loaded successfully                                                       |
+| **Replication Tasks / Endpoints** | Not retrieved (permissions missing)                                                  | Retrieved (0 tasks, 0 endpoints shown)                                    |
+| **CloudWatch Alarms**             | Error: `cloudwatch:DescribeAlarms` missing                                           | Panel loaded correctly (0 alarms configured)                              |
+| **Service Health**                | Not visible due to errors                                                            | Visible: "Service operating normally"                                     |
+| **IAM Permissions**               | Too restrictive, missing `dms:DescribeReplicationTasks`, `cloudwatch:DescribeAlarms` | Policy granted read-only permissions for DMS + CloudWatch monitoring      |
+| **Outcome**                       | Errors displayed, dashboard unusable                                                 | No errors, dashboard functional (but no resources provisioned yet)        |
+
+
+
+**Key takeaway**:
+
+* **IAM user login** failed because it lacked monitoring permissions.
+* **Role-based login with Policy\@Datainterns001** worked because the role had proper read-only access.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
     
- <img src="https://i.imgur.com/wi2F4xg.jpeg" height="100%" width="100%" />                                                                       
+ <img src="https://i.imgur.com/wi2F4xg.jpeg" height="100%" width="100%" />  
+ 
  
 - User Data-Interns@Hawa.Tombo opened the CloudWatch service.
 
