@@ -19,7 +19,7 @@
    * Click on permissions to verify if policy or policies was  attached to the  selected `Role@DataInterns001` 
      * The purpose of clicking on **Permissions** for `Role@DataInterns001` is to **confirm that the correct policies are attached**.
      * This ensures the role has the intended access, supports  least privilege,and  prevents misconfigurations.
-
+     * It shows that `Role@DataInterns001` has a policy `Policy@DataInterns001` being attached.
 
 ### **4. Switch Role Link (Middle Right – Red Box & Arrow)**
 * Inside the details of `Role@DataInterns001`, the **“Link to switch roles in console”** is highlighted.
