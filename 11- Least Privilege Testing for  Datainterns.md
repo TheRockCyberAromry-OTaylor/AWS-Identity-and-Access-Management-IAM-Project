@@ -29,9 +29,17 @@
 
 
  
- 
- 
- 
+ <img src="https://i.imgur.com/DPBgcOX.jpeg" height="100%" width="100%" /> 
+
+- User logged in as Data-Interns@Hawa.Tombo.
+
+- Navigated to AWS DMS → Enhanced Monitoring.
+
+- Console attempted to fetch replication tasks, endpoints, and alarms.
+
+- User lacked required IAM permissions (dms:DescribeReplicationTasks, cloudwatch:DescribeAlarms), causing failures.
+
+- Dashboard displayed zero resources and error messages instead of monitoring data.
  
  
  
