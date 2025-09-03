@@ -237,16 +237,37 @@ Specifically:
 - Most likely: The IAM user lacks the cloudwatch:DescribeAlarms permission.
  
 
-## `Data-Interns@Hawa.Tombo` Assume the role  Role@DataInterns001 @ 3743******** to view existing buckets
+                                                                                  ## `Data-Interns@Hawa.Tombo` Assume the role  Role@DataInterns001 @ 3743******** to view existing buckets
 
- <img src="https://i.imgur.com/KHtenp4.jpeg" height="100%" width="100%" />  
+ <img src="https://i.imgur.com/EUSoUau.jpeg" height="100%" width="100%" />  
 
- User logged in with Role@DataInterns001 in AWS account 3743********.
 
-- Opened the Amazon S3 service.
+Here’s the summary of the CloudWatch image details:
 
-- Navigated to General Purpose Buckets view.
+* User logged in with **Role\@DataInterns001** in Ohio region.
+* Opened **CloudWatch Overview dashboard** → no alarms, metrics, or dashboards configured.
+* Options shown: **Create alarms**, **Create a default dashboard**, **View logs**, **View events**.
+* Observability solutions offered for quick monitoring setup.
+* Navigation sidebar shows access to **Dashboards, AI Operations, Alarms, Logs**.
+* Unlike earlier IAM user case, this role has permissions to view and configure CloudWatch features.
 
-- Viewed the list of buckets → only one bucket (olatunji28bucket) is present in us-east-1.
+Here’s a clear **comparison table** of the two CloudWatch access scenarios, taking into account that **Policy\@Datainterns001** was attached to **Role\@DataInterns001**:
 
-- Console shows extra insights (Storage Lens, External Access Summary) for visibility into usage and security.
+| **Aspect**           | **IAM User: [Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo)**             | **IAM Role: Role\@DataInterns001 (with Policy\@Datainterns001)**                    |
+| -------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Login Identity**   | Logged in as IAM user **[Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo)** | Assumed IAM role **Role\@DataInterns001**                                           |
+| **Service Accessed** | CloudWatch → Alarms                                                                 | CloudWatch → Overview Dashboard                                                     |
+| **Action Attempted** | `cloudwatch:DescribeAlarms` to fetch alarm data                                     | Viewed Overview dashboard, logs, events, and setup options                          |
+| **Permissions**      | Missing `cloudwatch:DescribeAlarms` → request denied                                | Granted read-only + setup permissions by **Policy\@Datainterns001**                 |
+| **Console Result**   | Red error banner: “Failed to retrieve alarms” → no data displayed                   | Dashboard loaded normally, showing options for alarms, dashboards, logs, and events |
+| **Error Cause**      | IAM user’s policy too restrictive (no CloudWatch read permissions)                  | Policy attached to role allowed viewing and configuring CloudWatch features         |
+| **Outcome**          | No access to alarms or monitoring data                                              | Full visibility to CloudWatch features (though no alarms configured yet)            |
+
+👉 **Key Difference:**
+
+* **User [Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo)** was blocked due to **insufficient IAM permissions**.
+* **Role\@DataInterns001 with Policy\@DataInterns001** provided proper access, so the dashboard loaded without errors.
+
+Would you like me to also **map out the exact permissions in Policy\@DataInterns001** that enabled the role to succeed where the user failed?
+
+
