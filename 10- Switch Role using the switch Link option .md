@@ -1,25 +1,20 @@
 # Group users assuming roles
 
 <img src="https://i.imgur.com/z1b0hbr.jpeg" height="100%" width="100%" /> 
-
-### **1. IAM Roles Section (Left Sidebar Highlighted)**
-
-* The **“Roles”** menu item in the IAM sidebar is highlighted.
-* This shows the user Data-Interns@Hawa.Tombo has logged-in and  **navigated specifically into the Roles section** of IAM.
-
+### **1. Navigate to IAM → Roles(sidebar highlighted).**
+* User Data-Interns@Hawa.Tombo logged-in   
+  * In the left Sidebar **navigated specifically into the Roles section** of IAM
   * Roles are central to this setup. Instead of attaching policies directly to interns (users), access is being **delegated via an IAM role**.
   * This aligns with AWS best practice: *grant permissions to roles, then let users/groups assume them*.
+  * 
 
 ### **2. Role Selection in Roles List (Top Half – Red Box & Arrow)**
-
-* From the list of available roles, the user selected:
-   **`Role@DataInterns001`**
+* From the list of available roles,select **`Role@DataInterns001`**
 * Other roles (like `AWSServiceRoleForSupport` and `AWSServiceRoleForTrustedAdvisor`) are AWS service-linked roles, not for human users.
 * **Action taken here:** Explicitly opened `Role@DataInterns001` to manage and configure it for interns.
 
 
 ### **3. Switch Role Link (Middle Right – Red Box & Arrow)**
-
 * Inside the details of `Role@DataInterns001`, the **“Link to switch roles in console”** is highlighted.
 * This link is crucial:
 
@@ -30,36 +25,16 @@
 
 
 ### **4. Attached Policy on the Role (Bottom Half – Red Box & Arrow)**
-
 * The **Permissions policies** section shows `Policy@DataInterns001` is attached to the role.
-* This is a **customer-managed policy**, not AWS-managed → meaning it was manually created to define what this role can do.
+* This is a **customer-managed policy**, not AWS-managed - meaning it was manually created to define what this role can do.
 * **Significance:**
 
   * Without this policy, the role would exist but be powerless.
   * By attaching `Policy@DataInterns001`, the admin ensures that once interns assume the role, they inherit its permissions.
 
-
+5. **Attach Policy to Role.**
 
 ## **Step-by-Step Flow with the Sidebar Context**
-
-1. **Navigate to IAM → Roles** (sidebar highlighted).
-
-   * This is the starting point to manage or create roles.
-
-2. **Select `Role@DataInterns001` from the roles list.**
-
-   * This is the role intended for interns.
-
-3. **Review Role Details.**
-
-   * ARN and max session duration visible.
-   * Trusted entities = AWS account itself.
-
-4. **Use/Share the Switch Role Console Link.**
-
-   * Makes it easy for interns to assume the role.
-
-5. **Attach Policy to Role.**
 
 
 #  Steps Taken in the AWS "Switch Role" Interface
@@ -68,24 +43,24 @@
 
  
 #### 1. **Navigating to the Role Switch URL**
-- The user accesses a direct URL for switching roles:  `https://signin.aws.amazon.com/switchrole?...` pasted in a browser(coppied earlier)
+- Use a direct URL for switching roles:  `https://signin.aws.amazon.com/switchrole?...` paste in a browser(coppied earlier)
 - This URL is often bookmarked or shared internally to streamline access to specific roles.
 
 #### 2. **Entering the Target Account ID**
 - **Field:** `Account ID`  
-  - The user inputs the AWS account ID they want to switch into.  
-  - In the image, it begins with `3743********` suggesting a truncated or partially redacted value for privacy.
+  - Input the AWS account ID want to switch into.  
+  - In the case, it begins with `3743********` suggesting a truncated or partially redacted value for privacy.
 
 #### 3. **Specifying the IAM Role Name**
 - **Field:** `IAM role name`  
-  - The user enters `Role@Datainterns001`, which is likely a predefined IAM role in the target account.  
+  - Enter `Role@Datainterns001`, which is likely a predefined IAM role in the target account.  
   - This role governs what permissions the user will have once switched.
 
 #### 4. **Customizing the Role Display**
 - **Field:** `Display name - optional`  
-  - The user repeats `Role@Datainterns001` here, which will appear in the AWS console header once the role is assumed.
-- **Field:** `Display color - optional`  
-  - The user selects **Green**, which helps visually distinguish this role from others in the console UI.
+  - Enter `Role@Datainterns001` here, which will appear in the AWS console header once the role is assumed.
+  - **Field:** `Display color - optional`  
+  - In this case selects **Green**, which helps visually distinguish this role from others in the console UI.
 
 #### 5. **Executing the Role Switch**
 - **Button:** `Switch Role`  
