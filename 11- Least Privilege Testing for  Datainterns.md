@@ -59,7 +59,7 @@ Specifically:
  
 - User Data-Interns@Hawa.Tombo opened the CloudWatch service.
 
-- Console attempted to fetch alarms using cloudwatch:DescribeAlarms.
+-  Data-Interns@Hawa.Tombo attempted to fetch alarms using cloudwatch:DescribeAlarms.
 
 - The IAM user lacked that permission, so the request was denied.
 
