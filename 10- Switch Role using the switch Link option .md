@@ -14,8 +14,14 @@
 * Other roles (like `AWSServiceRoleForSupport` and `AWSServiceRoleForTrustedAdvisor`) are AWS service-linked roles, not for human users.
 * **Action taken here:** Explicitly opened `Role@DataInterns001` to manage and configure it for interns.
 
+#### **3 - Validate that `Role@DataInterns001` has  policy or policies attached to it
 
-### **3. Switch Role Link (Middle Right – Red Box & Arrow)**
+   * Click on permissions to verify if policy or policies attached to the  selected `Role@DataInterns001`
+    * The purpose of clicking on **Permissions** for `Role@DataInterns001` is to **confirm that the correct policies are attached**.
+    * This ensures the role has the intended access, supports  least privilege,and  prevents misconfigurations.
+
+
+### **4. Switch Role Link (Middle Right – Red Box & Arrow)**
 * Inside the details of `Role@DataInterns001`, the **“Link to switch roles in console”** is highlighted.
 * This link is crucial:
 
@@ -25,17 +31,13 @@
 
 
 
-### **4. Attached Policy on the Role (Bottom Half – Red Box & Arrow)**
+### **5. Attached Policy on the Role (Bottom Half – Red Box & Arrow)**
 * The **Permissions policies** section shows `Policy@DataInterns001` is attached to the role.
 * This is a **customer-managed policy**, not AWS-managed - meaning it was manually created to define what this role can do.
 * **Significance:**
 
   * Without this policy, the role would exist but be powerless.
   * By attaching `Policy@DataInterns001`, the admin ensures that once interns assume the role, they inherit its permissions.
-
-5. **Attach Policy to Role.**
-
-## **Step-by-Step Flow with the Sidebar Context**
 
 
 #  Steps Taken in the AWS "Switch Role" Interface
