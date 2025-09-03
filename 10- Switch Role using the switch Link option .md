@@ -40,7 +40,7 @@
   * By attaching `Policy@DataInterns001`, the admin ensures that once interns assume the role, they inherit its permissions.
 
 
-#  Steps Taken in the AWS "Switch Role" Interface
+#   AWS "Switch Role" Interface
 
 <img src="https://i.imgur.com/heWQjYU.png" height="100%" width="100%" /> 
 
