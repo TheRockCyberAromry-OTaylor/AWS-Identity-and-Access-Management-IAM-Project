@@ -3,7 +3,7 @@
 
 
 
-1. ** User `Data-Interns@Hawa.Tombo`  logged in and Navigated to Amazon S3 Console**
+1. **User `Data-Interns@Hawa.Tombo`  logged in and Navigated to Amazon S3 Console**
    - Opened the AWS Management Console and selected **Amazon S3** from the services menu.
      
 
@@ -42,16 +42,3 @@
  
  
  
- Core Issue Highlighted
-At the heart of the image is a red error banner:
-- "Error Access Denied"
-This suggests you're trying to view or interact with a bucket or resource that your current IAM role or user lacks permission for.
-- "Diagnose with Amazon Q"
-AWS is offering a diagnostic tool (Amazon Q) to help troubleshoot the access issue—potentially guiding you through missing policies, denied actions, or misconfigured trust relationships.
-
-### **Top Reasons for S3 Access Denied**
-
-| Cause | Description |
-|------|-------------|
-| ** Missing IAM Permissions** | The IAM user or role lacks explicit `s3:ListBucket`, `s3:GetObject`, or other required actions for the bucket or object. |
-| ** Bucket Policy Denial** | The bucket policy may contain a `Deny` statement or fail to include an `Allow` for the requesting principal. |
