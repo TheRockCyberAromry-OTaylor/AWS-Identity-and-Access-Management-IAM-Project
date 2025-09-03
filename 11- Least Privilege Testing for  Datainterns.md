@@ -27,6 +27,82 @@
 - **Service Control Policies (SCPs)**: If using AWS Organizations, SCPs might be limiting access.
 
 
+## `Data-Interns@Hawa.Tombo` Assume the role  Role@DataInterns001 @ 3743******** to view existing buckets
+
+ <img src="https://i.imgur.com/KHtenp4.jpeg" height="100%" width="100%" />  
+
+ User logged in with Role@DataInterns001 in AWS account 3743********.
+
+- Opened the Amazon S3 service.
+
+- Navigated to General Purpose Buckets view.
+
+- Viewed the list of buckets → only one bucket (olatunji28bucket) is present in us-east-1.
+
+- Console shows extra insights (Storage Lens, External Access Summary) for visibility into usage and security.
+
+
+Perfect — now let’s **redo the comparison** while considering that the IAM **policy `Policy@DataInterns001`** is attached to the **role `Role@DataInterns001`**.
+
+---
+
+## **Scenario 1: IAM User `Data-Interns@Hawa.Tombo`**
+
+* **Login Identity:** Direct IAM **user account**.
+* **Access Behavior:**
+
+  * When logging in directly, the user only has **permissions explicitly attached** to their IAM user (or inherited via groups).
+  * In the earlier screenshot, the user could not list S3 buckets → means **their user account has no S3-related permissions** (missing `s3:ListAllMyBuckets` or `s3:ListBucket`).
+* **Result:** Access Denied when attempting to view S3 buckets.
+* **Priority Level:** **Low** — restricted intern-level access, least privilege enforced.
+
+---
+
+## **Scenario 2: IAM Role `Role@DataInterns001` (with `Policy@DataInterns001` attached)**
+
+* **Login Identity:** IAM **role** assumed by the user.
+* **Policy Attached:** `Policy@DataInterns001` is explicitly attached to this role.
+* **Access Behavior:**
+
+  * The permissions granted are controlled by `Policy@DataInterns001`.
+  * Since the role successfully listed and displayed the bucket `olatunji28bucket`, we know the policy **includes at least read-only S3 permissions** like:
+
+    * `s3:ListAllMyBuckets`
+    * `s3:ListBucket`
+* **Result:** User (through the role) can successfully view and access bucket metadata.
+* **Priority Level:** **Medium/High** — elevated temporary access granted by the role + policy attachment.
+
+
+## **Comparison: IAM User vs. IAM Role (with Policy\@DataInterns001)**
+
+| Aspect               | IAM User (`Data-Interns@Hawa.Tombo`) | IAM Role (`Role@DataInterns001` + `Policy@DataInterns001`) |
+| -------------------- | ------------------------------------ | ---------------------------------------------------------- |
+| **Login Type**       | Direct IAM user login                | Assumed IAM role with policy attached                      |
+| **Policy Attached**  | No S3 policy attached                | `Policy@DataInterns001` attached to role                   |
+| **Access Outcome**   | Access Denied (cannot list buckets)  | Allowed (can list and view buckets)                        |
+| **Permission Scope** | Very limited, no S3 actions granted  | Includes S3 read/list actions (defined in policy)          |
+| **Use Case**         | Everyday restricted intern access    | Temporary elevated access for specific intern tasks        |
+| **Priority Level**   | Low                                  | Higher (depends on what’s in the policy)                   |
+
+
+ **Summary:**
+
+* The **IAM user** has **no S3 permissions** by default, keeping their access minimal.
+* The **IAM role** (`Role@DataInterns001`) inherits the permissions from **`Policy@DataInterns001`**, giving them the ability to **list and view buckets**.
+* This setup enforces **separation of duties**: the user identity is locked down, but the role + attached policy allows interns to perform specific approved tasks.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
  <img src="https://i.imgur.com/DPBgcOX.jpeg" height="100%" width="100%" /> 
