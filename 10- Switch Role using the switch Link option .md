@@ -1,12 +1,13 @@
 # Group users assuming roles
 
 <img src="https://i.imgur.com/z1b0hbr.jpeg" height="100%" width="100%" /> 
+
 ### **1. Navigate to IAM → Roles(sidebar highlighted).**
 * User Data-Interns@Hawa.Tombo logged-in   
   * In the left Sidebar **navigated specifically into the Roles section** of IAM
   * Roles are central to this setup. Instead of attaching policies directly to interns (users), access is being **delegated via an IAM role**.
   * This aligns with AWS best practice: *grant permissions to roles, then let users/groups assume them*.
-  * 
+    
 
 ### **2. Role Selection in Roles List (Top Half – Red Box & Arrow)**
 * From the list of available roles,select **`Role@DataInterns001`**
