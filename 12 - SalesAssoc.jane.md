@@ -102,10 +102,12 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
 
 
 
+
+
 ##  **Summary**:
-   * `SalesAssoc.jane` has **partial read access**.
-  **Allowed:** Logs interface + Metrics panel.
-  **Denied:** Alarms (completely blocked).
+   **`SalesAssoc.jane` has **partial read access**.
+   **Allowed:** Logs interface + Metrics panel.
+   **Denied:** Alarms (completely blocked).
 
 
 
