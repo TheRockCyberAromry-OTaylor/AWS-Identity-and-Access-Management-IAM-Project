@@ -117,7 +117,7 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
 1. **IAM Group Membership**
 
    * `SalesAssoc.jane` is part of the **ProjectX-Team** AWS group.
-   * The group policy likely grants **limited monitoring permissions** (logs and metrics) for team members but does not include **alarms access**.
+   * The group policy likely grants **limited monitoring permissions** (logs and metrics) for specifiic team members based on job roles but does not include **alarms access**.
    * This design is common: CloudWatch alarms are often restricted to DevOps, CloudOps, or Security teams because alarms control **critical system monitoring**.
 
 
