@@ -43,7 +43,7 @@
    
 ##  IAM Policy: `Perms@SalesAssoc` for `SalesAssoc.jane`
 
-This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitoring, storage, and analytics. It includes permissions for Amazon QuickSight, S3, SNS, CloudWatch metrics
+This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitoring, storage, and analytics. It includes permissions for Amazon QuickSight, S3, SNS, CloudWatch metrics and logs
 
 ```json
 {
