@@ -96,21 +96,18 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
 
 | **CloudWatch Feature**   | **Access Outcome**                                                   | **Permissions Likely Present**                       | **Permissions Missing**                                                                         |
 | ------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Alarms**               | ❌ Cannot view alarms (error shown)                                   | None for alarms                                      | `cloudwatch:DescribeAlarms`, `cloudwatch:ListAlarms`, `cloudwatch:GetAlarm*`                    |
-| **Logs (Logs Insights)** | ✅ Can access Logs Insights interface, see discovered fields          | `logs:DescribeLogGroups`, `logs:DescribeLogStreams`  | Possibly `logs:GetLogEvents`, `logs:FilterLogEvents`, `logs:StartQuery`, `logs:GetQueryResults` |
-| **Metrics**              | ✅ Can access Metrics page, see namespaces (Logs, Usage), run queries | `cloudwatch:ListMetrics`, `cloudwatch:GetMetricData` | Possibly `cloudwatch:GetMetricStatistics`                                                       |
+| **Alarms**               |  Cannot view alarms (error shown)                                   | None for alarms                                      | `cloudwatch:DescribeAlarms`, `cloudwatch:ListAlarms`, `cloudwatch:GetAlarm*`                    |
+| **Logs (Logs Insights)** | Can access Logs Insights interface, see discovered fields          | `logs:DescribeLogGroups`, `logs:DescribeLogStreams`  | Possibly `logs:GetLogEvents`, `logs:FilterLogEvents`, `logs:StartQuery`, `logs:GetQueryResults` |
+| **Metrics**              |  Can access Metrics page, see namespaces (Logs, Usage), run queries | `cloudwatch:ListMetrics`, `cloudwatch:GetMetricData` | Possibly `cloudwatch:GetMetricStatistics`                                                       |
 
 
 
- **Summary**:
+##  **Summary**:
    * `SalesAssoc.jane` has **partial read access**.
   **Allowed:** Logs interface + Metrics panel.
   **Denied:** Alarms (completely blocked).
 
 
-
-
-##  ** **Conclusion:****
 
 1. **IAM Group Membership**
 
@@ -135,6 +132,8 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
    * Since `SalesAssoc.jane` is not part of the operations or security team, **alarm visibility was excluded**.
    * This explains the error message in CloudWatch when she tried to access alarms.
 
+
+##  ** **Conclusion:****
 
 The partial access is **intentional**. As a **Sales Associate** in the **ProjectX-Team**, Jane only needs **visibility into metrics and logs** relevant to business performance — **not operational alarms**.
 
