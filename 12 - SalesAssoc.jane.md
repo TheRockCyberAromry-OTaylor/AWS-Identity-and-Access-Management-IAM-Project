@@ -91,6 +91,53 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
 }
 ```
 
----
+<img src="https://i.imgur.com/Z1WKpYF.jpeg" height="100%" width="100%" /> 
+
+
+| **CloudWatch Feature**   | **Access Outcome**                                                   | **Permissions Likely Present**                       | **Permissions Missing**                                                                         |
+| ------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Alarms**               | ❌ Cannot view alarms (error shown)                                   | None for alarms                                      | `cloudwatch:DescribeAlarms`, `cloudwatch:ListAlarms`, `cloudwatch:GetAlarm*`                    |
+| **Logs (Logs Insights)** | ✅ Can access Logs Insights interface, see discovered fields          | `logs:DescribeLogGroups`, `logs:DescribeLogStreams`  | Possibly `logs:GetLogEvents`, `logs:FilterLogEvents`, `logs:StartQuery`, `logs:GetQueryResults` |
+| **Metrics**              | ✅ Can access Metrics page, see namespaces (Logs, Usage), run queries | `cloudwatch:ListMetrics`, `cloudwatch:GetMetricData` | Possibly `cloudwatch:GetMetricStatistics`                                                       |
+
+
+
+ **Summary**:
+   * `SalesAssoc.jane` has **partial read access**.
+  **Allowed:** Logs interface + Metrics panel.
+  **Denied:** Alarms (completely blocked).
+
+
+
+
+##  ** **Conclusion:****
+
+1. **IAM Group Membership**
+
+   * `SalesAssoc.jane` is part of the **ProjectX-Team** AWS group.
+   * The group policy likely grants **limited monitoring permissions** (logs and metrics) for team members but does not include **alarms access**.
+   * This design is common: CloudWatch alarms are often restricted to DevOps, CloudOps, or Security teams because alarms control **critical system monitoring**.
+
+
+2. **Role as a Sales Associate**
+
+   * A sales associate generally doesn’t need full CloudWatch visibility.
+   * They might require **metrics dashboards** (usage, performance KPIs, cost-related metrics) or **logs insights** (if tied to sales analytics), but **alarms** are operational alerts for system health (CPU usage spikes, failed deployments, etc.) — usually irrelevant to sales.
+   * So, permissions were likely scoped intentionally:
+
+     * **Allowed:** Logs + Metrics (useful for business reporting, sales dashboards, or application usage tied to sales data).
+     * **Denied:** Alarms (to avoid unnecessary exposure to infrastructure-level alerts).
+
+
+3. **Policy Design Principle: Least Privilege**
+
+   * AWS recommends giving users **only what they need**.
+   * Since `SalesAssoc.jane` is not part of the operations or security team, **alarm visibility was excluded**.
+   * This explains the error message in CloudWatch when she tried to access alarms.
+
+
+The partial access is **intentional**. As a **Sales Associate** in the **ProjectX-Team**, Jane only needs **visibility into metrics and logs** relevant to business performance — **not operational alarms**.
+
+
 
 
