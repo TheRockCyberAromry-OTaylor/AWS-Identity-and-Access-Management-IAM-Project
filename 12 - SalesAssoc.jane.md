@@ -138,7 +138,7 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
    * This explains the error message in CloudWatch when she tried to access alarms.
 
 
-##  ** **Conclusion:****
+##   **Conclusion:**
 
 The partial access is **intentional**. As a **Sales Associate** in the **ProjectX-Team**, Jane only needs **visibility into metrics and logs** relevant to business performance — **not operational alarms**.
 
