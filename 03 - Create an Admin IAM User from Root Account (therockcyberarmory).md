@@ -100,7 +100,7 @@ Clicking "Create user" will launch a guided setup.
   - `Create user` – to finalize and provision the IAM user.This was selected to proceed
 
 
-<img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/AZxSRMD.png" height="100%" width="100%" /> 
 
 
 ###  IAM User Creation Workflow (as shown in the image)
