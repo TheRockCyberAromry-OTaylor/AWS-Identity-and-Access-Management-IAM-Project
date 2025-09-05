@@ -18,7 +18,7 @@ Clicking "Create user" will launch a guided setup.
 - Specify User Details Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create and Retrieve Password
 
 
-<img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" />    
+<img src="https://i.imgur.com/sCsii5i.png" height="100%" width="100%" />    
 
 
 ###  User Creation  configuration Specifics
