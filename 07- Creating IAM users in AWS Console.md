@@ -1,5 +1,5 @@
 
-<img src="https://i.imgur.com/xYs0Vcy.jpeg" height="100%" width="100%" />    
+<img src="https://i.imgur.com/jlgVRvB.png" height="100%" width="100%" />    
 
 
 1. **Logged into AWS Console**  
@@ -61,7 +61,7 @@
 
 #  STEP 2  **Enter user details** — name, access type (console or programmatic).
   
-<img src="https://i.imgur.com/jlgVRvB.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/xYs0Vcy.jpeg" height="100%" width="100%" />  
 
 
 
