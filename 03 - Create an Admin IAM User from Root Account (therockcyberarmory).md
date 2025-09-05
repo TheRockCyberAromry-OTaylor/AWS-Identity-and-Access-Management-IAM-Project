@@ -72,7 +72,7 @@ Clicking "Create user" will launch a guided setup.
     ### Select Next to proceed
 
 
-<img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/TwF2da7.png" height="100%" width="100%" /> 
 
 
 ###  Step-by-Step Summary: IAM User Creation
