@@ -27,7 +27,7 @@
    -  *Create a new AWS account*: Redirects to AWS account creation.
 
 
-<img src="https://i.imgur.com/PUy0bZA.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/BzoFy8S.png" height="100%" width="100%" /> 
 
 
 ###  **1. Console Home Navigation**
