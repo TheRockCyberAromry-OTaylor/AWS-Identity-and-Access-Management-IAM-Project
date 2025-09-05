@@ -128,7 +128,7 @@ This step isn’t configured yet but is relevant if the user needs CLI or API ac
 
 
  
-<img src="https://i.imgur.com/bpC84M3.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/SFGLfKN.png" height="100%" width="100%" />  
 
 
 
