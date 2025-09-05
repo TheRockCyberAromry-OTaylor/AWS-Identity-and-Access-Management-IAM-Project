@@ -164,7 +164,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
  #  STEP 4   **Review & create** — confirm settings and finalize user creation.
 
 
-<img src="https://i.imgur.com/8HkosvN.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/BGDhwnK.png" height="100%" width="100%" />  
 
 
 #### **1. User Details Configuration Review**
