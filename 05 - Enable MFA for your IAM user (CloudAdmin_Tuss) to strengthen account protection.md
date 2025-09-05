@@ -98,7 +98,7 @@ First code gererated  by the **Google Authenticator** app
 Second code gererated  by the **Google Authenticator** app
 
 
-<img src="https://i.imgur.com/jLNrbDo.jpeg" height="100%" width="100%" />
+<img src="https://i.imgur.com/VOFaGXv.jpeg" height="100%" width="100%" />
 
 - Scan the QR code displayed.
 - Enter **two consecutive MFA codes**  generated from the Google Authenticator app to verify.
