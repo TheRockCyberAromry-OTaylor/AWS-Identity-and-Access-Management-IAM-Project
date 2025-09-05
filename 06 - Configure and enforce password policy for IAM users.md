@@ -40,7 +40,7 @@
   - **Identity providers** and **Root access management**
 - This layout supports efficient navigation for managing access control across AWS resources.
 
-   <img src="https://i.imgur.com/HvVtkD3.png" height="100%" width="100%" />     
+   <img src="https://i.imgur.com/QgIXLzH.png" height="100%" width="100%" />     
 
 
 ### **Password Policy Configuration Steps**
