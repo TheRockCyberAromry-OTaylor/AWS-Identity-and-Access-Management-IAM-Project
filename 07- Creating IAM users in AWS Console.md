@@ -251,7 +251,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 
 #  New User Accounts Added/Created for Project Workflow
 
-<img src="https://i.imgur.com/tQZCJzx.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/IgXUv71.png" height="100%" width="100%" /> 
 
   Once the user is created, the dashboard displays:
   
