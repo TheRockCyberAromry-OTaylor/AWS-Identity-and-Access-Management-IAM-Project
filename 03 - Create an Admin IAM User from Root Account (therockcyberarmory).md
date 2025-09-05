@@ -127,7 +127,7 @@ Clicking "Create user" will launch a guided setup.
 This final screen is crucial for securely capturing the user's initial credentials. AWS won't show the password again, so downloading or emailing it is best practice.
 
 
-<img src="https://i.imgur.com/6j47Ip3.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/hk5Twqe.png" height="100%" width="100%" /> 
 
 ###  Confirmation and Feedback
 - Received a green banner: “User created successfully.”
