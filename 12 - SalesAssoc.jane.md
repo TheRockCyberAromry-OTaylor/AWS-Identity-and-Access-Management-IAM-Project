@@ -91,7 +91,7 @@ This IAM policy grants `SalesAssoc.jane` access to key AWS services for monitori
 }
 ```
 
-<img src="https://i.imgur.com/Z1WKpYF.jpeg" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/D4mQMlg.jpeg" height="100%" width="100%" /> 
 
 
 | **CloudWatch Feature**   | **Access Outcome**                                                   | **Permissions Likely Present**                       | **Permissions Missing**                                                                         |
