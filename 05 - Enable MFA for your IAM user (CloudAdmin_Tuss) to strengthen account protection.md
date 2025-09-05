@@ -165,6 +165,6 @@ Code generated from Google Authenticator in the phone
 - **Next action**: Clicked the **Sign in** button again to complete authentication
 
 
-<img src="https://i.imgur.com/HPMEk4S.png" height="100%" width="100%" />      
+<img src="https://i.imgur.com/0CcYEFl.png" height="100%" width="100%" />      
 
 CloudAdmin_Tuss successfully logs into the AWS interface using Multi-Factor Authentication (MFA) 
