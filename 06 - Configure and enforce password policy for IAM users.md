@@ -83,7 +83,7 @@ These selections ensure passwords are complex and resistant to brute-force attac
   -  `Cancel` to discard edits
 
                                                                                                                         
-<img src="https://i.imgur.com/DRSEWl5.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/E8ltzUZ.png" height="100%" width="100%" />  
 
 
 
