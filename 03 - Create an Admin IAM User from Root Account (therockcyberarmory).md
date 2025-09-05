@@ -1,7 +1,7 @@
 ###  The Root User therockcyberarmory creating a an ADMIN USER
 
 
-<img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/SIaJ1xw.png" height="100%" width="100%" />  
 
 The image shows the AWS Management Console in the Identity and Access Management (IAM) section, specifically under the **"Users"** tab. 
 
