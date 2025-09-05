@@ -39,7 +39,7 @@ Clicking "Create user" will launch a guided setup.
 ###  Select Next to proceed
 
 
-<img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/xKai2Mc.png" height="100%" width="100%" /> 
 
 
 #### **Step 1: Specify User Details**
