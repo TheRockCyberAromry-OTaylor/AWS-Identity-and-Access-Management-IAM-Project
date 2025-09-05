@@ -384,7 +384,7 @@ Once the user is created, the dashboard displays:
 - **Implication:** This suggests the user is preparing to access **Security analyst role**, specifically for the user `SecurityAnlst.Musa`.
 
 
-<img src="https://i.imgur.com/VHBfmDG.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/uYleSSz.png" height="100%" width="100%" /> 
 
 
 Once the user is created, the dashboard displays:
