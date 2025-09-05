@@ -1,5 +1,5 @@
 
-<img src="https://i.imgur.com/nb5rPCP.png" height="100%" width="100%" />    
+<img src="https://i.imgur.com/jlgVRvB.png" height="100%" width="100%" />    
 
 
 1. **Logged into AWS Console**  
