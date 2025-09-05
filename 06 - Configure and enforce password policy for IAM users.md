@@ -111,7 +111,7 @@ These selections ensure passwords are complex and resistant to brute-force attac
 
 
                                             
-<img src="https://i.imgur.com/JH0BqO4.png" height="100%" width="100%" />  
+<img src="https://i.imgur.com/exA9lAb.png" height="100%" width="100%" />  
 
 
 
