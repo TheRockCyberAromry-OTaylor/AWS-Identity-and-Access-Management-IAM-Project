@@ -316,7 +316,7 @@ Once the user is created, the dashboard displays:
 
 
 
-<img src="https://i.imgur.com/rMuUNZb.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/WkfDkkQ.png" height="100%" width="100%" /> 
 
 
 Once the user is created, the dashboard displays:
