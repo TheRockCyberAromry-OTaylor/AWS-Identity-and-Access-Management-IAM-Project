@@ -1,7 +1,7 @@
+###  Add or Enable Multi-Factor Authentication (MFA) for your IAM user (`CloudAdmin_Tuss`) using the AWS Console:
+
 
 <img src="https://i.imgur.com/WOZAgr5.png" height="100%" width="100%" /> 
-
- ###  Add or Enable Multi-Factor Authentication (MFA) for your IAM user (`CloudAdmin_Tuss`) using the AWS Console:
 
 ###  Enable MFA via IAM Dashboard Security Recommendation
 
