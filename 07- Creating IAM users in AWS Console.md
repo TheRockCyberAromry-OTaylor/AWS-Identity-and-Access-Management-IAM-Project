@@ -349,7 +349,7 @@ Once the user is created, the dashboard displays:
 - **Implication:** This suggests the user is preparing to access **App-Operator role**, specifically for the user `App-Operator.john`.
 
 
-<img src="https://i.imgur.com/xnCs9uV.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/suxYw0v.png" height="100%" width="100%" /> 
 
 
 Once the user is created, the dashboard displays:
