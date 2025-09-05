@@ -283,7 +283,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - **Implication:** This suggests the user is preparing to access **Data Intern role**, specifically for the user `Hawa.Tombo`.
 
 
-<img src="https://i.imgur.com/PPIZY2p.png" height="100%" width="100%" /> 
+<img src="https://i.imgur.com/fwSxQQU.png" height="100%" width="100%" /> 
 
 Once the user is created, the dashboard displays:
   
