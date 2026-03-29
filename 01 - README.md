@@ -1,7 +1,7 @@
-## AWS-Identity-and-Access-Management-IAM-Project
+#### AWS-Identity-and-Access-Management-IAM-Project
 
 
-##  How to Log In or Create an AWS Account Using the Homepage Diagram
+####  How to Log In or Create an AWS Account Using the Homepage Diagram
 Use a preferred web browser and type in the URL (https://console.aws.amazon.com)
 
 ###  Step 1: Locate the Sign-In Area
