@@ -59,7 +59,7 @@
 6. **Review & create** confirm settings and finalize user creation.
 
 
-#  STEP 2  **Enter user details** name, access type (console or programmatic).
+###  STEP 2  **Enter user details** name, access type (console or programmatic).
   
 <img src="https://i.imgur.com/xYs0Vcy.jpeg" height="100%" width="100%" />  
 
@@ -124,7 +124,7 @@ This step isn’t configured yet but is relevant if the user needs CLI or API ac
 - The **“Next”** button is highlighted, indicating readiness to proceed to **Step 3: Set Permissions**.
 
 
- #  STEP 3  **Assign permissions** — via groups, existing users, or direct policies.   
+ ###  STEP 3  **Assign permissions** — via groups, existing users, or direct policies.   
 
 
  
@@ -161,7 +161,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - No boundary is set yet , which means the user will inherit full permissions from the selected policies.
 
 
- #  STEP 4   **Review & create** — confirm settings and finalize user creation.
+ ###  STEP 4   **Review & create** — confirm settings and finalize user creation.
 
 
 <img src="https://i.imgur.com/BGDhwnK.png" height="100%" width="100%" />  
@@ -192,7 +192,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - Create user: Finalizes creation with current settings and proceeds to credential download.This was selected
   
 
- #  STEP 5  "Retrieve password" is the final and critical step where AWS presents the one-time view of the newly created user's console password
+ ###  STEP 5  "Retrieve password" is the final and critical step where AWS presents the one-time view of the newly created user's console password
 
 
  <img src="https://i.imgur.com/d08tN5x.png" height="100%" width="100%" /> 
@@ -222,7 +222,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
   - Cancel or Return to users list: Ends the workflow or navigates back
   - 
 
-   #  STEP 6 Locating the downloaded AWS Credential File
+   ###  STEP 6 Locating the downloaded AWS Credential File
 
  
 <img src="https://i.imgur.com/8mLHAqi.jpeg" height="100%" width="100%" /> 
@@ -249,7 +249,7 @@ In this image, the **“Attach policies directly”** option is being used.As a 
 - **NOTE**: Passwords is going to be hardened by the implementation of MFA
   
 
-#  New User Accounts Added/Created for Project Workflow
+###  New User Accounts Added/Created for Project Workflow
 
 <img src="https://i.imgur.com/IgXUv71.png" height="100%" width="100%" /> 
 
