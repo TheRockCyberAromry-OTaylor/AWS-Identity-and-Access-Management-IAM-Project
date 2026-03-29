@@ -12,7 +12,7 @@
    - The IAM navigation pane on the left includes options like Dashboard, User groups, Users, Roles, and Policies.  
    - “Users” was selected to view individual IAM user accounts.
 
-#  STEP 1  **Click “Create user”** — top-right yellow button on the Users page.
+###  STEP 1  **Click “Create user”**  top-right yellow button on the Users page.
 
 ###  IAM User Creation Flow (Starting from the Yellow Button)
 
@@ -24,18 +24,18 @@
 - **User name**: Enter a unique name (e.g., `Test.user`).
 - **Access type**:
   -  *AWS Management Console access* — for GUI login.
-  -  *Programmatic access* — for CLI/API usage (generates access keys).
+  -  *Programmatic access* for CLI/API usage (generates access keys).
 
 ####  Step 3: Configure credentials
 - **Console password**: Choose auto-generated or custom.
 - Optionally require password reset on first sign-in.
-- MFA setup is not done here — it’s configured post-creation.
+- MFA setup is not done here it’s configured post-creation.
 
 ####  Step 4: Set permissions
 - Choose one of:
-  - **Add user to group** — inherit group policies.
+  - **Add user to group** inherit group policies.
   - **Copy permissions from existing user**.
-  - **Attach policies directly** — not recommended for long-term scaling.
+  - **Attach policies directly**  not recommended for long-term scaling.
 
 ####  Step 5: Add tags (optional)
 - Key-value pairs for tracking, billing, or automation.
@@ -51,15 +51,15 @@
 
 ###  AWS IAM User Creation Summary
 
-1. **Click “Create user”** — top-right yellow button on the Users page.
-2. **Enter user details** — name, access type (console or programmatic).
-3. **Set credentials** — choose password options; MFA is configured later.
-4. **Assign permissions** — via groups, existing users, or direct policies.
-5. **Add tags (optional)** — for tracking or automation.
-6. **Review & create** — confirm settings and finalize user creation.
+1. **Click “Create user”**  top-right yellow button on the Users page.
+2. **Enter user details** name, access type (console or programmatic).
+3. **Set credentials** choose password options; MFA is configured later.
+4. **Assign permissions**  via groups, existing users, or direct policies.
+5. **Add tags (optional)**  for tracking or automation.
+6. **Review & create** confirm settings and finalize user creation.
 
 
-#  STEP 2  **Enter user details** — name, access type (console or programmatic).
+#  STEP 2  **Enter user details** name, access type (console or programmatic).
   
 <img src="https://i.imgur.com/xYs0Vcy.jpeg" height="100%" width="100%" />  
 
@@ -79,7 +79,7 @@
 Two options are presented for user access:
 
 - **Option 1 (Recommended):**  
-  *Specify a user in Identity Center* – This is AWS’s preferred method for centralized identity management.
+  *Specify a user in Identity Center*  This is AWS’s preferred method for centralized identity management.
 
 - **Option 2 (Selected):**  
    *I want to create an IAM user* – choose to create a traditional IAM user directly in AWS.
