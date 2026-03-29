@@ -413,7 +413,7 @@ This final screen is crucial for securely capturing the user's initial credentia
 
 <img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
 
-<img src="https://i.imgur.com/6j47Ip3.png" height="100%" width="100%" /> 
+
 
 ###  Confirmation and Feedback
 - Received a green banner: “User created successfully.”
