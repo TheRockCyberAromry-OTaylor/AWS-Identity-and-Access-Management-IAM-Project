@@ -157,7 +157,6 @@ If you're new to AWS:
 
 
 
-<img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="80%" /> 
 
 **Amazon Web Services (AWS) welcome page** that appears right after a user successfully creates a new AWS account. 
 
@@ -183,7 +182,6 @@ Once you receive the activation email:
 
 <img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="80%" /> 
 
-<img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
 
 ###  AWS IAM User Sign-In Page
 
@@ -204,7 +202,6 @@ Once you receive the activation email:
 -  *Create a new AWS account* – Redirects to account creation for new users.
 <img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
 
-<img src="https://i.imgur.com/xnoPlii.jpeg" height="80%" width="80%" />  
 
 
 
@@ -224,7 +221,6 @@ Once you receive the activation email:
   
 <img src="https://i.imgur.com/xnoPlii.jpeg" height="80%" width="80%" />  
 
-<img src="https://i.imgur.com/Tsyf1At.png" height="80%" width="80%" />  
 
 
 
@@ -251,7 +247,6 @@ Once you receive the activation email:
 
 <img src="https://i.imgur.com/Tsyf1At.png" height="80%" width="80%" />  
 
-<img src="https://i.imgur.com/Bp3DuCO.png" height="100%" width="100%" /> 
 
 
 ###  IAM Dashboard Overview
@@ -293,7 +288,6 @@ This dashboard provides a snapshot of identity and access management resources a
 ###  The Root User therockcyberarmory creating a an ADMIN USER
 
 <img src="https://i.imgur.com/Bp3DuCO.png" height="100%" width="100%" /> 
-<img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />  
 
 The image shows the AWS Management Console in the Identity and Access Management (IAM) section, specifically under the **"Users"** tab. 
 
@@ -310,8 +304,6 @@ Clicking "Create user" will launch a guided setup.
 - Specify User Details Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create and Retrieve Password
 
 <img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />
-<img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" />    
-
 
 ###  User Creation  configuration Specifics
 - **User Name**: `CloudAdmin_Tuss` was typed in
@@ -330,8 +322,6 @@ Clicking "Create user" will launch a guided setup.
 
 ###  Select Next to proceed
 <img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" /> 
-
-<img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
 
 
 #### **Step 1: Specify User Details**
@@ -364,7 +354,6 @@ Clicking "Create user" will launch a guided setup.
     ### Select Next to proceed
 <img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
 
-<img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" /> 
 
 
 ###  Step-by-Step Summary: IAM User Creation
@@ -390,9 +379,8 @@ Clicking "Create user" will launch a guided setup.
   - `Previous` – to go back and edit
   - `Cancel` – to discard the process
   - `Create user` – to finalize and provision the IAM user.This was selected to proceed
+    
 <img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" />
-
-<img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
 
 
 ###  IAM User Creation Workflow (as shown in the image)
@@ -435,9 +423,9 @@ This final screen is crucial for securely capturing the user's initial credentia
 
 
  ##  The newly created user `CloudAdmin_Tuss` logging in as an IAM user
+ 
 <img src="https://i.imgur.com/6j47Ip3.png" height="100%" width="100%" /> 
 
-<img src="https://i.imgur.com/o74GSlb.png" height="100%" width="100%" /> 
 
 
 ###  IAM User Sign-In Workflow
