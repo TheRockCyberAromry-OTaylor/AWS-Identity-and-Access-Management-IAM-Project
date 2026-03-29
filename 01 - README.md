@@ -72,7 +72,6 @@ If you're new to AWS:
 - Click the **"Create Account and Continue"** button to proceed.
   
 <img src="https://i.imgur.com/b9rGLRC.jpeg" height="50%" width="50%" /> 
-<img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="50%" /> 
 
 
 ### Add a Payment Method on AWS
@@ -98,9 +97,6 @@ If you're new to AWS:
 5. **Submit the Information**  
    - Click the **“Verify and Add”** button to finalize and validate your payment method.
 <img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="50%" /> 
-<img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
-
-<img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
 
 
 ### AWS Phone\Identity Verification 
@@ -155,7 +151,7 @@ If you're new to AWS:
 -  Unlimited contacts and unlimited support cases
 -  1-hour response time for urgent production issues
 
--  <img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
+  <img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
 
 <img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
 
