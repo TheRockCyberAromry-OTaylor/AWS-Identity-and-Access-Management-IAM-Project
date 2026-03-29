@@ -37,6 +37,8 @@ If you're new to AWS:
 
  *You now have access to the AWS Free Tier*, which includes services like EC2, S3, and Lambda at no cost for 12 months.
 
+ <img src="https://i.imgur.com/BUHz13F.png" height="80%" width="80%" />
+
 <img src="https://i.imgur.com/MJC5Qov.png" height="80%" width="80%" /> 
 
 ### Step 2: Fill Out the Registration Form
