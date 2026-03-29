@@ -48,7 +48,6 @@ If you're new to AWS:
 
 <img src="https://i.imgur.com/MJC5Qov.png" height="80%" width="80%" /> 
 
-<img src="https://i.imgur.com/b9rGLRC.jpeg" height="50%" width="50%" /> 
 
 
 ### Create an AWS Account (Personal Use)
