@@ -72,7 +72,7 @@ If you're new to AWS:
 #### 5. **Submit the Form**
 - Click the **"Create Account and Continue"** button to proceed.
   
-
+<img src="https://i.imgur.com/b9rGLRC.jpeg" height="50%" width="50%" /> 
 <img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="50%" /> 
 
 
@@ -98,7 +98,7 @@ If you're new to AWS:
 
 5. **Submit the Information**  
    - Click the **“Verify and Add”** button to finalize and validate your payment method.
-
+<img src="https://i.imgur.com/dyQy5M1.png" height="80%" width="50%" /> 
 <img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
 
 <img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
@@ -156,6 +156,12 @@ If you're new to AWS:
 -  Unlimited contacts and unlimited support cases
 -  1-hour response time for urgent production issues
 
+-  <img src="https://i.imgur.com/MblWY6m.png" height="80%" width="50%" /> 
+
+<img src="https://i.imgur.com/016PokX.png" height="80%" width="50%" /> 
+
+
+
 <img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="80%" /> 
 
 **Amazon Web Services (AWS) welcome page** that appears right after a user successfully creates a new AWS account. 
@@ -180,6 +186,8 @@ Once you receive the activation email:
 - Click **“Sign in to the Console”** to start using AWS services.
 - Set up **IAM roles**, **billing preferences**, or begin deploying cloud resources.
 
+<img src="https://i.imgur.com/KCc1tBN.jpeg" height="80%" width="80%" /> 
+
 <img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
 
 ###  AWS IAM User Sign-In Page
@@ -199,6 +207,7 @@ Once you receive the activation email:
 #### 3. **Alternative Access Options**
 -  *Sign in using root user email* – Switch to root user authentication if needed.
 -  *Create a new AWS account* – Redirects to account creation for new users.
+<img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
 
 <img src="https://i.imgur.com/xnoPlii.jpeg" height="80%" width="80%" />  
 
@@ -217,6 +226,8 @@ Once you receive the activation email:
    - A “Next” button is available to proceed after entering the email.
 5. **Account Creation Option**:
    - A link for new users to sign up for AWS is provided below the form.
+  
+<img src="https://i.imgur.com/xnoPlii.jpeg" height="80%" width="80%" />  
 
 <img src="https://i.imgur.com/Tsyf1At.png" height="80%" width="80%" />  
 
@@ -241,6 +252,9 @@ Once you receive the activation email:
 
 5. **Clicke “Sign in”**
    - Based on the layout, the next logical step would be clicking the **“Sign in”** button to authenticate and access the AWS Management Console.
+
+
+<img src="https://i.imgur.com/Tsyf1At.png" height="80%" width="80%" />  
 
 <img src="https://i.imgur.com/Bp3DuCO.png" height="100%" width="100%" /> 
 
@@ -283,7 +297,7 @@ This dashboard provides a snapshot of identity and access management resources a
 
 ###  The Root User therockcyberarmory creating a an ADMIN USER
 
-
+<img src="https://i.imgur.com/Bp3DuCO.png" height="100%" width="100%" /> 
 <img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />  
 
 The image shows the AWS Management Console in the Identity and Access Management (IAM) section, specifically under the **"Users"** tab. 
@@ -300,7 +314,7 @@ The image shows the AWS Management Console in the Identity and Access Management
 Clicking "Create user" will launch a guided setup. 
 - Specify User Details Enter a username (e.g., developer01, admin-temp, etc.). , Choose AWS credential type , Permissions, Tags (Optional),Review & Create and Retrieve Password
 
-
+<img src="https://i.imgur.com/YWY1iR9.png" height="100%" width="100%" />
 <img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" />    
 
 
@@ -320,7 +334,7 @@ Clicking "Create user" will launch a guided setup.
   - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)                This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
 
 ###  Select Next to proceed
-
+<img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" /> 
 
 <img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
 
@@ -353,7 +367,7 @@ Clicking "Create user" will launch a guided setup.
    - Option to set **Permissions boundary** (not used in this step).
   
     ### Select Next to proceed
-
+<img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
 
 <img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" /> 
 
@@ -381,7 +395,7 @@ Clicking "Create user" will launch a guided setup.
   - `Previous` – to go back and edit
   - `Cancel` – to discard the process
   - `Create user` – to finalize and provision the IAM user.This was selected to proceed
-
+<img src="https://i.imgur.com/aFwM3WZ.png" height="100%" width="100%" />
 
 <img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
 
@@ -409,6 +423,7 @@ Clicking "Create user" will launch a guided setup.
 
 This final screen is crucial for securely capturing the user's initial credentials. AWS won't show the password again, so downloading or emailing it is best practice.
 
+<img src="https://i.imgur.com/NSUsdGD.png" height="100%" width="100%" /> 
 
 <img src="https://i.imgur.com/6j47Ip3.png" height="100%" width="100%" /> 
 
@@ -425,7 +440,7 @@ This final screen is crucial for securely capturing the user's initial credentia
 
 
  ##  The newly created user `CloudAdmin_Tuss` logging in as an IAM user
-
+<img src="https://i.imgur.com/6j47Ip3.png" height="100%" width="100%" /> 
 
 <img src="https://i.imgur.com/o74GSlb.png" height="100%" width="100%" /> 
 
@@ -454,6 +469,7 @@ This final screen is crucial for securely capturing the user's initial credentia
 
 
 
+<img src="https://i.imgur.com/o74GSlb.png" height="100%" width="100%" /> 
 
 
 
