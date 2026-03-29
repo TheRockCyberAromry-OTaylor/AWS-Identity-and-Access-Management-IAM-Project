@@ -200,6 +200,8 @@ Once you receive the activation email:
 #### 3. **Alternative Access Options**
 -  *Sign in using root user email* – Switch to root user authentication if needed.
 -  *Create a new AWS account* – Redirects to account creation for new users.
+
+  
 <img src="https://i.imgur.com/6UpbfFq.jpeg" height="80%" width="80%" /> 
 
 
@@ -318,9 +320,10 @@ Clicking "Create user" will launch a guided setup.
 ### Additional Notes
 - There's a mention of **programmatic access** options via:
   - Access keys
-  - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces)                This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
+  - Service-specific credentials (e.g., AWS CodeCommit, Amazon Keyspaces) This setup is tailored for creating a traditional IAM user with console access and secure password practices. 
 
 ###  Select Next to proceed
+
 <img src="https://i.imgur.com/Qt0k4FH.png" height="100%" width="100%" /> 
 
 
@@ -352,6 +355,8 @@ Clicking "Create user" will launch a guided setup.
    - Option to set **Permissions boundary** (not used in this step).
   
     ### Select Next to proceed
+
+   
 <img src="https://i.imgur.com/Dab692L.png" height="100%" width="100%" /> 
 
 
