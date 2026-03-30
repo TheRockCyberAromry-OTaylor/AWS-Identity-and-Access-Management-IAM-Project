@@ -95,5 +95,3 @@ Here it is reorganized into the same **sectioned format** used above for consist
 | 10.0    | Least-Privilege Testing & Validation | Verification that the intern user ([Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo)) cannot access S3, DMS, or CloudWatch directly, but gains those permissions after assuming Role@DataInterns001. |
 
 ---
-
-If you want next, I can **merge both AWS + Azure projects into one polished GitHub portfolio repo structure** (this is *very* powerful for SOC/Cloud Security job applications).
