@@ -268,6 +268,4 @@ Here’s a clear **comparison table** of the two CloudWatch access scenarios, ta
 * **User [Data-Interns@Hawa.Tombo](mailto:Data-Interns@Hawa.Tombo)** was blocked due to **insufficient IAM permissions**.
 * **Role\@DataInterns001 with Policy\@DataInterns001** provided proper access, so the dashboard loaded without errors.
 
-Would you like me to also **map out the exact permissions in Policy\@DataInterns001** that enabled the role to succeed where the user failed?
-
 
